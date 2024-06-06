@@ -4,6 +4,7 @@ import { getCountryCodeFromShortGoogleUrl } from "./lib/utils.js";
 const gameChannelId = process.env.CHANNEL_ID;
 
 let activeGame = null;
+const bannedUsers = [];
 
 const client = new Client({
   intents: [
@@ -13,7 +14,7 @@ const client = new Client({
     IntentsBitField.Flags.MessageContent,
     IntentsBitField.Flags.DirectMessages
   ],
-  partials: [Partials.Channel, Partials.Message]
+  partials: [Partials.Channel, Partials.Message, Partials.GuildMember]
 });
 
 client.login(process.env.TOKEN);
@@ -35,12 +36,18 @@ const startGame = async (msg, googleMapsLink) => {
       winner: null,
       guesses: [],
       guessCount: 0
-    }
+    };
+
+    const channel = client.channels.cache.get(gameChannelId);
+    await channel.send(`${msg.author.globalName} is starting a new game.`);
+    await channel.send(`${msg.author.globalName} has 60 seconds to post an image.`);
+
     msg.reply(`You have started a game! Please send an image of ${countryCode} within 60 seconds.`);
     setTimeout(() => {
       if (activeGame && activeGame.userId === msg.author.id && !activeGame.attachmentLink) {
         activeGame = null;
         msg.reply('The time to send an image has expired.');
+        channel.send(`${msg.author.globalName} failed to send an image. New game possible.`);
       }
     }, 60000);
   } catch (e) {
@@ -75,6 +82,20 @@ const postImg = async (msg) => {
 const handleDm = async (msg) => {
 
   if(msg.author.bot) return;
+  if(!!bannedUsers.find(user => user.id === msg.author.id)) return;
+
+  const guild = client.guilds.cache.get(process.env.GUILD_ID);
+  const member = await guild.members.fetch(msg.author.id);
+  const isVerified = member.roles.cache.some(role => role.name === 'testing');
+
+  if(!isVerified) {
+    bannedUsers.push({
+      username: msg.author.username,
+      id: msg.author.id
+    });
+    msg.reply('You are permanently banned from using this bot. Reason: You are not verified.');
+    return;
+  }
 
   const content = msg.content;
 
@@ -100,8 +121,9 @@ const handleGuess = async (msg) => {
   if(!msg.content.startsWith('!t')) return;
   if(!activeGame) return;
   if(activeGame.winner) return;
+  if(!msg.member.roles.cache.some(role => role.name === 'testing')) return;
 
-  // !t XX, there is an active game, there is no winner yet
+  // !t XX, there is an active game, there is no winner yet, user has specific role
   const guess = msg.content.split(' ')[1].toUpperCase();
 
   if(guess === activeGame.countryCode) {
@@ -120,9 +142,14 @@ client.on('ready', (client) => {
   console.log(`${client.user.tag} is ready!`);
 });
 
+// client.on('messageCreate', (msg) => {
+//   const hasTestingRole = msg.member.roles.cache.some(role => role.name === 'verified')
+//   console.log(`'testing' role: ${hasTestingRole}`);
+// })
+
 client.on('messageCreate', async (msg) => {
+
   if(!msg.guildId) {
-    console.log('dm received!');
     await handleDm(msg);
     return;
   }
