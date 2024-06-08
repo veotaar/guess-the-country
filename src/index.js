@@ -1,5 +1,6 @@
 import { Client, IntentsBitField, Partials } from "discord.js";
-import { getCountryCodeFromShortGoogleUrl } from "./lib/utils.js";
+import { getPossibleAnswersFromShortGoogleUrl, normalizeAnswer, extractAfterCommand } from "./lib/utils.js";
+import connect from "./lib/connect.js";
 
 const gameChannelId = process.env.CHANNEL_ID;
 
@@ -19,6 +20,8 @@ const client = new Client({
 
 client.login(process.env.TOKEN);
 
+await connect();
+
 const startGame = async (msg, googleMapsLink) => {
   if(activeGame) {
     msg.reply('There is an ongoing game. Wait for the game to finish.')
@@ -26,11 +29,11 @@ const startGame = async (msg, googleMapsLink) => {
   }
 
   try {
-    const countryCode = await getCountryCodeFromShortGoogleUrl(googleMapsLink);
+    const possibleAnswers = await getPossibleAnswersFromShortGoogleUrl(googleMapsLink);
     activeGame = {
       userId: msg.author.id,
       startedBy: msg.author.globalName,
-      countryCode,
+      possibleAnswers,
       googleMapsLink,
       attachmentLink: null,
       winner: null,
@@ -42,16 +45,17 @@ const startGame = async (msg, googleMapsLink) => {
     await channel.send(`${msg.author.globalName} is starting a new game.`);
     await channel.send(`${msg.author.globalName} has 60 seconds to post an image.`);
 
-    msg.reply(`You have started a game! Please send an image of ${countryCode} within 60 seconds.`);
+    msg.reply(`You have started a game! Please send an image within 60 seconds.`);
     setTimeout(() => {
       if (activeGame && activeGame.userId === msg.author.id && !activeGame.attachmentLink) {
         activeGame = null;
         msg.reply('The time to send an image has expired.');
         channel.send(`${msg.author.globalName} failed to send an image. New game possible.`);
       }
-    }, 60000);
+    }, 2000);
   } catch (e) {
-    msg.reply("Invalid google maps link. Terminating your game...");
+    console.log(e.message);
+    msg.reply("ERROR: Invalid google maps link.");
     activeGame = null;
   }
 }
@@ -72,7 +76,6 @@ const postImg = async (msg) => {
   activeGame.attachmentLink = attachment.url;
 
   const channel = client.channels.cache.get(gameChannelId);
-
   if(!channel) return;
 
   await channel.send(attachment.url);
@@ -124,10 +127,13 @@ const handleGuess = async (msg) => {
   if(!msg.member.roles.cache.some(role => role.name === 'testing')) return;
 
   // !t XX, there is an active game, there is no winner yet, user has specific role
-  const guess = msg.content.split(' ')[1].toUpperCase();
+  // const guess = msg.content.split(' ')[1].toUpperCase();
+  const guess = normalizeAnswer(extractAfterCommand(msg.content));
+  console.log('Raw Guess: ' + extractAfterCommand(msg.content));
+  console.log('Normalized Guess: ' + guess);
 
-  if(guess === activeGame.countryCode) {
-    activeGame.winner = msg.author.globalName;
+  if(activeGame.possibleAnswers.includes(guess)) {
+    activeGame.winner = msg.author.globalName; // TODO change to id
     await msg.react('✅');
     msg.channel.send(`Congratulations, ${msg.author.globalName}! You guessed the country correctly.`);
     msg.channel.send(`Location: ${activeGame.googleMapsLink}`);
@@ -161,7 +167,3 @@ client.on('messageCreate', async (msg) => {
 }
 );
 
-
-// const shortUrl = "https://maps.app.goo.gl/2LTomyuzLUiCJrbC9";
-
-// getCountryCodeFromShortGoogleUrl(shortUrl);
