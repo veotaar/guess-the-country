@@ -1,8 +1,43 @@
 import { featuresContaining, aggregateFeature } from '@rapideditor/country-coder';
 import removeAccents from 'remove-accents';
+import { readFileSync } from "fs";
+
+const json = readFileSync('../data/valid-guesses.json');
+const guessData = JSON.parse(json);
 
 export const normalizeAnswer = (str) => {
   return removeAccents(str).toUpperCase().replace(/[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g, '');
+}
+
+export const validateGuess = (guess) => {
+  if(typeof guess !== 'string') return false;
+
+  const normalizedGuess = normalizeAnswer(guess);
+
+  let found;
+
+  if(normalizedGuess.length === 2) {
+    found = data.find((el) => el.iso1A2 === normalizedGuess);
+  }
+
+  if(normalizedGuess.length === 3 && !found) {
+    found = data.find((el) => el.iso1A3 === normalizedGuess);
+  }
+
+  if(!found) {
+    found = data.find((el) => el.names.includes(normalizedGuess));
+  }
+
+  if(found) {
+    return {
+      id: found.id,
+      iso1A2: found.iso1A2 ? found.iso1A2 : '',
+      iso1A3: found.iso1A3 ? found.iso1A3 : '',
+      location: found.nameEn
+    };
+  }
+
+  return false;
 }
 
 export const extractAfterCommand = (input) => {
@@ -73,8 +108,7 @@ export const getPossibleAnswers = async (latlong) => {
 
   console.log(filteredAnswers);
 
-  // const languages = ['tr', 'en', 'se', 'de', 'fr', 'es', 'pt', 'nl', 'it'];
-  const languages = ['tr', 'en'];
+  const languages = ['tr', 'en', 'fr', 'de', 'es', 'pt', 'it', 'nl', 'se'];
 
   const wikiResponse = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${wikiDataQueryIds}&props=labels&languages=${languages.join('|')}&format=json`);
   const data = await wikiResponse.json();

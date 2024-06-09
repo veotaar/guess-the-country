@@ -1,0 +1,4670 @@
+[
+  {
+    "id": 0,
+    "wikidata": "Q21",
+    "aliases": ["GB-ENG"],
+    "nameEn": "England",
+    "country": "GB",
+    "names": [
+      "INGILTERE",
+      "ENGLAND",
+      "ANGLETERRE",
+      "INGLATERRA",
+      "INGHILTERRA",
+      "ENGELAND",
+      "ENGLANDA",
+      "GBENG"
+    ]
+  },
+  {
+    "id": 1,
+    "wikidata": "Q22",
+    "aliases": ["GB-SCT"],
+    "nameEn": "Scotland",
+    "country": "GB",
+    "names": [
+      "ISKOCYA",
+      "SCOTLAND",
+      "ECOSSE",
+      "SCHOTTLAND",
+      "ESCOCIA",
+      "SCOZIA",
+      "SCHOTLAND",
+      "SKOTTLANDA",
+      "GBSCT"
+    ]
+  },
+  {
+    "id": 2,
+    "wikidata": "Q25",
+    "aliases": ["GB-WLS"],
+    "nameEn": "Wales",
+    "country": "GB",
+    "names": [
+      "GALLER",
+      "WALES",
+      "PAYS DE GALLES",
+      "GALES",
+      "PAIS DE GALES",
+      "GALLES",
+      "CYMRU",
+      "GBWLS"
+    ]
+  },
+  {
+    "id": 3,
+    "wikidata": "Q26",
+    "aliases": ["GB-NIR"],
+    "nameEn": "Northern Ireland",
+    "country": "GB",
+    "names": [
+      "KUZEY IRLANDA",
+      "NORTHERN IRELAND",
+      "IRLANDE DU NORD",
+      "NORDIRLAND",
+      "IRLANDA DEL NORTE",
+      "IRLANDA DO NORTE",
+      "IRLANDA DEL NORD",
+      "NOORDIERLAND",
+      "DAVVIIRLANDA",
+      "GBNIR"
+    ]
+  },
+  {
+    "id": 4,
+    "wikidata": "Q35",
+    "nameEn": "Denmark",
+    "country": "DK",
+    "names": [
+      "DANIMARKA",
+      "DENMARK",
+      "DANEMARK",
+      "DINAMARCA",
+      "DANIMARCA",
+      "DENEMARKEN",
+      "DANMARKU"
+    ]
+  },
+  {
+    "id": 5,
+    "wikidata": "Q55",
+    "nameEn": "Netherlands",
+    "country": "NL",
+    "names": [
+      "HOLLANDA",
+      "NETHERLANDS",
+      "PAYSBAS",
+      "NIEDERLANDE",
+      "PAISES BAJOS",
+      "PAISES BAIXOS",
+      "PAESI BASSI",
+      "NEDERLAND",
+      "VUOLLEEATNAMAT"
+    ]
+  },
+  {
+    "id": 6,
+    "wikidata": "Q782",
+    "aliases": ["US-HI"],
+    "nameEn": "Hawaii",
+    "country": "US",
+    "names": ["HAWAII", "HAWAI", "HAVAI", "HAVAIJA", "USHI"]
+  },
+  {
+    "id": 7,
+    "wikidata": "Q797",
+    "aliases": ["US-AK"],
+    "nameEn": "Alaska",
+    "country": "US",
+    "names": ["ALASKA", "ALASCA", "USAK"]
+  },
+  {
+    "id": 8,
+    "wikidata": "Q3492",
+    "aliases": ["ID-SM"],
+    "nameEn": "Sumatra",
+    "country": "ID",
+    "names": ["SUMATRA", "IDSM"]
+  },
+  {
+    "id": 9,
+    "wikidata": "Q3757",
+    "aliases": ["ID-JW"],
+    "nameEn": "Java",
+    "country": "ID",
+    "names": ["CAVA ADASI", "JAVA", "GIAVA", "IDJW"]
+  },
+  {
+    "id": 10,
+    "wikidata": "Q3795",
+    "aliases": ["ID-KA"],
+    "nameEn": "Kalimantan",
+    "country": "ID",
+    "names": ["KALIMANTAN", "IDKA"]
+  },
+  {
+    "id": 11,
+    "wikidata": "Q3803",
+    "aliases": ["ID-NU"],
+    "nameEn": "Lesser Sunda Islands",
+    "country": "ID",
+    "names": [
+      "KUCUK SUNDA ADALARI",
+      "LESSER SUNDA ISLANDS",
+      "PETITES ILES DE LA SONDE",
+      "KLEINE SUNDAINSELN",
+      "ISLAS MENORES DE LA SONDA",
+      "PEQUENAS ILHAS DA SONDA",
+      "PICCOLE ISOLE DELLA SONDA",
+      "KLEINE SUNDAEILANDEN",
+      "IDNU"
+    ]
+  },
+  {
+    "id": 12,
+    "wikidata": "Q3812",
+    "aliases": ["ID-SL"],
+    "nameEn": "Sulawesi",
+    "country": "ID",
+    "names": ["SULAWESI", "CELEBES", "IDSL"]
+  },
+  {
+    "id": 13,
+    "wikidata": "Q3827",
+    "aliases": ["ID-ML"],
+    "nameEn": "Maluku Islands",
+    "country": "ID",
+    "names": [
+      "MALUKU ADALARI",
+      "MALUKU ISLANDS",
+      "MOLUQUES",
+      "MOLUKKEN",
+      "ISLAS MOLUCAS",
+      "ILHAS MOLUCAS",
+      "MOLUCCHE",
+      "IDML"
+    ]
+  },
+  {
+    "id": 14,
+    "wikidata": "Q3845",
+    "aliases": ["ID-PP"],
+    "nameEn": "Western New Guinea",
+    "country": "ID",
+    "names": [
+      "BATI PAPUA",
+      "WESTERN NEW GUINEA",
+      "NOUVELLEGUINEE OCCIDENTALE",
+      "WESTNEUGUINEA",
+      "NUEVA GUINEA OCCIDENTAL",
+      "NOVA GUINE OCIDENTAL",
+      "NUOVA GUINEA OCCIDENTALE",
+      "WESTELIJK NIEUWGUINEA",
+      "IDPP"
+    ]
+  },
+  {
+    "id": 15,
+    "wikidata": "Q5765",
+    "aliases": ["ES-IB"],
+    "nameEn": "Balearic Islands",
+    "country": "ES",
+    "names": [
+      "BALEAR ADALARI",
+      "BALEARIC ISLANDS",
+      "ILES BALEARES",
+      "BALEARISCHE INSELN",
+      "ISLAS BALEARES",
+      "ILHAS BALEARES",
+      "ISOLE BALEARI",
+      "BALEAREN",
+      "BALEARAT",
+      "ESIB"
+    ]
+  },
+  {
+    "id": 16,
+    "wikidata": "Q5823",
+    "aliases": ["ES-CE"],
+    "nameEn": "Ceuta",
+    "level": "subterritory",
+    "country": "ES",
+    "names": ["CEUTA", "ESCE"]
+  },
+  {
+    "id": 17,
+    "wikidata": "Q5831",
+    "aliases": ["ES-ML"],
+    "nameEn": "Melilla",
+    "level": "subterritory",
+    "country": "ES",
+    "names": ["MELILLA", "MELILHA", "ESML"]
+  },
+  {
+    "id": 18,
+    "wikidata": "Q7835",
+    "nameEn": "Crimea",
+    "level": "subterritory",
+    "country": "RU",
+    "names": [
+      "KIRIM",
+      "CRIMEA",
+      "CRIMEE",
+      "KRIM",
+      "PENINSULA DE CRIMEA",
+      "PENINSULA DA CRIMEIA"
+    ]
+  },
+  {
+    "id": 19,
+    "wikidata": "Q12837",
+    "nameEn": "Iberia",
+    "level": "sharedLandform",
+    "names": [
+      "IBER YARIMADASI",
+      "IBERIAN PENINSULA",
+      "PENINSULE IBERIQUE",
+      "IBERISCHE HALBINSEL",
+      "PENINSULA IBERICA",
+      "PENISOLA IBERICA",
+      "IBERISCH SCHIEREILAND",
+      "IBERIA"
+    ]
+  },
+  {
+    "id": 20,
+    "wikidata": "Q14056",
+    "aliases": ["NO-22"],
+    "nameEn": "Jan Mayen",
+    "level": "subterritory",
+    "country": "NO",
+    "names": ["JAN MAYEN", "ILE JAN MAYEN", "NO22"]
+  },
+  {
+    "id": 21,
+    "wikidata": "Q19188",
+    "nameEn": "Mainland China",
+    "country": "CN",
+    "names": [
+      "ANAKARA CIN",
+      "MAINLAND CHINA",
+      "CHINE CONTINENTALE",
+      "FESTLANDCHINA",
+      "CHINA CONTINENTAL",
+      "CINA CONTINENTALE",
+      "VASTELAND VAN CHINA"
+    ]
+  },
+  {
+    "id": 22,
+    "wikidata": "Q22890",
+    "nameEn": "Ireland",
+    "level": "sharedLandform",
+    "names": [
+      "IRLANDA",
+      "IRELAND",
+      "IRLANDE",
+      "IRLAND",
+      "ISLA DE IRLANDA",
+      "IERLAND"
+    ]
+  },
+  {
+    "id": 23,
+    "wikidata": "Q23666",
+    "nameEn": "Great Britain",
+    "level": "sharedLandform",
+    "country": "GB",
+    "names": [
+      "BUYUK BRITANYA",
+      "GREAT BRITAIN",
+      "GRANDEBRETAGNE",
+      "GROSSBRITANNIEN",
+      "GRAN BRETANA",
+      "GRABRETANHA",
+      "GRAN BRETAGNA",
+      "GROOTBRITTANNIE",
+      "STUORRABRITANNIA"
+    ]
+  },
+  {
+    "id": 24,
+    "wikidata": "Q23681",
+    "nameEn": "Northern Cyprus",
+    "names": [
+      "KUZEY KIBRIS",
+      "NORTHERN CYPRUS",
+      "CHYPRE DU NORD",
+      "TURKISCHE REPUBLIK NORDZYPERN",
+      "CHIPRE DEL NORTE",
+      "REPUBLICA TURCA DO CHIPRE DO NORTE",
+      "CIPRO DEL NORD",
+      "NOORDCYPRUS",
+      "KKTC"
+    ]
+  },
+  {
+    "id": 25,
+    "wikidata": "Q25231",
+    "aliases": ["NO-21"],
+    "nameEn": "Svalbard",
+    "level": "subterritory",
+    "country": "NO",
+    "names": ["SVALBARD", "SPITZBERGEN", "SPITSBERGEN", "SVALBARDA", "NO21"]
+  },
+  {
+    "id": 26,
+    "wikidata": "Q25263",
+    "aliases": ["PT-20"],
+    "nameEn": "Azores",
+    "country": "PT",
+    "names": ["AZORLAR", "AZORES", "ACORES", "AZOREN", "AZZORRE", "PT20"]
+  },
+  {
+    "id": 27,
+    "wikidata": "Q25359",
+    "aliases": ["UM-76"],
+    "nameEn": "Navassa Island",
+    "level": "subterritory",
+    "country": "US",
+    "names": [
+      "NAVASSA ADASI",
+      "NAVASSA ISLAND",
+      "ILE DE LA NAVASSE",
+      "NAVASSA",
+      "ISLA DE NAVAZA",
+      "ILHA DE NAVASSA",
+      "ISOLA NAVASSA",
+      "UM76"
+    ]
+  },
+  {
+    "id": 28,
+    "wikidata": "Q25396",
+    "aliases": ["BQ-BO", "NL-BQ1"],
+    "nameEn": "Bonaire",
+    "level": "subterritory",
+    "country": "NL",
+    "names": ["BONAIRE", "BQBO", "NLBQ1"]
+  },
+  {
+    "id": 29,
+    "wikidata": "Q25528",
+    "aliases": ["BQ-SA", "NL-BQ2"],
+    "nameEn": "Saba",
+    "level": "subterritory",
+    "country": "NL",
+    "names": ["SABA", "BQSA", "NLBQ2"]
+  },
+  {
+    "id": 30,
+    "wikidata": "Q26180",
+    "aliases": ["BQ-SE", "NL-BQ3"],
+    "nameEn": "Sint Eustatius",
+    "level": "subterritory",
+    "country": "NL",
+    "names": [
+      "SINT EUSTATIUS",
+      "SAINTEUSTACHE",
+      "SAN EUSTAQUIO",
+      "SANTO EUSTAQUIO",
+      "BQSE",
+      "NLBQ3"
+    ]
+  },
+  {
+    "id": 31,
+    "wikidata": "Q26253",
+    "aliases": ["PT-30"],
+    "nameEn": "Madeira",
+    "country": "PT",
+    "names": ["MADEIRA ADALARI", "MADEIRA", "MADERE", "MADERA", "PT30"]
+  },
+  {
+    "id": 32,
+    "wikidata": "Q26927",
+    "aliases": ["IN-LD"],
+    "nameEn": "Lakshadweep",
+    "country": "IN",
+    "names": [
+      "LAKSADVIP ADALARI",
+      "LAKSHADWEEP",
+      "LAQUEDIVAS",
+      "LACCADIVE",
+      "LACCADIVEN",
+      "INLD"
+    ]
+  },
+  {
+    "id": 33,
+    "wikidata": "Q27329",
+    "nameEn": "Asian Russia",
+    "country": "RU",
+    "names": [
+      "KUZEY ASYA",
+      "NORTH ASIA",
+      "ASIE DU NORD",
+      "NORDASIEN",
+      "ASIA DEL NORTE",
+      "ASIA SETENTRIONAL",
+      "ASIA SETTENTRIONALE",
+      "NOORDAZIE",
+      "DAVVIASIA",
+      "ASIAN RUSSIA"
+    ]
+  },
+  {
+    "id": 34,
+    "wikidata": "Q34366",
+    "aliases": ["AU-TAS"],
+    "nameEn": "Tasmania",
+    "country": "AU",
+    "names": ["TASMANYA", "TASMANIA", "TASMANIE", "TASMANIEN", "AUTAS"]
+  },
+  {
+    "id": 35,
+    "wikidata": "Q34497",
+    "aliases": ["SH-HL"],
+    "nameEn": "Saint Helena",
+    "level": "subterritory",
+    "country": "GB",
+    "names": [
+      "SAINT HELENA",
+      "SAINTEHELENE",
+      "ST HELENA",
+      "ISLA SANTA ELENA",
+      "SANTA HELENA",
+      "SANTELENA",
+      "SINTHELENA",
+      "SHHL"
+    ]
+  },
+  {
+    "id": 36,
+    "wikidata": "Q35657",
+    "nameEn": "US States",
+    "level": "subcountryGroup",
+    "country": "US",
+    "names": [
+      "ABDNIN EYALETLERI",
+      "US STATE",
+      "ETAT DES ETATSUNIS",
+      "BUNDESSTAAT DER VEREINIGTEN STAATEN",
+      "ESTADO DE LOS ESTADOS UNIDOS",
+      "ESTADO DOS ESTADOS UNIDOS",
+      "STATO FEDERATO DEGLI STATI UNITI DAMERICA",
+      "STAAT VAN DE VERENIGDE STATEN",
+      "AMERIHKA OVTTASTUVVAN STAHTAID OASSESTAHTA",
+      "US STATES"
+    ]
+  },
+  {
+    "id": 37,
+    "wikidata": "Q36117",
+    "nameEn": "Borneo",
+    "level": "sharedLandform",
+    "names": ["BORNEO", "ISLA DE BORNEO", "BORNEU"]
+  },
+  {
+    "id": 38,
+    "wikidata": "Q36678",
+    "nameEn": "West Bank",
+    "country": "PS",
+    "names": [
+      "BATI SERIA",
+      "WEST BANK",
+      "CISJORDANIE",
+      "WESTJORDANLAND",
+      "CISJORDANIA",
+      "CISGIORDANIA",
+      "WESTELIJKE JORDAANOEVER"
+    ]
+  },
+  {
+    "id": 39,
+    "wikidata": "Q37362",
+    "aliases": ["SBA"],
+    "nameEn": "Akrotiri and Dhekelia",
+    "country": "GB",
+    "names": [
+      "AGROTUR VE DIKELYA",
+      "AKROTIRI AND DHEKELIA",
+      "AKROTIRI ET DHEKELIA",
+      "AKROTIRI UND DEKELIA",
+      "ACROTIRI Y DHEKELIA",
+      "ACROTIRI E DECELEIA",
+      "AKROTIRI E DHEKELIA",
+      "AKROTIRI EN DHEKELIA",
+      "SBA"
+    ]
+  },
+  {
+    "id": 40,
+    "wikidata": "Q38095",
+    "aliases": ["EC-W"],
+    "nameEn": "Galápagos Islands",
+    "country": "EC",
+    "names": [
+      "GALAPAGOS ADALARI",
+      "GALAPAGOS ISLANDS",
+      "ILES GALAPAGOS",
+      "GALAPAGOSINSELN",
+      "ISLAS GALAPAGOS",
+      "GALAPAGOS",
+      "GALAPAGOSEILANDEN",
+      "ECW"
+    ]
+  },
+  {
+    "id": 41,
+    "wikidata": "Q39760",
+    "nameEn": "Gaza Strip",
+    "country": "PS",
+    "names": [
+      "GAZZE SERIDI",
+      "GAZA STRIP",
+      "BANDE DE GAZA",
+      "GAZASTREIFEN",
+      "FRANJA DE GAZA",
+      "FAIXA DE GAZA",
+      "STRISCIA DI GAZA",
+      "GAZASTROOK"
+    ]
+  },
+  {
+    "id": 42,
+    "wikidata": "Q40888",
+    "aliases": ["IN-AN"],
+    "nameEn": "Andaman and Nicobar Islands",
+    "country": "IN",
+    "names": [
+      "ANDAMAN VE NIKOBAR ADALARI",
+      "ANDAMAN AND NICOBAR ISLANDS",
+      "ILES ANDAMANETNICOBAR",
+      "ANDAMANEN UND NIKOBAREN",
+      "ISLAS ANDAMAN Y NICOBAR",
+      "ANDAMAO E NICOBAR",
+      "ANDAMANE E NICOBARE",
+      "ANDAMANEN EN NICOBAREN",
+      "INAN"
+    ]
+  },
+  {
+    "id": 43,
+    "wikidata": "Q41684",
+    "nameEn": "Stewart Island",
+    "country": "NZ",
+    "names": [
+      "STEWART ADASI",
+      "STEWART ISLAND  RAKIURA",
+      "ILE STEWART",
+      "STEWART ISLAND",
+      "ISLA STEWART",
+      "ILHA STEWART",
+      "STEWARTEILAND"
+    ]
+  },
+  {
+    "id": 44,
+    "wikidata": "Q43296",
+    "aliases": ["WK", "WAK", "WKUM", "872", "UM-79"],
+    "nameEn": "Wake Island",
+    "level": "subterritory",
+    "country": "US",
+    "names": [
+      "WAKE ADASI",
+      "WAKE ISLAND",
+      "WAKE",
+      "ISLA WAKE",
+      "ILHA WAKE",
+      "ISOLA DI WAKE",
+      "WK",
+      "WAK",
+      "WKUM",
+      "872",
+      "UM79"
+    ]
+  },
+  {
+    "id": 45,
+    "wikidata": "Q46275",
+    "nameEn": "New Zealand Subantarctic Islands",
+    "country": "NZ",
+    "names": [
+      "YENI ZELANDANIN SUBANTARKTIK ADALARI",
+      "NEW ZEALAND SUBANTARCTIC ISLANDS",
+      "ILES SUBANTARCTIQUES DE NOUVELLEZELANDE",
+      "SUBANTARKTISCHE INSELN NEUSEELANDS",
+      "ISLAS SUBANTARTICAS DE NUEVA ZELANDA",
+      "ILHAS SUBANTARCTICAS NEOZELANDESAS",
+      "ISOLE SUBANTARTICHE DELLA NUOVA ZELANDA",
+      "NIEUWZEELANDSE SUBANTARCTISCHE EILANDEN"
+    ]
+  },
+  {
+    "id": 46,
+    "wikidata": "Q46395",
+    "aliases": ["BOTS", "UKOTS"],
+    "nameEn": "British Overseas Territories",
+    "level": "subcountryGroup",
+    "country": "GB",
+    "names": [
+      "BRITANYA DENIZASIRI TOPRAKLARI",
+      "BRITISH OVERSEAS TERRITORIES",
+      "TERRITOIRE BRITANNIQUE DOUTREMER",
+      "BRITISCHE UBERSEEGEBIETE",
+      "TERRITORIO BRITANICO DE ULTRAMAR",
+      "TERRITORIO BRITANICO ULTRAMARINO",
+      "TERRITORI DOLTREMARE BRITANNICI",
+      "BRITSE OVERZEESE GEBIEDEN",
+      "BOTS",
+      "UKOTS"
+    ]
+  },
+  {
+    "id": 47,
+    "wikidata": "Q46772",
+    "nameEn": "Kerguelen Islands",
+    "level": "subterritory",
+    "country": "FR",
+    "names": [
+      "KERGUELEN ADALARI",
+      "KERGUELEN ISLANDS",
+      "ILES KERGUELEN",
+      "KERGUELEN",
+      "ILHAS KERGUELEN",
+      "ISOLE KERGUELEN",
+      "KERGUELENEILANDEN"
+    ]
+  },
+  {
+    "id": 48,
+    "wikidata": "Q46879",
+    "aliases": ["UM-81"],
+    "nameEn": "Baker Island",
+    "level": "subterritory",
+    "country": "US",
+    "names": [
+      "BAKER ADASI",
+      "BAKER ISLAND",
+      "ILE BAKER",
+      "BAKERINSEL",
+      "ISLA BAKER",
+      "ILHA BAKER",
+      "ISOLA BAKER",
+      "BAKER",
+      "BEASSASSUOLU",
+      "UM81"
+    ]
+  },
+  {
+    "id": 49,
+    "wikidata": "Q47863",
+    "aliases": ["MI", "MID", "MIUM", "488", "UM-71"],
+    "nameEn": "Midway Atoll",
+    "level": "subterritory",
+    "country": "US",
+    "names": [
+      "MIDWAY ADASI",
+      "MIDWAY ATOLL",
+      "ILES MIDWAY",
+      "MIDWAYINSELN",
+      "ISLAS MIDWAY",
+      "ATOL MIDWAY",
+      "ATOLLO DI MIDWAY",
+      "MIDWAY",
+      "MI",
+      "MID",
+      "MIUM",
+      "488",
+      "UM71"
+    ]
+  },
+  {
+    "id": 50,
+    "wikidata": "Q62218",
+    "aliases": ["UM-86"],
+    "nameEn": "Jarvis Island",
+    "level": "subterritory",
+    "country": "US",
+    "names": [
+      "JARVIS ADASI",
+      "JARVIS ISLAND",
+      "ILE JARVIS",
+      "JARVISINSEL",
+      "ISLA JARVIS",
+      "ILHA JARVIS",
+      "ISOLA JARVIS",
+      "JARVIS",
+      "UM86"
+    ]
+  },
+  {
+    "id": 51,
+    "wikidata": "Q105472",
+    "nameEn": "Macaronesia",
+    "level": "sharedLandform",
+    "names": ["MAKARONEZYA", "MACARONESIA", "MACARONESIE", "MAKARONESIEN"]
+  },
+  {
+    "id": 52,
+    "wikidata": "Q114935",
+    "nameEn": "Kermadec Islands",
+    "country": "NZ",
+    "names": [
+      "KERMADEC ADALARI",
+      "KERMADEC ISLANDS",
+      "ILES KERMADEC",
+      "KERMADECINSELN",
+      "ISLAS KERMADEC",
+      "ILHAS KERMADEC",
+      "ISOLE KERMADEC",
+      "KERMADECEILANDEN"
+    ]
+  },
+  {
+    "id": 53,
+    "wikidata": "Q115459",
+    "aliases": ["NZ-CIT"],
+    "nameEn": "Chatham Islands",
+    "country": "NZ",
+    "names": [
+      "CHATHAM ADALARI",
+      "CHATHAM ISLANDS",
+      "ILES CHATHAM",
+      "CHATHAMINSELN",
+      "ISLAS CHATHAM",
+      "ILHAS CHATHAM",
+      "ISOLE CHATHAM",
+      "CHATHAMEILANDEN",
+      "NZCIT"
+    ]
+  },
+  {
+    "id": 54,
+    "wikidata": "Q118863",
+    "nameEn": "North Island",
+    "country": "NZ",
+    "names": [
+      "KUZEY ADASI",
+      "NORTH ISLAND",
+      "ILE DU NORD",
+      "NORDINSEL",
+      "ISLA NORTE",
+      "ILHA NORTE",
+      "ISOLA DEL NORD",
+      "NOORDEREILAND"
+    ]
+  },
+  {
+    "id": 55,
+    "wikidata": "Q120755",
+    "nameEn": "South Island",
+    "country": "NZ",
+    "names": [
+      "GUNEY ADASI",
+      "SOUTH ISLAND",
+      "ILE DU SUD",
+      "SUDINSEL",
+      "ISLA SUR",
+      "ILHA SUL",
+      "ISOLA DEL SUD",
+      "ZUIDEREILAND"
+    ]
+  },
+  {
+    "id": 56,
+    "wikidata": "Q123076",
+    "aliases": ["UM-95"],
+    "nameEn": "Palmyra Atoll",
+    "level": "subterritory",
+    "country": "US",
+    "names": [
+      "PALMYRA ATOLU",
+      "PALMYRA ATOLL",
+      "ATOLL PALMYRA",
+      "PALMYRA",
+      "ATOLON PALMYRA",
+      "ATOL PALMYRA",
+      "UM95"
+    ]
+  },
+  {
+    "id": 57,
+    "wikidata": "Q130574",
+    "nameEn": "Chafarinas Islands",
+    "level": "subterritory",
+    "country": "ES",
+    "names": [
+      "CHAFARINAS ADALARI",
+      "CHAFARINAS ISLANDS",
+      "ILES ZAFFARINES",
+      "ISLAS CHAFARINAS",
+      "ILHAS CHAFARINAS",
+      "ISOLE CHAFARINAS"
+    ]
+  },
+  {
+    "id": 58,
+    "wikidata": "Q130895",
+    "aliases": ["UM-89"],
+    "nameEn": "Kingman Reef",
+    "level": "subterritory",
+    "country": "US",
+    "names": [
+      "KINGMAN RESIFI",
+      "KINGMAN REEF",
+      "RECIF KINGMAN",
+      "KINGMANRIFF",
+      "ARRECIFE KINGMAN",
+      "RECIFE KINGMAN",
+      "KINGMAN",
+      "UM89"
+    ]
+  },
+  {
+    "id": 59,
+    "wikidata": "Q131008",
+    "aliases": ["JT", "JTN", "JTUM", "396", "UM-67"],
+    "nameEn": "Johnston Atoll",
+    "level": "subterritory",
+    "country": "US",
+    "names": [
+      "JOHNSTON ATOLU",
+      "JOHNSTON ATOLL",
+      "ATOLL JOHNSTON",
+      "JOHNSTONATOLL",
+      "ATOLON JOHNSTON",
+      "ATOL JOHNSTON",
+      "ATOLLO JOHNSTON",
+      "JOHNSTON",
+      "JT",
+      "JTN",
+      "JTUM",
+      "396",
+      "UM67"
+    ]
+  },
+  {
+    "id": 60,
+    "wikidata": "Q131305",
+    "aliases": ["UM-84"],
+    "nameEn": "Howland Island",
+    "level": "subterritory",
+    "country": "US",
+    "names": [
+      "HOWLAND ADASI",
+      "HOWLAND ISLAND",
+      "ILE HOWLAND",
+      "HOWLANDINSEL",
+      "ISLA HOWLAND",
+      "ILHA HOWLAND",
+      "ISOLA HOWLAND",
+      "HOWLAND",
+      "UM84"
+    ]
+  },
+  {
+    "id": 61,
+    "wikidata": "Q133888",
+    "nameEn": "Ashmore and Cartier Islands",
+    "country": "AU",
+    "names": [
+      "ASHMORE VE CARTIER ADALARI",
+      "ASHMORE AND CARTIER ISLANDS",
+      "ILES ASHMOREETCARTIER",
+      "ASHMORE UND CARTIERINSELN",
+      "ISLAS ASHMORE Y CARTIER",
+      "ILHAS ASHMORE E CARTIER",
+      "ISOLE ASHMORE E CARTIER",
+      "ASHMORE EN CARTIEREILANDEN"
+    ]
+  },
+  {
+    "id": 62,
+    "wikidata": "Q153732",
+    "nameEn": "Mariana Islands",
+    "level": "sharedLandform",
+    "names": [
+      "MARIANA ADALARI",
+      "MARIANA ISLANDS",
+      "ILES MARIANNES",
+      "MARIANEN",
+      "ISLAS MARIANAS",
+      "ILHAS MARIANAS",
+      "ISOLE MARIANNE"
+    ]
+  },
+  {
+    "id": 63,
+    "wikidata": "Q172216",
+    "nameEn": "Coral Sea Islands",
+    "country": "AU",
+    "names": [
+      "MERCAN DENIZI ADALARI",
+      "CORAL SEA ISLANDS",
+      "ILES DE LA MER DE CORAIL",
+      "KORALLENMEERINSELN",
+      "ISLAS DEL MAR DEL CORAL",
+      "ILHAS DO MAR DE CORAL",
+      "ISOLE DEL MAR DEI CORALLI",
+      "KORAALZEEEILANDEN"
+    ]
+  },
+  {
+    "id": 64,
+    "wikidata": "Q179313",
+    "nameEn": "Alderney",
+    "level": "subterritory",
+    "country": "GB",
+    "names": ["ALDERNEY", "AURIGNY"]
+  },
+  {
+    "id": 65,
+    "wikidata": "Q185086",
+    "nameEn": "Crown Dependencies",
+    "level": "subcountryGroup",
+    "country": "GB",
+    "names": [
+      "TAC TOPRAKLARI",
+      "CROWN DEPENDENCIES",
+      "DEPENDANCE DE LA COURONNE",
+      "KRONBESITZUNGEN DER BRITISCHEN KRONE",
+      "DEPENDENCIA DE LA CORONA BRITANICA",
+      "DEPENDENCIAS DA COROA DO REINO UNIDO",
+      "DIPENDENZA DELLA CORONA BRITANNICA",
+      "BRITS KROONBEZIT"
+    ]
+  },
+  {
+    "id": 66,
+    "wikidata": "Q190571",
+    "nameEn": "Scattered Islands",
+    "level": "subterritory",
+    "country": "FR",
+    "names": [
+      "ILES EPARSES",
+      "SCATTERED ISLANDS IN THE INDIAN OCEAN",
+      "ILES EPARSES DE LOCEAN INDIEN",
+      "ISLAS DISPERSAS DEL OCEANO INDICO",
+      "ILHAS ESPARSAS",
+      "ISOLE SPARSE DELLOCEANO INDIANO",
+      "VERSPREIDE EILANDEN IN DE INDISCHE OCEAAN",
+      "SCATTERED ISLANDS"
+    ]
+  },
+  {
+    "id": 67,
+    "wikidata": "Q191011",
+    "nameEn": "Plazas de soberanía",
+    "country": "ES",
+    "names": ["PLAZAS DE SOBERANIA", "PLAZA DE SOBERANIA"]
+  },
+  {
+    "id": 68,
+    "wikidata": "Q191146",
+    "nameEn": "Peñón de Vélez de la Gomera",
+    "level": "subterritory",
+    "country": "ES",
+    "names": [
+      "PENON DE VELEZ",
+      "PENON DE VELEZ DE LA GOMERA",
+      "ILHOTE DE VELEZ DE LA GOMERA"
+    ]
+  },
+  {
+    "id": 69,
+    "wikidata": "Q201698",
+    "nameEn": "Crozet Islands",
+    "level": "subterritory",
+    "country": "FR",
+    "names": [
+      "CROZET ADALARI",
+      "CROZET ISLANDS",
+      "ARCHIPEL CROZET",
+      "CROZETINSELN",
+      "ISLAS CROZET",
+      "ILHAS CROZET",
+      "ISOLE CROZET",
+      "CROZETEILANDEN"
+    ]
+  },
+  {
+    "id": 70,
+    "wikidata": "Q578170",
+    "aliases": ["CONUS"],
+    "nameEn": "Contiguous United States",
+    "country": "US",
+    "names": [
+      "KITA ABDSI",
+      "CONTIGUOUS UNITED STATES",
+      "ETATSUNIS CONTIGUS",
+      "ZUSAMMENHANGENDE VEREINIGTE STAATEN",
+      "ESTADOS UNIDOS CONTIGUOS",
+      "STATI UNITI CONTIGUI",
+      "AANEENGESLOTEN VERENIGDE STATEN",
+      "CONUS"
+    ]
+  },
+  {
+    "id": 71,
+    "wikidata": "Q620634",
+    "nameEn": "Bir Tawil",
+    "level": "territory",
+    "names": ["BIR TAWIL"]
+  },
+  {
+    "id": 72,
+    "wikidata": "Q639185",
+    "nameEn": "Peros Banhos",
+    "level": "subterritory",
+    "country": "GB",
+    "names": ["PEROS BANHOS", "PERO BANHOS"]
+  },
+  {
+    "id": 73,
+    "wikidata": "Q644636",
+    "nameEn": "Cyprus",
+    "level": "sharedLandform",
+    "names": [
+      "KIBRIS",
+      "CYPRUS",
+      "CHYPRE",
+      "ZYPERN",
+      "ISLA DE CHIPRE",
+      "CHIPRE",
+      "CIPRO",
+      "KYPROS"
+    ]
+  },
+  {
+    "id": 74,
+    "wikidata": "Q851132",
+    "nameEn": "New Zealand Outlying Islands",
+    "level": "subcountryGroup",
+    "country": "NZ",
+    "names": [
+      "NEW ZEALAND OUTLYING ISLANDS",
+      "ILES ELOIGNEES DE NOUVELLEZELANDE",
+      "NEW ZEALAND OFFSHORE ISLANDS"
+    ]
+  },
+  {
+    "id": 75,
+    "wikidata": "Q875134",
+    "nameEn": "European Russia",
+    "country": "RU",
+    "names": [
+      "AVRUPA RUSYASI",
+      "EUROPEAN RUSSIA",
+      "RUSSIE DEUROPE",
+      "EUROPAISCHES RUSSLAND",
+      "RUSIA EUROPEA",
+      "RUSSIA EUROPEIA",
+      "RUSSIA EUROPEA",
+      "EUROPEES RUSLAND"
+    ]
+  },
+  {
+    "id": 76,
+    "wikidata": "Q1083368",
+    "nameEn": "Mainland Finland",
+    "country": "FI",
+    "names": [
+      "ANAKARA FINLANDIYA",
+      "MAINLAND FINLAND",
+      "FINLANDE CONTINENTALE",
+      "FINLANDIA CONTINENTAL",
+      "FINLANDIA CONTINENTALE",
+      "NANNANSUOPMA"
+    ]
+  },
+  {
+    "id": 77,
+    "wikidata": "Q1184963",
+    "nameEn": "Alhucemas Islands",
+    "level": "subterritory",
+    "country": "ES",
+    "names": [
+      "ALHUCEMAS ISLANDS",
+      "ILES ALHUCEMAS",
+      "ALHUCEMASINSELN",
+      "ISLAS ALHUCEMAS",
+      "ISOLE ALHUCEMAS"
+    ]
+  },
+  {
+    "id": 78,
+    "wikidata": "Q1298289",
+    "nameEn": "Egmont Islands",
+    "level": "subterritory",
+    "country": "GB",
+    "names": [
+      "EGMONT ADALARI",
+      "EGMONT ISLANDS",
+      "ILES EGMONT",
+      "ISLAS EGMONT",
+      "ILHAS EGMONT"
+    ]
+  },
+  {
+    "id": 79,
+    "wikidata": "Q1352230",
+    "nameEn": "US Territories",
+    "level": "subcountryGroup",
+    "country": "US",
+    "names": [
+      "AMERIKA BIRLESIK DEVLETLERININ TOPRAKLARI",
+      "TERRITORY OF THE UNITED STATES",
+      "TERRITOIRE DES ETATSUNIS",
+      "TERRITORIUM DER VEREINIGTEN STAATEN",
+      "TERRITORIO DE LOS ESTADOS UNIDOS",
+      "TERRITORIOS DOS ESTADOS UNIDOS",
+      "TERRITORIO NON INCORPORATO",
+      "TERRITORIUM VAN DE VERENIGDE STATEN",
+      "US TERRITORIES"
+    ]
+  },
+  {
+    "id": 80,
+    "wikidata": "Q1451600",
+    "aliases": ["OCT"],
+    "nameEn": "Overseas Countries and Territories of the EU",
+    "level": "subunion",
+    "names": [
+      "OVERSEAS COUNTRIES AND TERRITORIES",
+      "PAYS ET TERRITOIRES DOUTREMER",
+      "UBERSEEISCHE LANDER UND HOHEITSGEBIETE",
+      "PAESI E TERRITORI DOLTREMARE",
+      "LANDEN EN GEBIEDEN OVERZEE",
+      "OVERSEAS COUNTRIES AND TERRITORIES OF THE EU",
+      "OCT"
+    ]
+  },
+  {
+    "id": 81,
+    "wikidata": "Q1544253",
+    "nameEn": "Great Chagos Bank",
+    "level": "subterritory",
+    "country": "GB",
+    "names": [
+      "GREAT CHAGOS BANK",
+      "BANC GREAT CHAGOS",
+      "GRAN BANCO DE CHAGOS",
+      "BANCO DELLE CHAGOS"
+    ]
+  },
+  {
+    "id": 82,
+    "wikidata": "Q1585511",
+    "nameEn": "Salomon Atoll",
+    "level": "subterritory",
+    "country": "GB",
+    "names": [
+      "SALOMON ADALARI",
+      "SALOMON ISLANDS",
+      "ILES SALOMON",
+      "ISLAS SALOMON",
+      "SALOMON ATOLL"
+    ]
+  },
+  {
+    "id": 83,
+    "wikidata": "Q1681727",
+    "nameEn": "Saint-Paul and Amsterdam",
+    "level": "subterritory",
+    "country": "FR",
+    "names": [
+      "SAINT PAUL AND AMSTERDAM",
+      "ILES SAINTPAUL ET NOUVELLEAMSTERDAM",
+      "SANKT PAUL UND AMSTERDAM",
+      "SAN PABLO Y AMSTERDAM",
+      "ISOLE SAINT PAUL E AMSTERDAM",
+      "SAINTPAUL EN AMSTERDAM",
+      "SAINTPAUL AND AMSTERDAM"
+    ]
+  },
+  {
+    "id": 84,
+    "wikidata": "Q1901211",
+    "nameEn": "East Malaysia",
+    "country": "MY",
+    "names": [
+      "DOGU MALEZYA",
+      "EAST MALAYSIA",
+      "MALAISIE ORIENTALE",
+      "OSTMALAYSIA",
+      "MALASIA ORIENTAL",
+      "MALAYSIA ORIENTALE",
+      "OOSTMALEISIE"
+    ]
+  },
+  {
+    "id": 85,
+    "wikidata": "Q1973345",
+    "nameEn": "Peninsular Malaysia",
+    "country": "MY",
+    "names": [
+      "BATI MALEZYA",
+      "PENINSULAR MALAYSIA",
+      "MALAISIE PENINSULAIRE",
+      "WESTMALAYSIA",
+      "MALASIA PENINSULAR",
+      "MALAYSIA PENINSULARE"
+    ]
+  },
+  {
+    "id": 86,
+    "wikidata": "Q2093907",
+    "nameEn": "Three Kings Islands",
+    "country": "NZ",
+    "names": [
+      "MANAWATAWHI  THREE KINGS ISLANDS",
+      "ILES DES TROIS ROIS",
+      "THREE KINGS ISLANDS",
+      "ILHAS TRES REIS",
+      "ISOLE DEI TRE RE",
+      "DRIEKONINGENEILANDEN"
+    ]
+  },
+  {
+    "id": 87,
+    "wikidata": "Q2298216",
+    "nameEn": "Solander Islands",
+    "country": "NZ",
+    "names": ["SOLANDER ISLANDS", "ILES SOLANDER", "SOLANDERINSELN"]
+  },
+  {
+    "id": 88,
+    "wikidata": "Q2872203",
+    "nameEn": "Mainland Australia",
+    "level": "subcountryGroup",
+    "country": "AU",
+    "names": [
+      "ANAKARA AVUSTRALYA",
+      "MAINLAND AUSTRALIA",
+      "AUSTRALIE CONTINENTALE",
+      "AUSTRALISCHE HAUPTINSEL",
+      "AUSTRALIA CONTINENTAL"
+    ]
+  },
+  {
+    "id": 89,
+    "wikidata": "Q2914565",
+    "nameEn": "Autonomous Regions of Portugal",
+    "level": "subcountryGroup",
+    "country": "PT",
+    "names": [
+      "PORTEKIZIN OZERK BOLGELERI",
+      "AUTONOMOUS REGION OF PORTUGAL",
+      "REGION AUTONOME DU PORTUGAL",
+      "AUTONOME GEMEINSCHAFTEN PORTUGALS",
+      "REGION AUTONOMA DE PORTUGAL",
+      "REGIAO AUTONOMA DE PORTUGAL",
+      "REGIONE AUTONOMA DEL PORTOGALLO",
+      "AUTONOME REGIO VAN PORTUGAL",
+      "AUTONOMOUS REGIONS OF PORTUGAL"
+    ]
+  },
+  {
+    "id": 90,
+    "wikidata": "Q2915956",
+    "nameEn": "Mainland Portugal",
+    "level": "subcountryGroup",
+    "country": "PT",
+    "names": [
+      "KITASAL PORTEKIZ",
+      "CONTINENTAL PORTUGAL",
+      "PORTUGAL CONTINENTAL",
+      "KONTINENTALPORTUGAL",
+      "MAINLAND PORTUGAL"
+    ]
+  },
+  {
+    "id": 91,
+    "wikidata": "Q3311985",
+    "nameEn": "Guernsey",
+    "level": "subterritory",
+    "country": "GB",
+    "names": ["GUERNSEY", "GUERNESEY"]
+  },
+  {
+    "id": 92,
+    "wikidata": "Q3320166",
+    "aliases": ["OMR"],
+    "nameEn": "Outermost Regions of the EU",
+    "level": "subunion",
+    "names": [
+      "OUTERMOST REGION",
+      "REGION ULTRAPERIPHERIQUE",
+      "GEBIETE IN AUSSERSTER RANDLAGE",
+      "REGION ULTRAPERIFERICA DE LA UNION EUROPEA",
+      "REGIOES ULTRAPERIFERICAS DA UNIAO EUROPEIA",
+      "REGIONE ULTRAPERIFERICA",
+      "ULTRAPERIFERE REGIO",
+      "OUTERMOST REGIONS OF THE EU",
+      "OMR"
+    ]
+  },
+  {
+    "id": 93,
+    "wikidata": "Q3336843",
+    "aliases": ["GB-UKM"],
+    "nameEn": "Countries of the United Kingdom",
+    "level": "subcountryGroup",
+    "country": "GB",
+    "names": [
+      "BIRLESIK KRALLIK ULKELERI",
+      "CONSTITUENT COUNTRY OF THE UNITED KINGDOM",
+      "NATION CONSTITUTIVE",
+      "LANDER DES VEREINIGTEN KONIGREICHS",
+      "NACION CONSTITUTIVA DEL REINO UNIDO",
+      "PAIS DO REINO UNIDO",
+      "NAZIONE COSTITUTIVA DEL REGNO UNITO",
+      "LAND VAN HET VERENIGD KONINKRIJK",
+      "COUNTRIES OF THE UNITED KINGDOM",
+      "GBUKM"
+    ]
+  },
+  {
+    "id": 94,
+    "wikidata": "Q6736667",
+    "nameEn": "Mainland India",
+    "country": "IN",
+    "names": ["MAINLAND INDIA"]
+  },
+  {
+    "id": 95,
+    "wikidata": "Q9143535",
+    "nameEn": "Akrotiri",
+    "level": "subterritory",
+    "country": "GB",
+    "names": ["AGROTUR", "AKROTIRI SOVEREIGN BASE AREA", "AKROTIRI", "ACROTIRI"]
+  },
+  {
+    "id": 96,
+    "wikidata": "Q9206745",
+    "nameEn": "Dhekelia",
+    "level": "subterritory",
+    "country": "GB",
+    "names": [
+      "DHEKELIA KANTONU",
+      "DHEKELIA CANTONMENT",
+      "DHEKELIA",
+      "DEKELIA",
+      "DECELEIA",
+      "BASE DI DHEKELIA"
+    ]
+  },
+  {
+    "id": 97,
+    "wikidata": "Q16390686",
+    "nameEn": "Peninsular Spain",
+    "country": "ES",
+    "names": [
+      "YARIMADA ISPANYA",
+      "PENINSULAR SPAIN",
+      "ESPAGNE PENINSULAIRE",
+      "ESPANA PENINSULAR",
+      "CONTINENTAAL SPANJE"
+    ]
+  },
+  {
+    "id": 98,
+    "wikidata": "Q98059339",
+    "nameEn": "Mainland Norway",
+    "country": "NO",
+    "names": ["MAINLAND NORWAY"]
+  },
+  {
+    "id": 99,
+    "wikidata": "Q98543636",
+    "nameEn": "Mainland Ecuador",
+    "country": "EC",
+    "names": ["MAINLAND ECUADOR"]
+  },
+  {
+    "id": 101,
+    "wikidata": "Q15",
+    "nameEn": "Africa",
+    "level": "region",
+    "names": ["AFRIKA", "AFRICA", "AFRIQUE", "AFRIHKA"]
+  },
+  {
+    "id": 104,
+    "wikidata": "Q538",
+    "nameEn": "Oceania",
+    "level": "region",
+    "names": [
+      "OKYANUSYA",
+      "INSULAR OCEANIA",
+      "OCEANIE",
+      "OZEANIEN",
+      "OCEANIA INSULAR",
+      "OCEANIA",
+      "OCEANIA INSULARE",
+      "OSEANIA"
+    ]
+  },
+  {
+    "id": 111,
+    "wikidata": "Q828",
+    "nameEn": "Americas",
+    "level": "region",
+    "names": ["AMERIKA", "AMERICAS", "AMERIQUE", "AMERICA", "AMERIHKKA"]
+  },
+  {
+    "id": 122,
+    "wikidata": "Q48",
+    "nameEn": "Asia",
+    "level": "region",
+    "names": ["ASYA", "ASIA", "ASIE", "ASIEN", "AZIE"]
+  },
+  {
+    "id": 125,
+    "wikidata": "Q46",
+    "nameEn": "Europe",
+    "level": "region",
+    "names": ["AVRUPA", "EUROPE", "EUROPA", "EUROHPA"]
+  },
+  {
+    "id": 131,
+    "wikidata": "Q3405693",
+    "nameEn": "Sark",
+    "level": "subterritory",
+    "country": "GB",
+    "names": ["SARK", "SERCQ"]
+  },
+  {
+    "id": 133,
+    "iso1A2": "AC",
+    "iso1A3": "ASC",
+    "wikidata": "Q46197",
+    "aliases": ["SH-AC"],
+    "nameEn": "Ascension Island",
+    "country": "GB",
+    "names": [
+      "ASCENSION ADASI",
+      "ASCENSION",
+      "ILE DE LASCENSION",
+      "ISLA ASCENSION",
+      "ILHA DE ASCENSAO",
+      "ISOLA DI ASCENSIONE",
+      "ASCENSION ISLAND",
+      "SHAC"
+    ]
+  },
+  {
+    "id": 134,
+    "iso1A2": "AD",
+    "iso1A3": "AND",
+    "wikidata": "Q228",
+    "nameEn": "Andorra",
+    "names": ["ANDORRA", "ANDORRE"]
+  },
+  {
+    "id": 135,
+    "iso1A2": "AE",
+    "iso1A3": "ARE",
+    "wikidata": "Q878",
+    "nameEn": "United Arab Emirates",
+    "names": [
+      "BIRLESIK ARAP EMIRLIKLERI",
+      "UNITED ARAB EMIRATES",
+      "EMIRATS ARABES UNIS",
+      "VEREINIGTE ARABISCHE EMIRATE",
+      "EMIRATOS ARABES UNIDOS",
+      "EMIRADOS ARABES UNIDOS",
+      "EMIRATI ARABI UNITI",
+      "VERENIGDE ARABISCHE EMIRATEN",
+      "OVTTASTUVVAN ARABAEMIRAHTAT"
+    ]
+  },
+  {
+    "id": 136,
+    "iso1A2": "AF",
+    "iso1A3": "AFG",
+    "wikidata": "Q889",
+    "nameEn": "Afghanistan",
+    "names": ["AFGANISTAN", "AFGHANISTAN", "AFEGANISTAO", "AFGANISTANA"]
+  },
+  {
+    "id": 137,
+    "iso1A2": "AG",
+    "iso1A3": "ATG",
+    "wikidata": "Q781",
+    "nameEn": "Antigua and Barbuda",
+    "names": [
+      "ANTIGUA VE BARBUDA",
+      "ANTIGUA AND BARBUDA",
+      "ANTIGUAETBARBUDA",
+      "ANTIGUA UND BARBUDA",
+      "ANTIGUA Y BARBUDA",
+      "ANTIGUA E BARBUDA",
+      "ANTIGUA EN BARBUDA",
+      "ANTIGUA JA BARBUDA"
+    ]
+  },
+  {
+    "id": 138,
+    "iso1A2": "AI",
+    "iso1A3": "AIA",
+    "wikidata": "Q25228",
+    "nameEn": "Anguilla",
+    "country": "GB",
+    "names": ["ANGUILLA", "ANGUILA"]
+  },
+  {
+    "id": 139,
+    "iso1A2": "AL",
+    "iso1A3": "ALB",
+    "wikidata": "Q222",
+    "nameEn": "Albania",
+    "names": ["ARNAVUTLUK", "ALBANIA", "ALBANIE", "ALBANIEN"]
+  },
+  {
+    "id": 140,
+    "iso1A2": "AM",
+    "iso1A3": "ARM",
+    "wikidata": "Q399",
+    "nameEn": "Armenia",
+    "names": ["ERMENISTAN", "ARMENIA", "ARMENIE", "ARMENIEN"]
+  },
+  {
+    "id": 141,
+    "iso1A2": "AO",
+    "iso1A3": "AGO",
+    "wikidata": "Q916",
+    "nameEn": "Angola",
+    "names": ["ANGOLA"]
+  },
+  {
+    "id": 142,
+    "iso1A2": "AQ",
+    "iso1A3": "ATA",
+    "wikidata": "Q51",
+    "nameEn": "Antarctica",
+    "level": "region",
+    "names": [
+      "ANTARKTIKA",
+      "ANTARCTICA",
+      "ANTARCTIQUE",
+      "ANTARTIDA",
+      "ANTARTIDE",
+      "ANTARKTIS"
+    ]
+  },
+  {
+    "id": 143,
+    "iso1A2": "AR",
+    "iso1A3": "ARG",
+    "wikidata": "Q414",
+    "aliases": ["RA"],
+    "nameEn": "Argentina",
+    "names": [
+      "ARJANTIN",
+      "ARGENTINA",
+      "ARGENTINE",
+      "ARGENTINIEN",
+      "ARGENTINIE",
+      "ARGENTIINNA",
+      "RA"
+    ]
+  },
+  {
+    "id": 144,
+    "iso1A2": "AS",
+    "iso1A3": "ASM",
+    "wikidata": "Q16641",
+    "aliases": ["US-AS"],
+    "nameEn": "American Samoa",
+    "country": "US",
+    "names": [
+      "AMERIKAN SAMOASI",
+      "AMERICAN SAMOA",
+      "SAMOA AMERICAINES",
+      "AMERIKANISCHSAMOA",
+      "SAMOA ESTADOUNIDENSE",
+      "SAMOA AMERICANA",
+      "SAMOA AMERICANE",
+      "AMERIKAANSSAMOA",
+      "AMERIHKA SAMOA",
+      "USAS"
+    ]
+  },
+  {
+    "id": 145,
+    "iso1A2": "AT",
+    "iso1A3": "AUT",
+    "wikidata": "Q40",
+    "nameEn": "Austria",
+    "names": [
+      "AVUSTURYA",
+      "AUSTRIA",
+      "AUTRICHE",
+      "OSTERREICH",
+      "OOSTENRIJK",
+      "NUORTARIIKA"
+    ]
+  },
+  {
+    "id": 146,
+    "iso1A2": "AU",
+    "iso1A3": "AUS",
+    "wikidata": "Q408",
+    "nameEn": "Australia",
+    "names": ["AVUSTRALYA", "AUSTRALIA", "AUSTRALIE", "AUSTRALIEN"]
+  },
+  {
+    "id": 147,
+    "iso1A2": "AW",
+    "iso1A3": "ABW",
+    "wikidata": "Q21203",
+    "aliases": ["NL-AW"],
+    "nameEn": "Aruba",
+    "country": "NL",
+    "names": ["ARUBA", "NLAW"]
+  },
+  {
+    "id": 148,
+    "iso1A2": "AX",
+    "iso1A3": "ALA",
+    "wikidata": "Q5689",
+    "nameEn": "Åland Islands",
+    "country": "FI",
+    "names": ["ALAND", "ISOLE ALAND", "ALANDA", "ALAND ISLANDS"]
+  },
+  {
+    "id": 149,
+    "iso1A2": "AZ",
+    "iso1A3": "AZE",
+    "wikidata": "Q227",
+    "nameEn": "Azerbaijan",
+    "names": [
+      "AZERBAYCAN",
+      "AZERBAIJAN",
+      "AZERBAIDJAN",
+      "ASERBAIDSCHAN",
+      "AZERBAIYAN",
+      "AZERBAIJAO",
+      "AZERBAIGIAN",
+      "AZERBEIDZJAN",
+      "AZERBAIZAN"
+    ]
+  },
+  {
+    "id": 150,
+    "iso1A2": "BA",
+    "iso1A3": "BIH",
+    "wikidata": "Q225",
+    "nameEn": "Bosnia and Herzegovina",
+    "names": [
+      "BOSNAHERSEK",
+      "BOSNIA AND HERZEGOVINA",
+      "BOSNIEHERZEGOVINE",
+      "BOSNIEN UND HERZEGOWINA",
+      "BOSNIA Y HERZEGOVINA",
+      "BOSNIA E HERZEGOVINA",
+      "BOSNIA ED ERZEGOVINA",
+      "BOSNIE EN HERZEGOVINA",
+      "BOSNIA JA HERCEGOVINA"
+    ]
+  },
+  {
+    "id": 151,
+    "iso1A2": "BB",
+    "iso1A3": "BRB",
+    "wikidata": "Q244",
+    "nameEn": "Barbados",
+    "names": ["BARBADOS", "BARBADE"]
+  },
+  {
+    "id": 152,
+    "iso1A2": "BD",
+    "iso1A3": "BGD",
+    "wikidata": "Q902",
+    "nameEn": "Bangladesh",
+    "names": ["BANGLADES", "BANGLADESH", "BANGLADESCH"]
+  },
+  {
+    "id": 153,
+    "iso1A2": "BE",
+    "iso1A3": "BEL",
+    "wikidata": "Q31",
+    "nameEn": "Belgium",
+    "names": [
+      "BELCIKA",
+      "BELGIUM",
+      "BELGIQUE",
+      "BELGIEN",
+      "BELGICA",
+      "BELGIO",
+      "BELGIE",
+      "BELGIA"
+    ]
+  },
+  {
+    "id": 154,
+    "iso1A2": "BF",
+    "iso1A3": "BFA",
+    "wikidata": "Q965",
+    "nameEn": "Burkina Faso",
+    "names": ["BURKINA FASO"]
+  },
+  {
+    "id": 155,
+    "iso1A2": "BG",
+    "iso1A3": "BGR",
+    "wikidata": "Q219",
+    "nameEn": "Bulgaria",
+    "names": ["BULGARISTAN", "BULGARIA", "BULGARIE", "BULGARIEN", "BULGARIJE"]
+  },
+  {
+    "id": 156,
+    "iso1A2": "BH",
+    "iso1A3": "BHR",
+    "wikidata": "Q398",
+    "nameEn": "Bahrain",
+    "names": ["BAHREYN", "BAHRAIN", "BAHREIN", "BAREIN"]
+  },
+  {
+    "id": 157,
+    "iso1A2": "BI",
+    "iso1A3": "BDI",
+    "wikidata": "Q967",
+    "nameEn": "Burundi",
+    "names": ["BURUNDI"]
+  },
+  {
+    "id": 158,
+    "iso1A2": "BJ",
+    "iso1A3": "BEN",
+    "wikidata": "Q962",
+    "aliases": ["DY"],
+    "nameEn": "Benin",
+    "names": ["BENIN", "BENIM", "DY"]
+  },
+  {
+    "id": 159,
+    "iso1A2": "BL",
+    "iso1A3": "BLM",
+    "wikidata": "Q25362",
+    "nameEn": "Saint-Barthélemy",
+    "country": "FR",
+    "names": ["SAINT BARTHELEMY", "SAINTBARTHELEMY", "SAO BARTOLOMEU"]
+  },
+  {
+    "id": 160,
+    "iso1A2": "BM",
+    "iso1A3": "BMU",
+    "wikidata": "Q23635",
+    "nameEn": "Bermuda",
+    "country": "GB",
+    "names": ["BERMUDA", "BERMUDES", "BERMUDAS"]
+  },
+  {
+    "id": 161,
+    "iso1A2": "BN",
+    "iso1A3": "BRN",
+    "wikidata": "Q921",
+    "nameEn": "Brunei",
+    "names": ["BRUNEI SULTANLIGI", "BRUNEI", "BRUNEI DARUSSALAM"]
+  },
+  {
+    "id": 162,
+    "iso1A2": "BO",
+    "iso1A3": "BOL",
+    "wikidata": "Q750",
+    "nameEn": "Bolivia",
+    "names": ["BOLIVYA", "BOLIVIA", "BOLIVIE", "BOLIVIEN"]
+  },
+  {
+    "id": 163,
+    "iso1A2": "BQ",
+    "iso1A3": "BES",
+    "wikidata": "Q27561",
+    "nameEn": "Caribbean Netherlands",
+    "country": "NL",
+    "names": [
+      "KARAYIP HOLLANDASI",
+      "CARIBBEAN NETHERLANDS",
+      "PAYSBAS CARIBEENS",
+      "KARIBISCHE NIEDERLANDE",
+      "CARIBE NEERLANDES",
+      "PAISES BAIXOS CARIBENHOS",
+      "PAESI BASSI CARAIBICI",
+      "CARIBISCH NEDERLAND"
+    ]
+  },
+  {
+    "id": 164,
+    "iso1A2": "BR",
+    "iso1A3": "BRA",
+    "wikidata": "Q155",
+    "nameEn": "Brazil",
+    "names": [
+      "BREZILYA",
+      "BRAZIL",
+      "BRESIL",
+      "BRASILIEN",
+      "BRASIL",
+      "BRASILE",
+      "BRAZILIE",
+      "BRASILIA"
+    ]
+  },
+  {
+    "id": 165,
+    "iso1A2": "BS",
+    "iso1A3": "BHS",
+    "wikidata": "Q778",
+    "nameEn": "The Bahamas",
+    "names": ["BAHAMALAR", "THE BAHAMAS", "BAHAMAS", "BAHAMASULLOT"]
+  },
+  {
+    "id": 166,
+    "iso1A2": "BT",
+    "iso1A3": "BTN",
+    "wikidata": "Q917",
+    "nameEn": "Bhutan",
+    "names": ["BHUTAN", "BHOUTAN", "BUTAN", "BUTAO"]
+  },
+  {
+    "id": 167,
+    "iso1A2": "BV",
+    "iso1A3": "BVT",
+    "wikidata": "Q23408",
+    "nameEn": "Bouvet Island",
+    "country": "NO",
+    "names": [
+      "BOUVET ADASI",
+      "BOUVET ISLAND",
+      "ILE BOUVET",
+      "BOUVETINSEL",
+      "ISLA BOUVET",
+      "ILHA BOUVET",
+      "ISOLA BOUVET",
+      "BOUVETEILAND"
+    ]
+  },
+  {
+    "id": 168,
+    "iso1A2": "BW",
+    "iso1A3": "BWA",
+    "wikidata": "Q963",
+    "nameEn": "Botswana",
+    "names": ["BOTSVANA", "BOTSWANA", "BOTSUANA"]
+  },
+  {
+    "id": 169,
+    "iso1A2": "BY",
+    "iso1A3": "BLR",
+    "wikidata": "Q184",
+    "nameEn": "Belarus",
+    "names": [
+      "BEYAZ RUSYA",
+      "BELARUS",
+      "BIELORUSSIE",
+      "BIELORRUSIA",
+      "BIELORRUSSIA",
+      "BIELORUSSIA",
+      "WITRUSLAND",
+      "VILGESRUOSSA"
+    ]
+  },
+  {
+    "id": 170,
+    "iso1A2": "BZ",
+    "iso1A3": "BLZ",
+    "wikidata": "Q242",
+    "nameEn": "Belize",
+    "names": ["BELIZE", "BELICE"]
+  },
+  {
+    "id": 171,
+    "iso1A2": "CA",
+    "iso1A3": "CAN",
+    "wikidata": "Q16",
+    "nameEn": "Canada",
+    "names": ["KANADA", "CANADA"]
+  },
+  {
+    "id": 172,
+    "iso1A2": "CC",
+    "iso1A3": "CCK",
+    "wikidata": "Q36004",
+    "nameEn": "Cocos (Keeling) Islands",
+    "country": "AU",
+    "names": [
+      "COCOS ADALARI",
+      "COCOS KEELING ISLANDS",
+      "ILES COCOS",
+      "KOKOSINSELN",
+      "ISLAS COCOS",
+      "ILHAS COCOS",
+      "ISOLE COCOS",
+      "COCOSEILANDEN"
+    ]
+  },
+  {
+    "id": 173,
+    "iso1A2": "CD",
+    "iso1A3": "COD",
+    "wikidata": "Q974",
+    "aliases": ["ZR"],
+    "nameEn": "Democratic Republic of the Congo",
+    "names": [
+      "KONGO DEMOKRATIK CUMHURIYETI",
+      "DEMOCRATIC REPUBLIC OF THE CONGO",
+      "REPUBLIQUE DEMOCRATIQUE DU CONGO",
+      "DEMOKRATISCHE REPUBLIK KONGO",
+      "REPUBLICA DEMOCRATICA DEL CONGO",
+      "REPUBLICA DEMOCRATICA DO CONGO",
+      "REPUBBLICA DEMOCRATICA DEL CONGO",
+      "CONGOKINSHASA",
+      "KONGO DEMOKRAHTALAS DASSEVALDI",
+      "ZR"
+    ]
+  },
+  {
+    "id": 174,
+    "iso1A2": "CF",
+    "iso1A3": "CAF",
+    "wikidata": "Q929",
+    "nameEn": "Central African Republic",
+    "names": [
+      "ORTA AFRIKA CUMHURIYETI",
+      "CENTRAL AFRICAN REPUBLIC",
+      "REPUBLIQUE CENTRAFRICAINE",
+      "ZENTRALAFRIKANISCHE REPUBLIK",
+      "REPUBLICA CENTROAFRICANA",
+      "REPUBBLICA CENTRAFRICANA",
+      "CENTRAALAFRIKAANSE REPUBLIEK",
+      "GASKAAFRIHKA DASSEVALDI"
+    ]
+  },
+  {
+    "id": 175,
+    "iso1A2": "CG",
+    "iso1A3": "COG",
+    "wikidata": "Q971",
+    "nameEn": "Republic of the Congo",
+    "names": [
+      "KONGO CUMHURIYETI",
+      "REPUBLIC OF THE CONGO",
+      "REPUBLIQUE DU CONGO",
+      "REPUBLIK KONGO",
+      "REPUBLICA DEL CONGO",
+      "REPUBLICA DO CONGO",
+      "REPUBBLICA DEL CONGO",
+      "CONGOBRAZZAVILLE",
+      "KONGO DASSEVALDI"
+    ]
+  },
+  {
+    "id": 176,
+    "iso1A2": "CH",
+    "iso1A3": "CHE",
+    "wikidata": "Q39",
+    "nameEn": "Switzerland",
+    "names": [
+      "ISVICRE",
+      "SWITZERLAND",
+      "SUISSE",
+      "SCHWEIZ",
+      "SUIZA",
+      "SUICA",
+      "SVIZZERA",
+      "ZWITSERLAND",
+      "SVEICA"
+    ]
+  },
+  {
+    "id": 177,
+    "iso1A2": "CI",
+    "iso1A3": "CIV",
+    "wikidata": "Q1008",
+    "nameEn": "Côte d'Ivoire",
+    "names": [
+      "FILDISI SAHILI",
+      "IVORY COAST",
+      "COTE DIVOIRE",
+      "ELFENBEINKUSTE",
+      "COSTA DE MARFIL",
+      "COSTA DO MARFIM",
+      "COSTA DAVORIO",
+      "IVOORKUST",
+      "ELEFANTACALANRIDDU"
+    ]
+  },
+  {
+    "id": 178,
+    "iso1A2": "CK",
+    "iso1A3": "COK",
+    "wikidata": "Q26988",
+    "nameEn": "Cook Islands",
+    "country": "NZ",
+    "names": [
+      "COOK ADALARI",
+      "COOK ISLANDS",
+      "ILES COOK",
+      "COOKINSELN",
+      "ISLAS COOK",
+      "ILHAS COOK",
+      "ISOLE COOK",
+      "COOKEILANDEN"
+    ]
+  },
+  {
+    "id": 179,
+    "iso1A2": "CL",
+    "iso1A3": "CHL",
+    "wikidata": "Q298",
+    "nameEn": "Chile",
+    "names": ["SILI", "CHILE", "CHILI", "CILE"]
+  },
+  {
+    "id": 180,
+    "iso1A2": "CM",
+    "iso1A3": "CMR",
+    "wikidata": "Q1009",
+    "nameEn": "Cameroon",
+    "names": [
+      "KAMERUN",
+      "CAMEROON",
+      "CAMEROUN",
+      "CAMERUN",
+      "CAMAROES",
+      "KAMEROEN"
+    ]
+  },
+  {
+    "id": 181,
+    "iso1A2": "CN",
+    "iso1A3": "CHN",
+    "wikidata": "Q148",
+    "nameEn": "People's Republic of China",
+    "names": [
+      "CIN HALK CUMHURIYETI",
+      "PEOPLES REPUBLIC OF CHINA",
+      "REPUBLIQUE POPULAIRE DE CHINE",
+      "VOLKSREPUBLIK CHINA",
+      "REPUBLICA POPULAR CHINA",
+      "CHINA",
+      "CINA",
+      "VOLKSREPUBLIEK CHINA",
+      "KIINNA"
+    ]
+  },
+  {
+    "id": 182,
+    "iso1A2": "CO",
+    "iso1A3": "COL",
+    "wikidata": "Q739",
+    "nameEn": "Colombia",
+    "names": ["KOLOMBIYA", "COLOMBIA", "COLOMBIE", "KOLUMBIEN"]
+  },
+  {
+    "id": 183,
+    "iso1A2": "CP",
+    "iso1A3": "CPT",
+    "wikidata": "Q161258",
+    "nameEn": "Clipperton Island",
+    "country": "FR",
+    "names": [
+      "CLIPPERTON ADASI",
+      "CLIPPERTON ISLAND",
+      "ILE CLIPPERTON",
+      "CLIPPERTONINSEL",
+      "ISLA CLIPPERTON",
+      "ILHA DE CLIPPERTON",
+      "CLIPPERTON"
+    ]
+  },
+  {
+    "id": 184,
+    "iso1A2": "CR",
+    "iso1A3": "CRI",
+    "wikidata": "Q800",
+    "nameEn": "Costa Rica",
+    "names": ["KOSTA RIKA", "COSTA RICA"]
+  },
+  {
+    "id": 185,
+    "iso1A2": "CU",
+    "iso1A3": "CUB",
+    "wikidata": "Q241",
+    "nameEn": "Cuba",
+    "names": ["KUBA", "CUBA"]
+  },
+  {
+    "id": 186,
+    "iso1A2": "CV",
+    "iso1A3": "CPV",
+    "wikidata": "Q1011",
+    "nameEn": "Cape Verde",
+    "names": [
+      "YESIL BURUN ADALARI",
+      "CAPE VERDE",
+      "CAPVERT",
+      "KAP VERDE",
+      "CABO VERDE",
+      "CAPO VERDE",
+      "KAAPVERDIE"
+    ]
+  },
+  {
+    "id": 187,
+    "iso1A2": "CW",
+    "iso1A3": "CUW",
+    "wikidata": "Q25279",
+    "aliases": ["NL-CW"],
+    "nameEn": "Curaçao",
+    "country": "NL",
+    "names": ["CURACAO", "CURAZAO", "CURACAU", "NLCW"]
+  },
+  {
+    "id": 188,
+    "iso1A2": "CX",
+    "iso1A3": "CXR",
+    "wikidata": "Q31063",
+    "nameEn": "Christmas Island",
+    "country": "AU",
+    "names": [
+      "CHRISTMAS ADASI I",
+      "CHRISTMAS ISLAND",
+      "ILE CHRISTMAS",
+      "WEIHNACHTSINSEL",
+      "ISLA DE NAVIDAD",
+      "ILHA CHRISTMAS",
+      "ISOLA DI NATALE",
+      "CHRISTMASEILAND"
+    ]
+  },
+  {
+    "id": 189,
+    "iso1A2": "CY",
+    "iso1A3": "CYP",
+    "wikidata": "Q229",
+    "nameEn": "Republic of Cyprus",
+    "names": [
+      "KIBRIS",
+      "CYPRUS",
+      "CHYPRE",
+      "ZYPERN",
+      "CHIPRE",
+      "CIPRO",
+      "KYPROS",
+      "REPUBLIC OF CYPRUS"
+    ]
+  },
+  {
+    "id": 190,
+    "iso1A2": "CZ",
+    "iso1A3": "CZE",
+    "wikidata": "Q213",
+    "nameEn": "Czechia",
+    "names": [
+      "CEKYA",
+      "CZECH REPUBLIC",
+      "TCHEQUIE",
+      "TSCHECHIEN",
+      "REPUBLICA CHECA",
+      "CHEQUIA",
+      "REPUBBLICA CECA",
+      "TSJECHIE",
+      "CEAHKKA",
+      "CZECHIA"
+    ]
+  },
+  {
+    "id": 191,
+    "iso1A2": "DE",
+    "iso1A3": "DEU",
+    "wikidata": "Q183",
+    "nameEn": "Germany",
+    "names": [
+      "ALMANYA",
+      "GERMANY",
+      "ALLEMAGNE",
+      "DEUTSCHLAND",
+      "ALEMANIA",
+      "ALEMANHA",
+      "GERMANIA",
+      "DUITSLAND",
+      "DUISKA"
+    ]
+  },
+  {
+    "id": 192,
+    "iso1A2": "DG",
+    "iso1A3": "DGA",
+    "wikidata": "Q184851",
+    "nameEn": "Diego Garcia",
+    "country": "GB",
+    "names": ["DIEGO GARCIA"]
+  },
+  {
+    "id": 193,
+    "iso1A2": "DJ",
+    "iso1A3": "DJI",
+    "wikidata": "Q977",
+    "nameEn": "Djibouti",
+    "names": ["CIBUTI", "DJIBOUTI", "DSCHIBUTI", "YIBUTI", "GIBUTI"]
+  },
+  {
+    "id": 194,
+    "iso1A2": "DK",
+    "iso1A3": "DNK",
+    "wikidata": "Q756617",
+    "nameEn": "Kingdom of Denmark",
+    "names": [
+      "DANIMARKA",
+      "KINGDOM OF DENMARK",
+      "ROYAUME DE DANEMARK",
+      "KONIGREICH DANEMARK",
+      "REINO DE DINAMARCA",
+      "REINO DA DINAMARCA",
+      "REGNO DI DANIMARCA",
+      "KONINKRIJK DENEMARKEN",
+      "DANMARKKU GONAGASRIIKA"
+    ]
+  },
+  {
+    "id": 195,
+    "iso1A2": "DM",
+    "iso1A3": "DMA",
+    "wikidata": "Q784",
+    "nameEn": "Dominica",
+    "names": ["DOMINIKA", "DOMINICA", "DOMINIQUE"]
+  },
+  {
+    "id": 196,
+    "iso1A2": "DO",
+    "iso1A3": "DOM",
+    "wikidata": "Q786",
+    "nameEn": "Dominican Republic",
+    "names": [
+      "DOMINIK CUMHURIYETI",
+      "DOMINICAN REPUBLIC",
+      "REPUBLIQUE DOMINICAINE",
+      "DOMINIKANISCHE REPUBLIK",
+      "REPUBLICA DOMINICANA",
+      "REPUBBLICA DOMINICANA",
+      "DOMINICAANSE REPUBLIEK",
+      "DOMINIKANA DASSEVALDI"
+    ]
+  },
+  {
+    "id": 197,
+    "iso1A2": "DZ",
+    "iso1A3": "DZA",
+    "wikidata": "Q262",
+    "nameEn": "Algeria",
+    "names": [
+      "CEZAYIR",
+      "ALGERIA",
+      "ALGERIE",
+      "ALGERIEN",
+      "ARGELIA",
+      "ALGERIJE"
+    ]
+  },
+  {
+    "id": 198,
+    "iso1A2": "EA",
+    "wikidata": "Q28868874",
+    "nameEn": "Ceuta, Melilla",
+    "level": "territory",
+    "country": "ES",
+    "names": [
+      "CEUTA AND MELILLA",
+      "CEUTA Y MELILLA",
+      "CEUTA EN MELILLA",
+      "CEUTA MELILLA"
+    ]
+  },
+  {
+    "id": 199,
+    "iso1A2": "EC",
+    "iso1A3": "ECU",
+    "wikidata": "Q736",
+    "nameEn": "Ecuador",
+    "names": ["EKVADOR", "ECUADOR", "EQUATEUR", "EQUADOR"]
+  },
+  {
+    "id": 200,
+    "iso1A2": "EE",
+    "iso1A3": "EST",
+    "wikidata": "Q191",
+    "aliases": ["EW"],
+    "nameEn": "Estonia",
+    "names": ["ESTONYA", "ESTONIA", "ESTONIE", "ESTLAND", "ESTTEEANA", "EW"]
+  },
+  {
+    "id": 201,
+    "iso1A2": "EG",
+    "iso1A3": "EGY",
+    "wikidata": "Q79",
+    "nameEn": "Egypt",
+    "names": [
+      "MISIR",
+      "EGYPT",
+      "EGYPTE",
+      "AGYPTEN",
+      "EGIPTO",
+      "EGITO",
+      "EGITTO",
+      "EGYPTA"
+    ]
+  },
+  {
+    "id": 202,
+    "iso1A2": "EH",
+    "iso1A3": "ESH",
+    "wikidata": "Q6250",
+    "nameEn": "Western Sahara",
+    "names": [
+      "BATI SAHRA",
+      "WESTERN SAHARA",
+      "SAHARA OCCIDENTAL",
+      "WESTSAHARA",
+      "SARA OCIDENTAL",
+      "SAHARA OCCIDENTALE",
+      "WESTELIJKE SAHARA",
+      "OARJESAHARA"
+    ]
+  },
+  {
+    "id": 203,
+    "iso1A2": "ER",
+    "iso1A3": "ERI",
+    "wikidata": "Q986",
+    "nameEn": "Eritrea",
+    "names": ["ERITRE", "ERITREA", "ERYTHREE", "ERITREIA"]
+  },
+  {
+    "id": 204,
+    "iso1A2": "ES",
+    "iso1A3": "ESP",
+    "wikidata": "Q29",
+    "nameEn": "Spain",
+    "names": [
+      "ISPANYA",
+      "SPAIN",
+      "ESPAGNE",
+      "SPANIEN",
+      "ESPANA",
+      "ESPANHA",
+      "SPAGNA",
+      "SPANJE",
+      "ESPANNJA"
+    ]
+  },
+  {
+    "id": 205,
+    "iso1A2": "ET",
+    "iso1A3": "ETH",
+    "wikidata": "Q115",
+    "nameEn": "Ethiopia",
+    "names": ["ETIYOPYA", "ETHIOPIA", "ETHIOPIE", "ATHIOPIEN", "ETIOPIA"]
+  },
+  {
+    "id": 207,
+    "iso1A2": "FI",
+    "iso1A3": "FIN",
+    "wikidata": "Q33",
+    "aliases": ["SF"],
+    "nameEn": "Finland",
+    "names": [
+      "FINLANDIYA",
+      "FINLAND",
+      "FINLANDE",
+      "FINNLAND",
+      "FINLANDIA",
+      "SUOPMA",
+      "SF"
+    ]
+  },
+  {
+    "id": 208,
+    "iso1A2": "FJ",
+    "iso1A3": "FJI",
+    "wikidata": "Q712",
+    "nameEn": "Fiji",
+    "names": ["FIJI", "FIDJI", "FIDSCHI", "FIYI", "FIGI", "FIZI"]
+  },
+  {
+    "id": 209,
+    "iso1A2": "FK",
+    "iso1A3": "FLK",
+    "wikidata": "Q9648",
+    "nameEn": "Falkland Islands",
+    "country": "GB",
+    "names": [
+      "FALKLAND ADALARI",
+      "FALKLAND ISLANDS",
+      "ILES MALOUINES",
+      "FALKLANDINSELN",
+      "ISLAS MALVINAS",
+      "ILHAS MALVINAS",
+      "ISOLE FALKLAND",
+      "FALKLANDEILANDEN",
+      "FALKLANDSULLOT"
+    ]
+  },
+  {
+    "id": 210,
+    "iso1A2": "FM",
+    "iso1A3": "FSM",
+    "wikidata": "Q702",
+    "nameEn": "Federated States of Micronesia",
+    "names": [
+      "MIKRONEZYA",
+      "FEDERATED STATES OF MICRONESIA",
+      "ETATS FEDERES DE MICRONESIE",
+      "FODERIERTE STAATEN VON MIKRONESIEN",
+      "ESTADOS FEDERADOS DE MICRONESIA",
+      "MICRONESIA",
+      "STATI FEDERATI DI MICRONESIA",
+      "MICRONESIE",
+      "MIKRONESIA"
+    ]
+  },
+  {
+    "id": 211,
+    "iso1A2": "FO",
+    "iso1A3": "FRO",
+    "wikidata": "Q4628",
+    "nameEn": "Faroe Islands",
+    "country": "DK",
+    "names": [
+      "FAROE ADALARI",
+      "FAROE ISLANDS",
+      "ILES FEROE",
+      "FAROER",
+      "ISLAS FEROE",
+      "ILHAS FEROE",
+      "FAER OER",
+      "FAEROER",
+      "FEARSULLOT"
+    ]
+  },
+  {
+    "id": 212,
+    "iso1A2": "FR",
+    "iso1A3": "FRA",
+    "wikidata": "Q142",
+    "nameEn": "France",
+    "names": [
+      "FRANSA",
+      "FRANCE",
+      "FRANKREICH",
+      "FRANCIA",
+      "FRANCA",
+      "FRANKRIJK",
+      "FRANKRIIKA"
+    ]
+  },
+  {
+    "id": 213,
+    "iso1A2": "FX",
+    "iso1A3": "FXX",
+    "wikidata": "Q212429",
+    "nameEn": "Metropolitan France",
+    "country": "FR",
+    "names": [
+      "METROPOLITAN FRANSA",
+      "METROPOLITAN FRANCE",
+      "FRANCE METROPOLITAINE",
+      "METROPOLITANFRANKREICH",
+      "FRANCIA METROPOLITANA",
+      "FRANCA METROPOLITANA",
+      "METROPOLITAANS FRANKRIJK"
+    ]
+  },
+  {
+    "id": 214,
+    "iso1A2": "GA",
+    "iso1A3": "GAB",
+    "wikidata": "Q1000",
+    "nameEn": "Gabon",
+    "names": ["GABON", "GABUN", "GABAO"]
+  },
+  {
+    "id": 215,
+    "iso1A2": "GB",
+    "iso1A3": "GBR",
+    "wikidata": "Q145",
+    "aliases": ["UK"],
+    "nameEn": "United Kingdom",
+    "ccTLD": ".uk",
+    "names": [
+      "BIRLESIK KRALLIK",
+      "UNITED KINGDOM",
+      "ROYAUMEUNI",
+      "VEREINIGTES KONIGREICH",
+      "REINO UNIDO",
+      "REGNO UNITO",
+      "VERENIGD KONINKRIJK",
+      "OVTTASTUVVAN GONAGASRIIKA",
+      "UK"
+    ]
+  },
+  {
+    "id": 216,
+    "iso1A2": "GD",
+    "iso1A3": "GRD",
+    "wikidata": "Q769",
+    "aliases": ["WG"],
+    "nameEn": "Grenada",
+    "names": ["GRENADA", "GRENADE", "GRANADA", "WG"]
+  },
+  {
+    "id": 217,
+    "iso1A2": "GE",
+    "iso1A3": "GEO",
+    "wikidata": "Q230",
+    "nameEn": "Georgia",
+    "names": ["GURCISTAN", "GEORGIA", "GEORGIE", "GEORGIEN"]
+  },
+  {
+    "id": 218,
+    "iso1A2": "GF",
+    "iso1A3": "GUF",
+    "wikidata": "Q3769",
+    "nameEn": "French Guiana",
+    "country": "FR",
+    "names": [
+      "FRENCH GUIANA",
+      "GUYANE",
+      "FRANZOSISCHGUAYANA",
+      "GUAYANA FRANCESA",
+      "GUIANA FRANCESA",
+      "GUYANA FRANCESE",
+      "FRANSGUYANA",
+      "FRANKRIIKKA GUAYANA",
+      "FRANSIZ GUYANASI"
+    ]
+  },
+  {
+    "id": 219,
+    "iso1A2": "GG",
+    "iso1A3": "GGY",
+    "wikidata": "Q25230",
+    "nameEn": "Bailiwick of Guernsey",
+    "country": "GB",
+    "names": ["GUERNSEY", "BAILIWICK OF GUERNSEY", "BAILLIAGE DE GUERNESEY"]
+  },
+  {
+    "id": 220,
+    "iso1A2": "GH",
+    "iso1A3": "GHA",
+    "wikidata": "Q117",
+    "nameEn": "Ghana",
+    "names": ["GANA", "GHANA"]
+  },
+  {
+    "id": 221,
+    "iso1A2": "GI",
+    "iso1A3": "GIB",
+    "wikidata": "Q1410",
+    "nameEn": "Gibraltar",
+    "country": "GB",
+    "names": ["CEBELITARIK", "GIBRALTAR", "GIBILTERRA"]
+  },
+  {
+    "id": 222,
+    "iso1A2": "GL",
+    "iso1A3": "GRL",
+    "wikidata": "Q223",
+    "nameEn": "Greenland",
+    "country": "DK",
+    "names": [
+      "GRONLAND",
+      "GREENLAND",
+      "GROENLAND",
+      "GROENLANDIA",
+      "GRONELANDIA",
+      "KALAALLIT NUNAAT"
+    ]
+  },
+  {
+    "id": 223,
+    "iso1A2": "GM",
+    "iso1A3": "GMB",
+    "wikidata": "Q1005",
+    "nameEn": "The Gambia",
+    "names": ["GAMBIYA", "THE GAMBIA", "GAMBIE", "GAMBIA"]
+  },
+  {
+    "id": 224,
+    "iso1A2": "GN",
+    "iso1A3": "GIN",
+    "wikidata": "Q1006",
+    "nameEn": "Guinea",
+    "names": ["GINE", "GUINEA", "GUINEE", "GUINE"]
+  },
+  {
+    "id": 225,
+    "iso1A2": "GP",
+    "iso1A3": "GLP",
+    "wikidata": "Q17012",
+    "nameEn": "Guadeloupe",
+    "country": "FR",
+    "names": ["GUADELOUPE", "GUADALUPE", "GUADALUPA"]
+  },
+  {
+    "id": 226,
+    "iso1A2": "GQ",
+    "iso1A3": "GNQ",
+    "wikidata": "Q983",
+    "nameEn": "Equatorial Guinea",
+    "names": [
+      "EKVATOR GINESI",
+      "EQUATORIAL GUINEA",
+      "GUINEE EQUATORIALE",
+      "AQUATORIALGUINEA",
+      "GUINEA ECUATORIAL",
+      "GUINE EQUATORIAL",
+      "GUINEA EQUATORIALE",
+      "EQUATORIAALGUINEA",
+      "EKVATORIALA GUINEA"
+    ]
+  },
+  {
+    "id": 227,
+    "iso1A2": "GR",
+    "iso1A3": "GRC",
+    "wikidata": "Q41",
+    "aliases": ["EL"],
+    "nameEn": "Greece",
+    "names": [
+      "YUNANISTAN",
+      "GREECE",
+      "GRECE",
+      "GRIECHENLAND",
+      "GRECIA",
+      "GRIEKENLAND",
+      "GREIKA",
+      "EL"
+    ]
+  },
+  {
+    "id": 228,
+    "iso1A2": "GS",
+    "iso1A3": "SGS",
+    "wikidata": "Q35086",
+    "nameEn": "South Georgia and South Sandwich Islands",
+    "country": "GB",
+    "names": [
+      "GUNEY GEORGIA VE GUNEY SANDWICH ADALARI",
+      "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
+      "GEORGIE DU SUDETLES ILES SANDWICH DU SUD",
+      "SUDGEORGIEN UND DIE SUDLICHEN SANDWICHINSELN",
+      "ISLAS GEORGIAS DEL SUR Y SANDWICH DEL SUR",
+      "ILHAS GEORGIA DO SUL E SANDWICH DO SUL",
+      "GEORGIA DEL SUD E ISOLE SANDWICH MERIDIONALI",
+      "ZUIDGEORGIA EN DE ZUIDELIJKE SANDWICHEILANDEN",
+      "LULLI GEORGIA JA LULLI SANDWICHSULLOT",
+      "SOUTH GEORGIA AND SOUTH SANDWICH ISLANDS"
+    ]
+  },
+  {
+    "id": 229,
+    "iso1A2": "GT",
+    "iso1A3": "GTM",
+    "wikidata": "Q774",
+    "nameEn": "Guatemala",
+    "names": ["GUATEMALA"]
+  },
+  {
+    "id": 230,
+    "iso1A2": "GU",
+    "iso1A3": "GUM",
+    "wikidata": "Q16635",
+    "aliases": ["US-GU"],
+    "nameEn": "Guam",
+    "country": "US",
+    "names": ["GUAM", "USGU"]
+  },
+  {
+    "id": 231,
+    "iso1A2": "GW",
+    "iso1A3": "GNB",
+    "wikidata": "Q1007",
+    "nameEn": "Guinea-Bissau",
+    "names": [
+      "GINEBISSAU",
+      "GUINEABISSAU",
+      "GUINEEBISSAU",
+      "GUINEABISAU",
+      "GUINEBISSAU"
+    ]
+  },
+  {
+    "id": 232,
+    "iso1A2": "GY",
+    "iso1A3": "GUY",
+    "wikidata": "Q734",
+    "nameEn": "Guyana",
+    "names": ["GUYANA", "GUIANA"]
+  },
+  {
+    "id": 233,
+    "iso1A2": "HK",
+    "iso1A3": "HKG",
+    "wikidata": "Q8646",
+    "nameEn": "Hong Kong",
+    "country": "CN",
+    "names": ["HONG KONG", "HONGKONG"]
+  },
+  {
+    "id": 234,
+    "iso1A2": "HM",
+    "iso1A3": "HMD",
+    "wikidata": "Q131198",
+    "nameEn": "Heard Island and McDonald Islands",
+    "country": "AU",
+    "names": [
+      "HEARD ADASI VE MCDONALD ADALARI",
+      "HEARD ISLAND AND MCDONALD ISLANDS",
+      "ILES HEARDETMACDONALD",
+      "HEARD UND MCDONALDINSELN",
+      "ISLAS HEARD Y MCDONALD",
+      "ILHA HEARD E ILHAS MCDONALD",
+      "ISOLE HEARD E MCDONALD",
+      "HEARD EN MCDONALDEILANDEN"
+    ]
+  },
+  {
+    "id": 235,
+    "iso1A2": "HN",
+    "iso1A3": "HND",
+    "wikidata": "Q783",
+    "nameEn": "Honduras",
+    "names": ["HONDURAS"]
+  },
+  {
+    "id": 236,
+    "iso1A2": "HR",
+    "iso1A3": "HRV",
+    "wikidata": "Q224",
+    "nameEn": "Croatia",
+    "names": [
+      "HIRVATISTAN",
+      "CROATIA",
+      "CROATIE",
+      "KROATIEN",
+      "CROACIA",
+      "CROAZIA",
+      "KROATIE",
+      "KROATIA"
+    ]
+  },
+  {
+    "id": 237,
+    "iso1A2": "HT",
+    "iso1A3": "HTI",
+    "wikidata": "Q790",
+    "aliases": ["RH"],
+    "nameEn": "Haiti",
+    "names": ["HAITI", "RH"]
+  },
+  {
+    "id": 238,
+    "iso1A2": "HU",
+    "iso1A3": "HUN",
+    "wikidata": "Q28",
+    "nameEn": "Hungary",
+    "names": [
+      "MACARISTAN",
+      "HUNGARY",
+      "HONGRIE",
+      "UNGARN",
+      "HUNGRIA",
+      "UNGHERIA",
+      "HONGARIJE",
+      "UNGARA"
+    ]
+  },
+  {
+    "id": 239,
+    "iso1A2": "IC",
+    "wikidata": "Q5813",
+    "nameEn": "Canary Islands",
+    "country": "ES",
+    "names": [
+      "KANARYA ADALARI",
+      "CANARY ISLANDS",
+      "ILES CANARIES",
+      "KANARISCHE INSELN",
+      "CANARIAS",
+      "ISOLE CANARIE",
+      "CANARISCHE EILANDEN",
+      "KANARIASULLOT"
+    ]
+  },
+  {
+    "id": 240,
+    "iso1A2": "ID",
+    "iso1A3": "IDN",
+    "wikidata": "Q252",
+    "aliases": ["RI"],
+    "nameEn": "Indonesia",
+    "names": ["ENDONEZYA", "INDONESIA", "INDONESIE", "INDONESIEN", "RI"]
+  },
+  {
+    "id": 241,
+    "iso1A2": "IE",
+    "iso1A3": "IRL",
+    "wikidata": "Q27",
+    "nameEn": "Republic of Ireland",
+    "names": [
+      "IRLANDA",
+      "REPUBLIC OF IRELAND",
+      "IRLANDE",
+      "IRLAND",
+      "REPUBLICA DA IRLANDA",
+      "IERLAND"
+    ]
+  },
+  {
+    "id": 242,
+    "iso1A2": "IL",
+    "iso1A3": "ISR",
+    "wikidata": "Q801",
+    "nameEn": "Israel",
+    "names": ["ISRAIL", "ISRAEL", "ISRAELE"]
+  },
+  {
+    "id": 243,
+    "iso1A2": "IM",
+    "iso1A3": "IMN",
+    "wikidata": "Q9676",
+    "nameEn": "Isle of Man",
+    "country": "GB",
+    "names": [
+      "MAN ADASI",
+      "ISLE OF MAN",
+      "ILE DE MAN",
+      "ISLA DE MAN",
+      "ILHA DE MAN",
+      "ISOLA DI MAN",
+      "MAN",
+      "MANNIN"
+    ]
+  },
+  {
+    "id": 244,
+    "iso1A2": "IN",
+    "iso1A3": "IND",
+    "wikidata": "Q668",
+    "nameEn": "India",
+    "names": ["HINDISTAN", "INDIA", "INDE", "INDIEN"]
+  },
+  {
+    "id": 245,
+    "iso1A2": "IO",
+    "iso1A3": "IOT",
+    "wikidata": "Q43448",
+    "nameEn": "British Indian Ocean Territory",
+    "country": "GB",
+    "names": [
+      "BRITANYA HINT OKYANUSU TOPRAKLARI",
+      "BRITISH INDIAN OCEAN TERRITORY",
+      "TERRITOIRE BRITANNIQUE DE L’OCEAN INDIEN",
+      "BRITISCHES TERRITORIUM IM INDISCHEN OZEAN",
+      "TERRITORIO BRITANICO DEL OCEANO INDICO",
+      "TERRITORIO BRITANICO DO OCEANO INDICO",
+      "TERRITORIO BRITANNICO DELLOCEANO INDIANO",
+      "BRITS INDISCHE OCEAANTERRITORIUM"
+    ]
+  },
+  {
+    "id": 246,
+    "iso1A2": "IQ",
+    "iso1A3": "IRQ",
+    "wikidata": "Q796",
+    "nameEn": "Iraq",
+    "names": ["IRAK", "IRAQ", "IRAQUE"]
+  },
+  {
+    "id": 247,
+    "iso1A2": "IR",
+    "iso1A3": "IRN",
+    "wikidata": "Q794",
+    "nameEn": "Iran",
+    "names": ["IRAN", "IRAO"]
+  },
+  {
+    "id": 248,
+    "iso1A2": "IS",
+    "iso1A3": "ISL",
+    "wikidata": "Q189",
+    "nameEn": "Iceland",
+    "names": [
+      "IZLANDA",
+      "ICELAND",
+      "ISLANDE",
+      "ISLAND",
+      "ISLANDIA",
+      "ISLANDA",
+      "IJSLAND"
+    ]
+  },
+  {
+    "id": 249,
+    "iso1A2": "IT",
+    "iso1A3": "ITA",
+    "wikidata": "Q38",
+    "nameEn": "Italy",
+    "names": ["ITALYA", "ITALY", "ITALIE", "ITALIEN", "ITALIA"]
+  },
+  {
+    "id": 250,
+    "iso1A2": "JE",
+    "iso1A3": "JEY",
+    "wikidata": "Q785",
+    "nameEn": "Bailiwick of Jersey",
+    "country": "GB",
+    "names": ["JERSEY", "BAILIWICK OF JERSEY"]
+  },
+  {
+    "id": 251,
+    "iso1A2": "JM",
+    "iso1A3": "JAM",
+    "wikidata": "Q766",
+    "aliases": ["JA"],
+    "nameEn": "Jamaica",
+    "names": ["JAMAIKA", "JAMAICA", "JAMAIQUE", "GIAMAICA", "JA"]
+  },
+  {
+    "id": 252,
+    "iso1A2": "JO",
+    "iso1A3": "JOR",
+    "wikidata": "Q810",
+    "nameEn": "Jordan",
+    "names": [
+      "URDUN",
+      "JORDAN",
+      "JORDANIE",
+      "JORDANIEN",
+      "JORDANIA",
+      "GIORDANIA"
+    ]
+  },
+  {
+    "id": 253,
+    "iso1A2": "JP",
+    "iso1A3": "JPN",
+    "wikidata": "Q17",
+    "nameEn": "Japan",
+    "names": ["JAPONYA", "JAPAN", "JAPON", "JAPAO", "GIAPPONE", "JAPANA"]
+  },
+  {
+    "id": 254,
+    "iso1A2": "KE",
+    "iso1A3": "KEN",
+    "wikidata": "Q114",
+    "nameEn": "Kenya",
+    "names": ["KENYA", "KENIA", "QUENIA"]
+  },
+  {
+    "id": 255,
+    "iso1A2": "KG",
+    "iso1A3": "KGZ",
+    "wikidata": "Q813",
+    "nameEn": "Kyrgyzstan",
+    "names": [
+      "KIRGIZISTAN",
+      "KYRGYZSTAN",
+      "KIRGHIZISTAN",
+      "KIRGISISTAN",
+      "KIRGUISTAN",
+      "QUIRGUISTAO",
+      "KIRGIZIE"
+    ]
+  },
+  {
+    "id": 256,
+    "iso1A2": "KH",
+    "iso1A3": "KHM",
+    "wikidata": "Q424",
+    "nameEn": "Cambodia",
+    "names": [
+      "KAMBOCYA",
+      "CAMBODIA",
+      "CAMBODGE",
+      "KAMBODSCHA",
+      "CAMBOYA",
+      "CAMBOJA",
+      "CAMBOGIA",
+      "CAMBODJA",
+      "KAMBODJA"
+    ]
+  },
+  {
+    "id": 257,
+    "iso1A2": "KI",
+    "iso1A3": "KIR",
+    "wikidata": "Q710",
+    "nameEn": "Kiribati",
+    "names": ["KIRIBATI"]
+  },
+  {
+    "id": 258,
+    "iso1A2": "KM",
+    "iso1A3": "COM",
+    "wikidata": "Q970",
+    "nameEn": "Comoros",
+    "names": [
+      "KOMORLAR",
+      "COMOROS",
+      "COMORES",
+      "KOMOREN",
+      "COMORAS",
+      "COMORE",
+      "COMOREN",
+      "KOMOROSULLOT"
+    ]
+  },
+  {
+    "id": 259,
+    "iso1A2": "KN",
+    "iso1A3": "KNA",
+    "wikidata": "Q763",
+    "nameEn": "St. Kitts and Nevis",
+    "names": [
+      "SAINT KITTS VE NEVIS",
+      "SAINT KITTS AND NEVIS",
+      "SAINTCHRISTOPHEETNIEVES",
+      "ST KITTS UND NEVIS",
+      "SAN CRISTOBAL Y NIEVES",
+      "SAO CRISTOVAO E NEVES",
+      "SAINT KITTS E NEVIS",
+      "SAINT KITTS EN NEVIS",
+      "SAINT KITTS JA NEVIS",
+      "ST KITTS AND NEVIS"
+    ]
+  },
+  {
+    "id": 260,
+    "iso1A2": "KP",
+    "iso1A3": "PRK",
+    "wikidata": "Q423",
+    "nameEn": "North Korea",
+    "names": [
+      "KUZEY KORE",
+      "NORTH KOREA",
+      "COREE DU NORD",
+      "NORDKOREA",
+      "COREA DEL NORTE",
+      "COREIA DO NORTE",
+      "COREA DEL NORD",
+      "NOORDKOREA",
+      "DAVVIKOREA"
+    ]
+  },
+  {
+    "id": 261,
+    "iso1A2": "KR",
+    "iso1A3": "KOR",
+    "wikidata": "Q884",
+    "nameEn": "South Korea",
+    "names": [
+      "GUNEY KORE",
+      "SOUTH KOREA",
+      "COREE DU SUD",
+      "SUDKOREA",
+      "COREA DEL SUR",
+      "COREIA DO SUL",
+      "COREA DEL SUD",
+      "ZUIDKOREA",
+      "LULLIKOREA"
+    ]
+  },
+  {
+    "id": 262,
+    "iso1A2": "KW",
+    "iso1A3": "KWT",
+    "wikidata": "Q817",
+    "nameEn": "Kuwait",
+    "names": ["KUVEYT", "KUWAIT", "KOWEIT", "KOEWEIT"]
+  },
+  {
+    "id": 263,
+    "iso1A2": "KY",
+    "iso1A3": "CYM",
+    "wikidata": "Q5785",
+    "nameEn": "Cayman Islands",
+    "country": "GB",
+    "names": [
+      "CAYMAN ADALARI",
+      "CAYMAN ISLANDS",
+      "ILES CAIMANS",
+      "ISLAS CAIMAN",
+      "ILHAS CAYMAN",
+      "ISOLE CAYMAN",
+      "KAAIMANEILANDEN"
+    ]
+  },
+  {
+    "id": 264,
+    "iso1A2": "KZ",
+    "iso1A3": "KAZ",
+    "wikidata": "Q232",
+    "nameEn": "Kazakhstan",
+    "names": [
+      "KAZAKISTAN",
+      "KAZAKHSTAN",
+      "KASACHSTAN",
+      "KAZAJISTAN",
+      "CAZAQUISTAO",
+      "KAZACHSTAN",
+      "KAZAKSTAN"
+    ]
+  },
+  {
+    "id": 265,
+    "iso1A2": "LA",
+    "iso1A3": "LAO",
+    "wikidata": "Q819",
+    "nameEn": "Laos",
+    "names": ["LAOS"]
+  },
+  {
+    "id": 266,
+    "iso1A2": "LB",
+    "iso1A3": "LBN",
+    "wikidata": "Q822",
+    "aliases": ["RL"],
+    "nameEn": "Lebanon",
+    "names": ["LUBNAN", "LEBANON", "LIBAN", "LIBANON", "LIBANO", "RL"]
+  },
+  {
+    "id": 267,
+    "iso1A2": "LC",
+    "iso1A3": "LCA",
+    "wikidata": "Q760",
+    "aliases": ["WL"],
+    "nameEn": "St. Lucia",
+    "names": ["SAINT LUCIA", "SAINTELUCIE", "ST LUCIA", "SANTA LUCIA", "WL"]
+  },
+  {
+    "id": 268,
+    "iso1A2": "LI",
+    "iso1A3": "LIE",
+    "wikidata": "Q347",
+    "aliases": ["FL"],
+    "nameEn": "Liechtenstein",
+    "names": ["LIHTENSTAYN", "LIECHTENSTEIN", "FL"]
+  },
+  {
+    "id": 269,
+    "iso1A2": "LK",
+    "iso1A3": "LKA",
+    "wikidata": "Q854",
+    "nameEn": "Sri Lanka",
+    "names": ["SRI LANKA"]
+  },
+  {
+    "id": 270,
+    "iso1A2": "LR",
+    "iso1A3": "LBR",
+    "wikidata": "Q1014",
+    "nameEn": "Liberia",
+    "names": ["LIBERYA", "LIBERIA"]
+  },
+  {
+    "id": 271,
+    "iso1A2": "LS",
+    "iso1A3": "LSO",
+    "wikidata": "Q1013",
+    "nameEn": "Lesotho",
+    "names": ["LESOTHO", "LESOTO"]
+  },
+  {
+    "id": 272,
+    "iso1A2": "LT",
+    "iso1A3": "LTU",
+    "wikidata": "Q37",
+    "nameEn": "Lithuania",
+    "names": [
+      "LITVANYA",
+      "LITHUANIA",
+      "LITUANIE",
+      "LITAUEN",
+      "LITUANIA",
+      "LITOUWEN",
+      "LIETUVA"
+    ]
+  },
+  {
+    "id": 273,
+    "iso1A2": "LU",
+    "iso1A3": "LUX",
+    "wikidata": "Q32",
+    "nameEn": "Luxembourg",
+    "names": [
+      "LUKSEMBURG",
+      "LUXEMBOURG",
+      "LUXEMBURG",
+      "LUXEMBURGO",
+      "LUSSEMBURGO"
+    ]
+  },
+  {
+    "id": 274,
+    "iso1A2": "LV",
+    "iso1A3": "LVA",
+    "wikidata": "Q211",
+    "nameEn": "Latvia",
+    "names": [
+      "LETONYA",
+      "LATVIA",
+      "LETTONIE",
+      "LETTLAND",
+      "LETONIA",
+      "LETTONIA",
+      "LETLAND"
+    ]
+  },
+  {
+    "id": 275,
+    "iso1A2": "LY",
+    "iso1A3": "LBY",
+    "wikidata": "Q1016",
+    "nameEn": "Libya",
+    "names": ["LIBYA", "LIBYE", "LIBYEN", "LIBIA", "LIBIE"]
+  },
+  {
+    "id": 276,
+    "iso1A2": "MA",
+    "iso1A3": "MAR",
+    "wikidata": "Q1028",
+    "nameEn": "Morocco",
+    "names": [
+      "FAS",
+      "MOROCCO",
+      "MAROC",
+      "MAROKKO",
+      "MARRUECOS",
+      "MARROCOS",
+      "MAROCCO"
+    ]
+  },
+  {
+    "id": 277,
+    "iso1A2": "MC",
+    "iso1A3": "MCO",
+    "wikidata": "Q235",
+    "nameEn": "Monaco",
+    "names": ["MONAKO", "MONACO"]
+  },
+  {
+    "id": 278,
+    "iso1A2": "MD",
+    "iso1A3": "MDA",
+    "wikidata": "Q217",
+    "nameEn": "Moldova",
+    "names": ["MOLDOVA", "MOLDAVIE", "MOLDAU", "MOLDAVIA"]
+  },
+  {
+    "id": 279,
+    "iso1A2": "ME",
+    "iso1A3": "MNE",
+    "wikidata": "Q236",
+    "nameEn": "Montenegro",
+    "names": ["KARADAG", "MONTENEGRO"]
+  },
+  {
+    "id": 280,
+    "iso1A2": "MF",
+    "iso1A3": "MAF",
+    "wikidata": "Q126125",
+    "nameEn": "Saint-Martin",
+    "country": "FR",
+    "names": [
+      "SAINT MARTIN",
+      "SAINTMARTIN",
+      "SAN MARTIN",
+      "SAO MARTINHO",
+      "SINTMAARTEN"
+    ]
+  },
+  {
+    "id": 281,
+    "iso1A2": "MG",
+    "iso1A3": "MDG",
+    "wikidata": "Q1019",
+    "aliases": ["RM"],
+    "nameEn": "Madagascar",
+    "names": ["MADAGASKAR", "MADAGASCAR", "RM"]
+  },
+  {
+    "id": 282,
+    "iso1A2": "MH",
+    "iso1A3": "MHL",
+    "wikidata": "Q709",
+    "nameEn": "Marshall Islands",
+    "names": [
+      "MARSHALL ADALARI",
+      "MARSHALL ISLANDS",
+      "ILES MARSHALL",
+      "MARSHALLINSELN",
+      "ISLAS MARSHALL",
+      "ILHAS MARSHALL",
+      "ISOLE MARSHALL",
+      "MARSHALLEILANDEN",
+      "MARSHALLSULLOT"
+    ]
+  },
+  {
+    "id": 283,
+    "iso1A2": "MK",
+    "iso1A3": "MKD",
+    "wikidata": "Q221",
+    "nameEn": "North Macedonia",
+    "names": [
+      "KUZEY MAKEDONYA",
+      "NORTH MACEDONIA",
+      "MACEDOINE DU NORD",
+      "NORDMAZEDONIEN",
+      "MACEDONIA DEL NORTE",
+      "MACEDONIA DO NORTE",
+      "MACEDONIA DEL NORD",
+      "NOORDMACEDONIE",
+      "DAVVIMAKEDONIA"
+    ]
+  },
+  {
+    "id": 284,
+    "iso1A2": "ML",
+    "iso1A3": "MLI",
+    "wikidata": "Q912",
+    "nameEn": "Mali",
+    "names": ["MALI"]
+  },
+  {
+    "id": 285,
+    "iso1A2": "MM",
+    "iso1A3": "MMR",
+    "wikidata": "Q836",
+    "aliases": ["Burma", "BU"],
+    "nameEn": "Myanmar",
+    "names": ["MYANMAR", "BIRMANIE", "BIRMANIA", "BURMA", "BU"]
+  },
+  {
+    "id": 286,
+    "iso1A2": "MN",
+    "iso1A3": "MNG",
+    "wikidata": "Q711",
+    "nameEn": "Mongolia",
+    "names": ["MOGOLISTAN", "MONGOLIA", "MONGOLIE", "MONGOLEI"]
+  },
+  {
+    "id": 287,
+    "iso1A2": "MO",
+    "iso1A3": "MAC",
+    "wikidata": "Q14773",
+    "aliases": ["Macao"],
+    "nameEn": "Macau",
+    "country": "CN",
+    "names": ["MAKAO", "MACAU", "MACAO"]
+  },
+  {
+    "id": 288,
+    "iso1A2": "MP",
+    "iso1A3": "MNP",
+    "wikidata": "Q16644",
+    "aliases": ["US-MP"],
+    "nameEn": "Northern Mariana Islands",
+    "country": "US",
+    "names": [
+      "KUZEY MARIANA ADALARI",
+      "NORTHERN MARIANA ISLANDS",
+      "ILES MARIANNES DU NORD",
+      "NORDLICHE MARIANEN",
+      "ISLAS MARIANAS DEL NORTE",
+      "MARIANAS SETENTRIONAIS",
+      "ISOLE MARIANNE SETTENTRIONALI",
+      "NOORDELIJKE MARIANEN",
+      "DAVVEMARIANAT",
+      "USMP"
+    ]
+  },
+  {
+    "id": 289,
+    "iso1A2": "MQ",
+    "iso1A3": "MTQ",
+    "wikidata": "Q17054",
+    "nameEn": "Martinique",
+    "country": "FR",
+    "names": ["MARTINIQUE", "MARTINICA", "MARTINIK"]
+  },
+  {
+    "id": 290,
+    "iso1A2": "MR",
+    "iso1A3": "MRT",
+    "wikidata": "Q1025",
+    "nameEn": "Mauritania",
+    "names": ["MORITANYA", "MAURITANIA", "MAURITANIE", "MAURETANIEN"]
+  },
+  {
+    "id": 291,
+    "iso1A2": "MS",
+    "iso1A3": "MSR",
+    "wikidata": "Q13353",
+    "nameEn": "Montserrat",
+    "country": "GB",
+    "names": ["MONTSERRAT", "MONSERRATE"]
+  },
+  {
+    "id": 292,
+    "iso1A2": "MT",
+    "iso1A3": "MLT",
+    "wikidata": "Q233",
+    "nameEn": "Malta",
+    "names": ["MALTA", "MALTE"]
+  },
+  {
+    "id": 293,
+    "iso1A2": "MU",
+    "iso1A3": "MUS",
+    "wikidata": "Q1027",
+    "nameEn": "Mauritius",
+    "names": ["MAURITIUS", "MAURICE", "MAURICIO", "MAURICIA"]
+  },
+  {
+    "id": 294,
+    "iso1A2": "MV",
+    "iso1A3": "MDV",
+    "wikidata": "Q826",
+    "nameEn": "Maldives",
+    "names": [
+      "MALDIVLER",
+      "MALDIVES",
+      "MALEDIVEN",
+      "MALDIVAS",
+      "MALDIVE",
+      "MALEDIIVVAT"
+    ]
+  },
+  {
+    "id": 295,
+    "iso1A2": "MW",
+    "iso1A3": "MWI",
+    "wikidata": "Q1020",
+    "nameEn": "Malawi",
+    "names": ["MALAVI", "MALAWI", "MALAUI"]
+  },
+  {
+    "id": 296,
+    "iso1A2": "MX",
+    "iso1A3": "MEX",
+    "wikidata": "Q96",
+    "nameEn": "Mexico",
+    "names": ["MEKSIKA", "MEXICO", "MEXIQUE", "MEXIKO", "MESSICO", "MEKSIKO"]
+  },
+  {
+    "id": 297,
+    "iso1A2": "MY",
+    "iso1A3": "MYS",
+    "wikidata": "Q833",
+    "nameEn": "Malaysia",
+    "names": [
+      "MALEZYA",
+      "MALAYSIA",
+      "MALAISIE",
+      "MALASIA",
+      "MALEISIE",
+      "MALESIA"
+    ]
+  },
+  {
+    "id": 298,
+    "iso1A2": "MZ",
+    "iso1A3": "MOZ",
+    "wikidata": "Q1029",
+    "nameEn": "Mozambique",
+    "names": ["MOZAMBIK", "MOZAMBIQUE", "MOSAMBIK", "MOCAMBIQUE", "MOZAMBICO"]
+  },
+  {
+    "id": 299,
+    "iso1A2": "NA",
+    "iso1A3": "NAM",
+    "wikidata": "Q1030",
+    "nameEn": "Namibia",
+    "names": ["NAMIBYA", "NAMIBIA", "NAMIBIE"]
+  },
+  {
+    "id": 300,
+    "iso1A2": "NC",
+    "iso1A3": "NCL",
+    "wikidata": "Q33788",
+    "nameEn": "New Caledonia",
+    "country": "FR",
+    "names": [
+      "YENI KALEDONYA",
+      "NEW CALEDONIA",
+      "NOUVELLECALEDONIE",
+      "NEUKALEDONIEN",
+      "NUEVA CALEDONIA",
+      "NOVA CALEDONIA",
+      "NUOVA CALEDONIA",
+      "NIEUWCALEDONIE",
+      "ODDAKALEDONIA"
+    ]
+  },
+  {
+    "id": 301,
+    "iso1A2": "NE",
+    "iso1A3": "NER",
+    "wikidata": "Q1032",
+    "aliases": ["RN"],
+    "nameEn": "Niger",
+    "names": ["NIJER", "NIGER", "RN"]
+  },
+  {
+    "id": 302,
+    "iso1A2": "NF",
+    "iso1A3": "NFK",
+    "wikidata": "Q31057",
+    "nameEn": "Norfolk Island",
+    "country": "AU",
+    "names": [
+      "NORFOLK ADASI",
+      "NORFOLK ISLAND",
+      "ILE NORFOLK",
+      "NORFOLKINSEL",
+      "ISLA NORFOLK",
+      "ILHA NORFOLK",
+      "ISOLA NORFOLK",
+      "NORFOLK"
+    ]
+  },
+  {
+    "id": 303,
+    "iso1A2": "NG",
+    "iso1A3": "NGA",
+    "wikidata": "Q1033",
+    "nameEn": "Nigeria",
+    "names": ["NIJERYA", "NIGERIA"]
+  },
+  {
+    "id": 304,
+    "iso1A2": "NI",
+    "iso1A3": "NIC",
+    "wikidata": "Q811",
+    "nameEn": "Nicaragua",
+    "names": ["NIKARAGUA", "NICARAGUA"]
+  },
+  {
+    "id": 305,
+    "iso1A2": "NL",
+    "iso1A3": "NLD",
+    "wikidata": "Q29999",
+    "nameEn": "Kingdom of the Netherlands",
+    "names": [
+      "HOLLANDA KRALLIGI",
+      "KINGDOM OF THE NETHERLANDS",
+      "ROYAUME DES PAYSBAS",
+      "KONIGREICH DER NIEDERLANDE",
+      "REINO DE LOS PAISES BAJOS",
+      "REINO DOS PAISES BAIXOS",
+      "REGNO DEI PAESI BASSI",
+      "KONINKRIJK DER NEDERLANDEN",
+      "VUOLLEEATNAMIID GONAGASRIIKA"
+    ]
+  },
+  {
+    "id": 306,
+    "iso1A2": "NO",
+    "iso1A3": "NOR",
+    "wikidata": "Q20",
+    "nameEn": "Norway",
+    "names": [
+      "NORVEC",
+      "NORWAY",
+      "NORVEGE",
+      "NORWEGEN",
+      "NORUEGA",
+      "NORVEGIA",
+      "NOORWEGEN",
+      "NORGA"
+    ]
+  },
+  {
+    "id": 307,
+    "iso1A2": "NP",
+    "iso1A3": "NPL",
+    "wikidata": "Q837",
+    "nameEn": "Nepal",
+    "names": ["NEPAL"]
+  },
+  {
+    "id": 308,
+    "iso1A2": "NR",
+    "iso1A3": "NRU",
+    "wikidata": "Q697",
+    "nameEn": "Nauru",
+    "names": ["NAURU"]
+  },
+  {
+    "id": 309,
+    "iso1A2": "NU",
+    "iso1A3": "NIU",
+    "wikidata": "Q34020",
+    "nameEn": "Niue",
+    "country": "NZ",
+    "names": ["NIUE"]
+  },
+  {
+    "id": 310,
+    "iso1A2": "NZ",
+    "iso1A3": "NZL",
+    "wikidata": "Q664",
+    "nameEn": "New Zealand",
+    "names": [
+      "YENI ZELANDA",
+      "NEW ZEALAND",
+      "NOUVELLEZELANDE",
+      "NEUSEELAND",
+      "NUEVA ZELANDA",
+      "NOVA ZELANDIA",
+      "NUOVA ZELANDA",
+      "NIEUWZEELAND",
+      "AOTEAROA"
+    ]
+  },
+  {
+    "id": 311,
+    "iso1A2": "OM",
+    "iso1A3": "OMN",
+    "wikidata": "Q842",
+    "nameEn": "Oman",
+    "names": ["UMMAN", "OMAN", "OMA"]
+  },
+  {
+    "id": 312,
+    "iso1A2": "PA",
+    "iso1A3": "PAN",
+    "wikidata": "Q804",
+    "nameEn": "Panama",
+    "names": ["PANAMA"]
+  },
+  {
+    "id": 313,
+    "iso1A2": "PE",
+    "iso1A3": "PER",
+    "wikidata": "Q419",
+    "nameEn": "Peru",
+    "names": ["PERU", "PEROU"]
+  },
+  {
+    "id": 314,
+    "iso1A2": "PF",
+    "iso1A3": "PYF",
+    "wikidata": "Q30971",
+    "nameEn": "French Polynesia",
+    "country": "FR",
+    "names": [
+      "FRANSIZ POLINEZYASI",
+      "FRENCH POLYNESIA",
+      "POLYNESIE FRANCAISE",
+      "FRANZOSISCHPOLYNESIEN",
+      "POLINESIA FRANCESA",
+      "POLINESIA FRANCESE",
+      "FRANSPOLYNESIE",
+      "FRANKRIIKKA POLYNESIA"
+    ]
+  },
+  {
+    "id": 315,
+    "iso1A2": "PG",
+    "iso1A3": "PNG",
+    "wikidata": "Q691",
+    "nameEn": "Papua New Guinea",
+    "names": [
+      "PAPUA YENI GINE",
+      "PAPUA NEW GUINEA",
+      "PAPOUASIENOUVELLEGUINEE",
+      "PAPUANEUGUINEA",
+      "PAPUA NUEVA GUINEA",
+      "PAPUANOVA GUINE",
+      "PAPUA NUOVA GUINEA",
+      "PAPOEANIEUWGUINEA",
+      "PAPUA ODDAGUINEA"
+    ]
+  },
+  {
+    "id": 316,
+    "iso1A2": "PH",
+    "iso1A3": "PHL",
+    "wikidata": "Q928",
+    "aliases": ["PI", "RP"],
+    "nameEn": "Philippines",
+    "names": [
+      "FILIPINLER",
+      "PHILIPPINES",
+      "PHILIPPINEN",
+      "FILIPINAS",
+      "FILIPPINE",
+      "FILIPIJNEN",
+      "FILIPIINNAT",
+      "PI",
+      "RP"
+    ]
+  },
+  {
+    "id": 317,
+    "iso1A2": "PK",
+    "iso1A3": "PAK",
+    "wikidata": "Q843",
+    "nameEn": "Pakistan",
+    "names": ["PAKISTAN", "PAQUISTAO"]
+  },
+  {
+    "id": 318,
+    "iso1A2": "PL",
+    "iso1A3": "POL",
+    "wikidata": "Q36",
+    "nameEn": "Poland",
+    "names": ["POLONYA", "POLAND", "POLOGNE", "POLEN", "POLONIA", "POLSKA"]
+  },
+  {
+    "id": 319,
+    "iso1A2": "PM",
+    "iso1A3": "SPM",
+    "wikidata": "Q34617",
+    "nameEn": "Saint Pierre and Miquelon",
+    "country": "FR",
+    "names": [
+      "SAINT PIERRE AND MIQUELON",
+      "SAINTPIERREETMIQUELON",
+      "SAINTPIERRE UND MIQUELON",
+      "SAN PEDRO Y MIQUELON",
+      "SAINTPIERRE E MIQUELON",
+      "SAINTPIERRE EN MIQUELON"
+    ]
+  },
+  {
+    "id": 320,
+    "iso1A2": "PN",
+    "iso1A3": "PCN",
+    "wikidata": "Q35672",
+    "nameEn": "Pitcairn Islands",
+    "country": "GB",
+    "names": [
+      "PITCAIRN ADALARI",
+      "PITCAIRN ISLANDS",
+      "ILES PITCAIRN",
+      "PITCAIRNINSELN",
+      "ISLAS PITCAIRN",
+      "ILHAS PITCAIRN",
+      "ISOLE PITCAIRN",
+      "PITCAIRNEILANDEN",
+      "PITCAIRN"
+    ]
+  },
+  {
+    "id": 321,
+    "iso1A2": "PR",
+    "iso1A3": "PRI",
+    "wikidata": "Q1183",
+    "aliases": ["US-PR"],
+    "nameEn": "Puerto Rico",
+    "country": "US",
+    "names": ["PORTO RIKO", "PUERTO RICO", "PORTO RICO", "USPR"]
+  },
+  {
+    "id": 322,
+    "iso1A2": "PS",
+    "iso1A3": "PSE",
+    "wikidata": "Q219060",
+    "nameEn": "Palestine",
+    "names": [
+      "FILISTIN DEVLETI",
+      "STATE OF PALESTINE",
+      "ETAT DE PALESTINE",
+      "STAAT PALASTINA",
+      "ESTADO DE PALESTINA",
+      "ESTADO DA PALESTINA",
+      "PALESTINA",
+      "STAAT PALESTINA",
+      "PALESTINE"
+    ]
+  },
+  {
+    "id": 323,
+    "iso1A2": "PT",
+    "iso1A3": "PRT",
+    "wikidata": "Q45",
+    "nameEn": "Portugal",
+    "names": ["PORTEKIZ", "PORTUGAL", "PORTOGALLO"]
+  },
+  {
+    "id": 324,
+    "iso1A2": "PW",
+    "iso1A3": "PLW",
+    "wikidata": "Q695",
+    "nameEn": "Palau",
+    "names": ["PALAU", "PALAOS"]
+  },
+  {
+    "id": 325,
+    "iso1A2": "PY",
+    "iso1A3": "PRY",
+    "wikidata": "Q733",
+    "nameEn": "Paraguay",
+    "names": ["PARAGUAY", "PARAGUAI"]
+  },
+  {
+    "id": 326,
+    "iso1A2": "QA",
+    "iso1A3": "QAT",
+    "wikidata": "Q846",
+    "nameEn": "Qatar",
+    "names": ["KATAR", "QATAR", "CATAR"]
+  },
+  {
+    "id": 327,
+    "iso1A2": "RE",
+    "iso1A3": "REU",
+    "wikidata": "Q17070",
+    "nameEn": "Réunion",
+    "country": "FR",
+    "names": ["REUNION", "LA REUNION", "REUNIAO", "RIUNIONE"]
+  },
+  {
+    "id": 328,
+    "iso1A2": "RO",
+    "iso1A3": "ROU",
+    "wikidata": "Q218",
+    "nameEn": "Romania",
+    "names": [
+      "ROMANYA",
+      "ROMANIA",
+      "ROUMANIE",
+      "RUMANIEN",
+      "RUMANIA",
+      "ROMENIA",
+      "ROEMENIE"
+    ]
+  },
+  {
+    "id": 329,
+    "iso1A2": "RS",
+    "iso1A3": "SRB",
+    "wikidata": "Q403",
+    "nameEn": "Serbia",
+    "names": ["SIRBISTAN", "SERBIA", "SERBIE", "SERBIEN", "SERVIA", "SERVIE"]
+  },
+  {
+    "id": 330,
+    "iso1A2": "RU",
+    "iso1A3": "RUS",
+    "wikidata": "Q159",
+    "nameEn": "Russia",
+    "names": [
+      "RUSYA",
+      "RUSSIA",
+      "RUSSIE",
+      "RUSSLAND",
+      "RUSIA",
+      "RUSLAND",
+      "RUOSSA"
+    ]
+  },
+  {
+    "id": 331,
+    "iso1A2": "RW",
+    "iso1A3": "RWA",
+    "wikidata": "Q1037",
+    "nameEn": "Rwanda",
+    "names": ["RUANDA", "RWANDA"]
+  },
+  {
+    "id": 332,
+    "iso1A2": "SA",
+    "iso1A3": "SAU",
+    "wikidata": "Q851",
+    "nameEn": "Saudi Arabia",
+    "names": [
+      "SUUDI ARABISTAN",
+      "SAUDI ARABIA",
+      "ARABIE SAOUDITE",
+      "SAUDIARABIEN",
+      "ARABIA SAUDI",
+      "ARABIA SAUDITA",
+      "SAOEDIARABIE",
+      "SAUDIARABIA"
+    ]
+  },
+  {
+    "id": 333,
+    "iso1A2": "SB",
+    "iso1A3": "SLB",
+    "wikidata": "Q685",
+    "nameEn": "Solomon Islands",
+    "names": [
+      "SOLOMON ADALARI",
+      "SOLOMON ISLANDS",
+      "ILES SALOMON",
+      "SALOMONEN",
+      "ISLAS SALOMON",
+      "ILHAS SALOMAO",
+      "ISOLE SALOMONE",
+      "SALOMONSEILANDEN",
+      "SALOMONSULLOT"
+    ]
+  },
+  {
+    "id": 334,
+    "iso1A2": "SC",
+    "iso1A3": "SYC",
+    "wikidata": "Q1042",
+    "nameEn": "Seychelles",
+    "names": ["SEYSELLER", "SEYCHELLES", "SEYCHELLEN", "SEYCHELLAT"]
+  },
+  {
+    "id": 335,
+    "iso1A2": "SD",
+    "iso1A3": "SDN",
+    "wikidata": "Q1049",
+    "nameEn": "Sudan",
+    "names": ["SUDAN", "SOUDAN", "SUDAO", "SOEDAN"]
+  },
+  {
+    "id": 336,
+    "iso1A2": "SE",
+    "iso1A3": "SWE",
+    "wikidata": "Q34",
+    "nameEn": "Sweden",
+    "names": [
+      "ISVEC",
+      "SWEDEN",
+      "SUEDE",
+      "SCHWEDEN",
+      "SUECIA",
+      "SVEZIA",
+      "ZWEDEN",
+      "RUOTTA"
+    ]
+  },
+  {
+    "id": 337,
+    "iso1A2": "SG",
+    "iso1A3": "SGP",
+    "wikidata": "Q334",
+    "nameEn": "Singapore",
+    "names": ["SINGAPUR", "SINGAPORE", "SINGAPOUR", "SINGAPURA"]
+  },
+  {
+    "id": 338,
+    "iso1A2": "SH",
+    "iso1A3": "SHN",
+    "wikidata": "Q192184",
+    "nameEn": "Saint Helena, Ascension and Tristan da Cunha",
+    "country": "GB",
+    "names": [
+      "SAINT HELENA ASCENSION VE TRISTAN DA CUNHA",
+      "SAINT HELENA ASCENSION AND TRISTAN DA CUNHA",
+      "SAINTEHELENE ASCENSION ET TRISTAN DA CUNHA",
+      "ST HELENA ASCENSION UND TRISTAN DA CUNHA",
+      "SANTA ELENA ASCENSION Y TRISTAN DE ACUNA",
+      "SANTA HELENA ASCENSAO E TRISTAO DA CUNHA",
+      "SANTELENA ASCENSIONE E TRISTAN DA CUNHA",
+      "SINTHELENA ASCENSION EN TRISTAN DA CUNHA"
+    ]
+  },
+  {
+    "id": 339,
+    "iso1A2": "SI",
+    "iso1A3": "SVN",
+    "wikidata": "Q215",
+    "nameEn": "Slovenia",
+    "names": ["SLOVENYA", "SLOVENIA", "SLOVENIE", "SLOWENIEN", "ESLOVENIA"]
+  },
+  {
+    "id": 340,
+    "iso1A2": "SJ",
+    "iso1A3": "SJM",
+    "wikidata": "Q842829",
+    "nameEn": "Svalbard and Jan Mayen",
+    "country": "NO",
+    "names": [
+      "SVALBARD VE JAN MAYEN",
+      "SVALBARD AND JAN MAYEN",
+      "SVALBARD ET JAN MAYEN",
+      "SVALBARD UND JAN MAYEN",
+      "SVALBARD Y JAN MAYEN",
+      "SVALBARD E JAN MAYEN",
+      "SPITSBERGEN EN JAN MAYEN"
+    ]
+  },
+  {
+    "id": 341,
+    "iso1A2": "SK",
+    "iso1A3": "SVK",
+    "wikidata": "Q214",
+    "nameEn": "Slovakia",
+    "names": [
+      "SLOVAKYA",
+      "SLOVAKIA",
+      "SLOVAQUIE",
+      "SLOWAKEI",
+      "ESLOVAQUIA",
+      "SLOVACCHIA",
+      "SLOWAKIJE"
+    ]
+  },
+  {
+    "id": 342,
+    "iso1A2": "SL",
+    "iso1A3": "SLE",
+    "wikidata": "Q1044",
+    "nameEn": "Sierra Leone",
+    "names": ["SIERRA LEONE", "SIERRA LEONA", "SERRA LEOA"]
+  },
+  {
+    "id": 343,
+    "iso1A2": "SM",
+    "iso1A3": "SMR",
+    "wikidata": "Q238",
+    "nameEn": "San Marino",
+    "names": ["SAN MARINO", "SAINTMARIN"]
+  },
+  {
+    "id": 344,
+    "iso1A2": "SN",
+    "iso1A3": "SEN",
+    "wikidata": "Q1041",
+    "nameEn": "Senegal",
+    "names": ["SENEGAL"]
+  },
+  {
+    "id": 345,
+    "iso1A2": "SO",
+    "iso1A3": "SOM",
+    "wikidata": "Q1045",
+    "nameEn": "Somalia",
+    "names": ["SOMALI", "SOMALIA", "SOMALIE"]
+  },
+  {
+    "id": 346,
+    "iso1A2": "SR",
+    "iso1A3": "SUR",
+    "wikidata": "Q730",
+    "nameEn": "Suriname",
+    "names": ["SURINAM", "SURINAME"]
+  },
+  {
+    "id": 347,
+    "iso1A2": "SS",
+    "iso1A3": "SSD",
+    "wikidata": "Q958",
+    "nameEn": "South Sudan",
+    "names": [
+      "GUNEY SUDAN",
+      "SOUTH SUDAN",
+      "SOUDAN DU SUD",
+      "SUDSUDAN",
+      "SUDAN DEL SUR",
+      "SUDAO DO SUL",
+      "SUDAN DEL SUD",
+      "ZUIDSOEDAN",
+      "LULLISUDAN"
+    ]
+  },
+  {
+    "id": 348,
+    "iso1A2": "ST",
+    "iso1A3": "STP",
+    "wikidata": "Q1039",
+    "nameEn": "São Tomé and Principe",
+    "names": [
+      "SAO TOME VE PRINCIPE",
+      "SAO TOME AND PRINCIPE",
+      "SAO TOMEETPRINCIPE",
+      "SAO TOME UND PRINCIPE",
+      "SANTO TOME Y PRINCIPE",
+      "SAO TOME E PRINCIPE",
+      "SAO TOME EN PRINCIPE",
+      "SAO TOME JA PRINCIPE"
+    ]
+  },
+  {
+    "id": 349,
+    "iso1A2": "SV",
+    "iso1A3": "SLV",
+    "wikidata": "Q792",
+    "nameEn": "El Salvador",
+    "names": ["EL SALVADOR", "SALVADOR"]
+  },
+  {
+    "id": 350,
+    "iso1A2": "SX",
+    "iso1A3": "SXM",
+    "wikidata": "Q26273",
+    "aliases": ["NL-SX"],
+    "nameEn": "Sint Maarten",
+    "country": "NL",
+    "names": [
+      "SINT MAARTEN",
+      "SAINTMARTIN",
+      "SAN MARTIN",
+      "SAO MARTINHO",
+      "NLSX"
+    ]
+  },
+  {
+    "id": 351,
+    "iso1A2": "SY",
+    "iso1A3": "SYR",
+    "wikidata": "Q858",
+    "nameEn": "Syria",
+    "names": ["SURIYE", "SYRIA", "SYRIE", "SYRIEN", "SIRIA"]
+  },
+  {
+    "id": 352,
+    "iso1A2": "SZ",
+    "iso1A3": "SWZ",
+    "wikidata": "Q1050",
+    "aliases": ["Swaziland"],
+    "nameEn": "Eswatini",
+    "names": [
+      "ESVATINI",
+      "ESWATINI",
+      "ESUATINI",
+      "ESSUATINI",
+      "SWAZILAND",
+      "SWAZIEANA"
+    ]
+  },
+  {
+    "id": 353,
+    "iso1A2": "TA",
+    "iso1A3": "TAA",
+    "wikidata": "Q220982",
+    "aliases": ["SH-TA"],
+    "nameEn": "Tristan da Cunha",
+    "country": "GB",
+    "names": [
+      "TRISTAN DA CUNHA",
+      "TRISTAN DE ACUNA",
+      "ARQUIPELAGO DE TRISTAO DA CUNHA",
+      "SHTA"
+    ]
+  },
+  {
+    "id": 354,
+    "iso1A2": "TC",
+    "iso1A3": "TCA",
+    "wikidata": "Q18221",
+    "nameEn": "Turks and Caicos Islands",
+    "country": "GB",
+    "names": [
+      "TURKS VE CAICOS ADALARI",
+      "TURKS AND CAICOS ISLANDS",
+      "ILES TURQUES ET CAIQUES",
+      "TURKS UND CAICOSINSELN",
+      "ISLAS TURCAS Y CAICOS",
+      "ILHAS TURCAS E CAICOS",
+      "TURKS E CAICOS",
+      "TURKS EN CAICOSEILANDEN"
+    ]
+  },
+  {
+    "id": 355,
+    "iso1A2": "TD",
+    "iso1A3": "TCD",
+    "wikidata": "Q657",
+    "nameEn": "Chad",
+    "names": ["CAD", "CHAD", "TCHAD", "TSCHAD", "CHADE", "CIAD", "TSJAAD"]
+  },
+  {
+    "id": 356,
+    "iso1A2": "TF",
+    "iso1A3": "ATF",
+    "wikidata": "Q129003",
+    "nameEn": "French Southern Territories",
+    "country": "FR",
+    "names": [
+      "FRANSIZ GUNEY VE ANTARKTIKA TOPRAKLARI",
+      "FRENCH SOUTHERN AND ANTARCTIC LANDS",
+      "TERRES AUSTRALES ET ANTARCTIQUES FRANCAISES",
+      "FRANZOSISCHE SUD UND ANTARKTISGEBIETE",
+      "TIERRAS AUSTRALES Y ANTARTICAS FRANCESAS",
+      "TERRAS AUSTRAIS E ANTARTICAS FRANCESAS",
+      "TERRE AUSTRALI E ANTARTICHE FRANCESI",
+      "FRANSE ZUIDELIJKE GEBIEDEN",
+      "FRENCH SOUTHERN TERRITORIES"
+    ]
+  },
+  {
+    "id": 357,
+    "iso1A2": "TG",
+    "iso1A3": "TGO",
+    "wikidata": "Q945",
+    "nameEn": "Togo",
+    "names": ["TOGO"]
+  },
+  {
+    "id": 358,
+    "iso1A2": "TH",
+    "iso1A3": "THA",
+    "wikidata": "Q869",
+    "nameEn": "Thailand",
+    "names": [
+      "TAYLAND",
+      "THAILAND",
+      "THAILANDE",
+      "TAILANDIA",
+      "THAILANDIA",
+      "THAIEANA"
+    ]
+  },
+  {
+    "id": 359,
+    "iso1A2": "TJ",
+    "iso1A3": "TJK",
+    "wikidata": "Q863",
+    "nameEn": "Tajikistan",
+    "names": [
+      "TACIKISTAN",
+      "TAJIKISTAN",
+      "TADJIKISTAN",
+      "TADSCHIKISTAN",
+      "TAYIKISTAN",
+      "TAJIQUISTAO",
+      "TAGIKISTAN",
+      "TADZJIKISTAN",
+      "TAZIKISTAN"
+    ]
+  },
+  {
+    "id": 360,
+    "iso1A2": "TK",
+    "iso1A3": "TKL",
+    "wikidata": "Q36823",
+    "nameEn": "Tokelau",
+    "country": "NZ",
+    "names": ["TOKELAU", "TOKELAUEILANDEN"]
+  },
+  {
+    "id": 361,
+    "iso1A2": "TL",
+    "iso1A3": "TLS",
+    "wikidata": "Q574",
+    "aliases": ["Timor-Leste", "TP"],
+    "nameEn": "East Timor",
+    "names": [
+      "DOGU TIMOR",
+      "EAST TIMOR",
+      "TIMOR ORIENTAL",
+      "OSTTIMOR",
+      "TIMORLESTE",
+      "TIMOR EST",
+      "OOSTTIMOR",
+      "NUORTATIMOR",
+      "TP"
+    ]
+  },
+  {
+    "id": 362,
+    "iso1A2": "TM",
+    "iso1A3": "TKM",
+    "wikidata": "Q874",
+    "nameEn": "Turkmenistan",
+    "names": ["TURKMENISTAN", "TURQUEMENISTAO"]
+  },
+  {
+    "id": 363,
+    "iso1A2": "TN",
+    "iso1A3": "TUN",
+    "wikidata": "Q948",
+    "nameEn": "Tunisia",
+    "names": ["TUNUS", "TUNISIA", "TUNISIE", "TUNESIEN", "TUNEZ", "TUNESIE"]
+  },
+  {
+    "id": 364,
+    "iso1A2": "TO",
+    "iso1A3": "TON",
+    "wikidata": "Q678",
+    "nameEn": "Tonga",
+    "names": ["TONGA"]
+  },
+  {
+    "id": 365,
+    "iso1A2": "TR",
+    "iso1A3": "TUR",
+    "wikidata": "Q43",
+    "nameEn": "Turkey",
+    "names": [
+      "TURKIYE",
+      "TURKEY",
+      "TURQUIE",
+      "TURKEI",
+      "TURQUIA",
+      "TURCHIA",
+      "TURKIJE",
+      "DURKA"
+    ]
+  },
+  {
+    "id": 366,
+    "iso1A2": "TT",
+    "iso1A3": "TTO",
+    "wikidata": "Q754",
+    "nameEn": "Trinidad and Tobago",
+    "names": [
+      "TRINIDAD VE TOBAGO",
+      "TRINIDAD AND TOBAGO",
+      "TRINITEETTOBAGO",
+      "TRINIDAD UND TOBAGO",
+      "TRINIDAD Y TOBAGO",
+      "TRINDADE E TOBAGO",
+      "TRINIDAD E TOBAGO",
+      "TRINIDAD EN TOBAGO",
+      "TRINIDAD JA TOBAGO"
+    ]
+  },
+  {
+    "id": 367,
+    "iso1A2": "TV",
+    "iso1A3": "TUV",
+    "wikidata": "Q672",
+    "nameEn": "Tuvalu",
+    "names": ["TUVALU"]
+  },
+  {
+    "id": 368,
+    "iso1A2": "TW",
+    "iso1A3": "TWN",
+    "wikidata": "Q865",
+    "aliases": ["RC"],
+    "nameEn": "Taiwan",
+    "names": [
+      "CIN CUMHURIYETI",
+      "TAIWAN",
+      "REPUBLIK CHINA",
+      "REPUBLICA DE CHINA",
+      "RC",
+      "TAYVAN"
+    ]
+  },
+  {
+    "id": 369,
+    "iso1A2": "TZ",
+    "iso1A3": "TZA",
+    "wikidata": "Q924",
+    "nameEn": "Tanzania",
+    "names": ["TANZANYA", "TANZANIA", "TANZANIE", "TANSANIA"]
+  },
+  {
+    "id": 370,
+    "iso1A2": "UA",
+    "iso1A3": "UKR",
+    "wikidata": "Q212",
+    "nameEn": "Ukraine",
+    "names": ["UKRAYNA", "UKRAINE", "UCRANIA", "UCRAINA", "OEKRAINE", "UKRAINA"]
+  },
+  {
+    "id": 371,
+    "iso1A2": "UG",
+    "iso1A3": "UGA",
+    "wikidata": "Q1036",
+    "nameEn": "Uganda",
+    "names": ["UGANDA", "OUGANDA", "OEGANDA"]
+  },
+  {
+    "id": 372,
+    "iso1A2": "UM",
+    "iso1A3": "UMI",
+    "wikidata": "Q16645",
+    "nameEn": "United States Minor Outlying Islands",
+    "country": "US",
+    "names": [
+      "UNITED STATES MINOR OUTLYING ISLANDS",
+      "ILES MINEURES ELOIGNEES DES ETATSUNIS",
+      "ISLAS ULTRAMARINAS DE ESTADOS UNIDOS",
+      "ILHAS MENORES DISTANTES DOS ESTADOS UNIDOS",
+      "ISOLE MINORI ESTERNE DEGLI STATI UNITI DAMERICA",
+      "KLEINE AFGELEGEN EILANDEN VAN DE VERENIGDE STATEN"
+    ]
+  },
+  {
+    "id": 374,
+    "iso1A2": "US",
+    "iso1A3": "USA",
+    "wikidata": "Q30",
+    "nameEn": "United States of America",
+    "names": [
+      "AMERIKA BIRLESIK DEVLETLERI",
+      "UNITED STATES OF AMERICA",
+      "ETATSUNIS",
+      "VEREINIGTE STAATEN",
+      "ESTADOS UNIDOS",
+      "STATI UNITI DAMERICA",
+      "VERENIGDE STATEN VAN AMERIKA",
+      "AMERIHKA OVTTASTUVVAN STAHTAT",
+      "ABD"
+    ]
+  },
+  {
+    "id": 375,
+    "iso1A2": "UY",
+    "iso1A3": "URY",
+    "wikidata": "Q77",
+    "nameEn": "Uruguay",
+    "names": ["URUGUAY", "URUGUAI"]
+  },
+  {
+    "id": 376,
+    "iso1A2": "UZ",
+    "iso1A3": "UZB",
+    "wikidata": "Q265",
+    "nameEn": "Uzbekistan",
+    "names": [
+      "OZBEKISTAN",
+      "UZBEKISTAN",
+      "OUZBEKISTAN",
+      "USBEKISTAN",
+      "UZBEQUISTAO",
+      "OEZBEKISTAN"
+    ]
+  },
+  {
+    "id": 377,
+    "iso1A2": "VA",
+    "iso1A3": "VAT",
+    "wikidata": "Q237",
+    "aliases": ["Holy See"],
+    "nameEn": "Vatican City",
+    "names": [
+      "VATIKAN",
+      "VATICAN CITY",
+      "VATICAN",
+      "VATIKANSTADT",
+      "CIUDAD DEL VATICANO",
+      "VATICANO",
+      "CITTA DEL VATICANO",
+      "VATICAANSTAD",
+      "VATIKANA",
+      "HOLY SEE"
+    ]
+  },
+  {
+    "id": 378,
+    "iso1A2": "VC",
+    "iso1A3": "VCT",
+    "wikidata": "Q757",
+    "aliases": ["WV"],
+    "nameEn": "St. Vincent and the Grenadines",
+    "names": [
+      "SAINT VINCENT VE GRENADINLER",
+      "SAINT VINCENT AND THE GRENADINES",
+      "SAINTVINCENTETLESGRENADINES",
+      "ST VINCENT UND DIE GRENADINEN",
+      "SAN VICENTE Y LAS GRANADINAS",
+      "SAO VICENTE E GRANADINAS",
+      "SAINT VINCENT E GRENADINE",
+      "SAINT VINCENT EN DE GRENADINES",
+      "SAINT VINCENT JA GRENADIINNAT",
+      "ST VINCENT AND THE GRENADINES",
+      "WV"
+    ]
+  },
+  {
+    "id": 379,
+    "iso1A2": "VE",
+    "iso1A3": "VEN",
+    "wikidata": "Q717",
+    "aliases": ["YV"],
+    "nameEn": "Venezuela",
+    "names": ["VENEZUELA", "YV"]
+  },
+  {
+    "id": 380,
+    "iso1A2": "VG",
+    "iso1A3": "VGB",
+    "wikidata": "Q25305",
+    "nameEn": "British Virgin Islands",
+    "country": "GB",
+    "names": [
+      "BRITANYA VIRJIN ADALARI",
+      "BRITISH VIRGIN ISLANDS",
+      "ILES VIERGES BRITANNIQUES",
+      "BRITISCHE JUNGFERNINSELN",
+      "ISLAS VIRGENES BRITANICAS",
+      "ILHAS VIRGENS BRITANICAS",
+      "ISOLE VERGINI BRITANNICHE",
+      "BRITSE MAAGDENEILANDEN",
+      "IVB"
+    ]
+  },
+  {
+    "id": 381,
+    "iso1A2": "VI",
+    "iso1A3": "VIR",
+    "wikidata": "Q11703",
+    "aliases": ["US-VI"],
+    "nameEn": "United States Virgin Islands",
+    "country": "US",
+    "names": [
+      "ABD VIRJIN ADALARI",
+      "UNITED STATES VIRGIN ISLANDS",
+      "ILES VIERGES DES ETATSUNIS",
+      "AMERIKANISCHE JUNGFERNINSELN",
+      "ISLAS VIRGENES DE LOS ESTADOS UNIDOS",
+      "ILHAS VIRGENS AMERICANAS",
+      "ISOLE VERGINI AMERICANE",
+      "AMERIKAANSE MAAGDENEILANDEN",
+      "USVI"
+    ]
+  },
+  {
+    "id": 382,
+    "iso1A2": "VN",
+    "iso1A3": "VNM",
+    "wikidata": "Q881",
+    "nameEn": "Vietnam",
+    "names": ["VIETNAM", "VIET NAM", "VIETNAME"]
+  },
+  {
+    "id": 383,
+    "iso1A2": "VU",
+    "iso1A3": "VUT",
+    "wikidata": "Q686",
+    "nameEn": "Vanuatu",
+    "names": ["VANUATU"]
+  },
+  {
+    "id": 384,
+    "iso1A2": "WF",
+    "iso1A3": "WLF",
+    "wikidata": "Q35555",
+    "nameEn": "Wallis and Futuna",
+    "country": "FR",
+    "names": [
+      "WALLIS VE FUTUNA ADALARI",
+      "WALLIS AND FUTUNA",
+      "WALLISETFUTUNA",
+      "WALLIS UND FUTUNA",
+      "WALLIS Y FUTUNA",
+      "WALLIS E FUTUNA",
+      "WALLIS EN FUTUNA",
+      "WALLIS JA FUTUNA"
+    ]
+  },
+  {
+    "id": 385,
+    "iso1A2": "WS",
+    "iso1A3": "WSM",
+    "wikidata": "Q683",
+    "nameEn": "Samoa",
+    "names": ["SAMOA"]
+  },
+  {
+    "id": 386,
+    "iso1A2": "XK",
+    "iso1A3": "XKX",
+    "wikidata": "Q1246",
+    "aliases": ["KV"],
+    "nameEn": "Kosovo",
+    "names": ["KOSOVA", "KOSOVO", "KV"]
+  },
+  {
+    "id": 387,
+    "iso1A2": "YE",
+    "iso1A3": "YEM",
+    "wikidata": "Q805",
+    "nameEn": "Yemen",
+    "names": ["YEMEN", "JEMEN", "IEMEN"]
+  },
+  {
+    "id": 388,
+    "iso1A2": "YT",
+    "iso1A3": "MYT",
+    "wikidata": "Q17063",
+    "nameEn": "Mayotte",
+    "country": "FR",
+    "names": ["MAYOTTE"]
+  },
+  {
+    "id": 389,
+    "iso1A2": "ZA",
+    "iso1A3": "ZAF",
+    "wikidata": "Q258",
+    "nameEn": "South Africa",
+    "names": [
+      "GUNEY AFRIKA CUMHURIYETI",
+      "GUNEY AFRIKA",
+      "SOUTH AFRICA",
+      "AFRIQUE DU SUD",
+      "SUDAFRIKA",
+      "SUDAFRICA",
+      "AFRICA DO SUL",
+      "ZUIDAFRIKA",
+      "LULLIAFRIHKA"
+    ]
+  },
+  {
+    "id": 390,
+    "iso1A2": "ZM",
+    "iso1A3": "ZMB",
+    "wikidata": "Q953",
+    "nameEn": "Zambia",
+    "names": ["ZAMBIYA", "ZAMBIA", "ZAMBIE", "SAMBIA"]
+  },
+  {
+    "id": 391,
+    "iso1A2": "ZW",
+    "iso1A3": "ZWE",
+    "wikidata": "Q954",
+    "nameEn": "Zimbabwe",
+    "names": ["ZIMBABVE", "ZIMBABWE", "SIMBABWE", "ZIMBABUE"]
+  }
+]
