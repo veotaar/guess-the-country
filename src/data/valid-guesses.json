@@ -1498,6 +1498,7 @@
     "id": 134,
     "iso1A2": "AD",
     "iso1A3": "AND",
+    "iso1N3": "020",
     "wikidata": "Q228",
     "nameEn": "Andorra",
     "names": ["ANDORRA", "ANDORRE"]
@@ -1506,6 +1507,7 @@
     "id": 135,
     "iso1A2": "AE",
     "iso1A3": "ARE",
+    "iso1N3": "784",
     "wikidata": "Q878",
     "nameEn": "United Arab Emirates",
     "names": [
@@ -1517,13 +1519,15 @@
       "EMIRADOS ARABES UNIDOS",
       "EMIRATI ARABI UNITI",
       "VERENIGDE ARABISCHE EMIRATEN",
-      "OVTTASTUVVAN ARABAEMIRAHTAT"
+      "OVTTASTUVVAN ARABAEMIRAHTAT",
+      "UAE"
     ]
   },
   {
     "id": 136,
     "iso1A2": "AF",
     "iso1A3": "AFG",
+    "iso1N3": "004",
     "wikidata": "Q889",
     "nameEn": "Afghanistan",
     "names": ["AFGANISTAN", "AFGHANISTAN", "AFEGANISTAO", "AFGANISTANA"]
@@ -1532,6 +1536,7 @@
     "id": 137,
     "iso1A2": "AG",
     "iso1A3": "ATG",
+    "iso1N3": "028",
     "wikidata": "Q781",
     "nameEn": "Antigua and Barbuda",
     "names": [
@@ -1549,6 +1554,7 @@
     "id": 138,
     "iso1A2": "AI",
     "iso1A3": "AIA",
+    "iso1N3": "660",
     "wikidata": "Q25228",
     "nameEn": "Anguilla",
     "country": "GB",
@@ -1558,6 +1564,7 @@
     "id": 139,
     "iso1A2": "AL",
     "iso1A3": "ALB",
+    "iso1N3": "008",
     "wikidata": "Q222",
     "nameEn": "Albania",
     "names": ["ARNAVUTLUK", "ALBANIA", "ALBANIE", "ALBANIEN"]
@@ -1566,6 +1573,7 @@
     "id": 140,
     "iso1A2": "AM",
     "iso1A3": "ARM",
+    "iso1N3": "051",
     "wikidata": "Q399",
     "nameEn": "Armenia",
     "names": ["ERMENISTAN", "ARMENIA", "ARMENIE", "ARMENIEN"]
@@ -1574,6 +1582,7 @@
     "id": 141,
     "iso1A2": "AO",
     "iso1A3": "AGO",
+    "iso1N3": "024",
     "wikidata": "Q916",
     "nameEn": "Angola",
     "names": ["ANGOLA"]
@@ -1582,6 +1591,7 @@
     "id": 142,
     "iso1A2": "AQ",
     "iso1A3": "ATA",
+    "iso1N3": "010",
     "wikidata": "Q51",
     "nameEn": "Antarctica",
     "level": "region",
@@ -1598,6 +1608,7 @@
     "id": 143,
     "iso1A2": "AR",
     "iso1A3": "ARG",
+    "iso1N3": "032",
     "wikidata": "Q414",
     "aliases": ["RA"],
     "nameEn": "Argentina",
@@ -1615,6 +1626,7 @@
     "id": 144,
     "iso1A2": "AS",
     "iso1A3": "ASM",
+    "iso1N3": "016",
     "wikidata": "Q16641",
     "aliases": ["US-AS"],
     "nameEn": "American Samoa",
@@ -1636,6 +1648,7 @@
     "id": 145,
     "iso1A2": "AT",
     "iso1A3": "AUT",
+    "iso1N3": "040",
     "wikidata": "Q40",
     "nameEn": "Austria",
     "names": [
@@ -1651,6 +1664,7 @@
     "id": 146,
     "iso1A2": "AU",
     "iso1A3": "AUS",
+    "iso1N3": "036",
     "wikidata": "Q408",
     "nameEn": "Australia",
     "names": ["AVUSTRALYA", "AUSTRALIA", "AUSTRALIE", "AUSTRALIEN"]
@@ -1659,6 +1673,7 @@
     "id": 147,
     "iso1A2": "AW",
     "iso1A3": "ABW",
+    "iso1N3": "533",
     "wikidata": "Q21203",
     "aliases": ["NL-AW"],
     "nameEn": "Aruba",
@@ -1669,6 +1684,7 @@
     "id": 148,
     "iso1A2": "AX",
     "iso1A3": "ALA",
+    "iso1N3": "248",
     "wikidata": "Q5689",
     "nameEn": "Åland Islands",
     "country": "FI",
@@ -1678,6 +1694,7 @@
     "id": 149,
     "iso1A2": "AZ",
     "iso1A3": "AZE",
+    "iso1N3": "031",
     "wikidata": "Q227",
     "nameEn": "Azerbaijan",
     "names": [
@@ -1696,6 +1713,7 @@
     "id": 150,
     "iso1A2": "BA",
     "iso1A3": "BIH",
+    "iso1N3": "070",
     "wikidata": "Q225",
     "nameEn": "Bosnia and Herzegovina",
     "names": [
@@ -1714,6 +1732,7 @@
     "id": 151,
     "iso1A2": "BB",
     "iso1A3": "BRB",
+    "iso1N3": "052",
     "wikidata": "Q244",
     "nameEn": "Barbados",
     "names": ["BARBADOS", "BARBADE"]
@@ -1722,6 +1741,7 @@
     "id": 152,
     "iso1A2": "BD",
     "iso1A3": "BGD",
+    "iso1N3": "050",
     "wikidata": "Q902",
     "nameEn": "Bangladesh",
     "names": ["BANGLADES", "BANGLADESH", "BANGLADESCH"]
@@ -1730,6 +1750,7 @@
     "id": 153,
     "iso1A2": "BE",
     "iso1A3": "BEL",
+    "iso1N3": "056",
     "wikidata": "Q31",
     "nameEn": "Belgium",
     "names": [
@@ -1747,6 +1768,7 @@
     "id": 154,
     "iso1A2": "BF",
     "iso1A3": "BFA",
+    "iso1N3": "854",
     "wikidata": "Q965",
     "nameEn": "Burkina Faso",
     "names": ["BURKINA FASO"]
@@ -1755,6 +1777,7 @@
     "id": 155,
     "iso1A2": "BG",
     "iso1A3": "BGR",
+    "iso1N3": "100",
     "wikidata": "Q219",
     "nameEn": "Bulgaria",
     "names": ["BULGARISTAN", "BULGARIA", "BULGARIE", "BULGARIEN", "BULGARIJE"]
@@ -1763,6 +1786,7 @@
     "id": 156,
     "iso1A2": "BH",
     "iso1A3": "BHR",
+    "iso1N3": "048",
     "wikidata": "Q398",
     "nameEn": "Bahrain",
     "names": ["BAHREYN", "BAHRAIN", "BAHREIN", "BAREIN"]
@@ -1771,6 +1795,7 @@
     "id": 157,
     "iso1A2": "BI",
     "iso1A3": "BDI",
+    "iso1N3": "108",
     "wikidata": "Q967",
     "nameEn": "Burundi",
     "names": ["BURUNDI"]
@@ -1779,6 +1804,7 @@
     "id": 158,
     "iso1A2": "BJ",
     "iso1A3": "BEN",
+    "iso1N3": "204",
     "wikidata": "Q962",
     "aliases": ["DY"],
     "nameEn": "Benin",
@@ -1788,6 +1814,7 @@
     "id": 159,
     "iso1A2": "BL",
     "iso1A3": "BLM",
+    "iso1N3": "652",
     "wikidata": "Q25362",
     "nameEn": "Saint-Barthélemy",
     "country": "FR",
@@ -1797,6 +1824,7 @@
     "id": 160,
     "iso1A2": "BM",
     "iso1A3": "BMU",
+    "iso1N3": "060",
     "wikidata": "Q23635",
     "nameEn": "Bermuda",
     "country": "GB",
@@ -1806,6 +1834,7 @@
     "id": 161,
     "iso1A2": "BN",
     "iso1A3": "BRN",
+    "iso1N3": "096",
     "wikidata": "Q921",
     "nameEn": "Brunei",
     "names": ["BRUNEI SULTANLIGI", "BRUNEI", "BRUNEI DARUSSALAM"]
@@ -1814,6 +1843,7 @@
     "id": 162,
     "iso1A2": "BO",
     "iso1A3": "BOL",
+    "iso1N3": "068",
     "wikidata": "Q750",
     "nameEn": "Bolivia",
     "names": ["BOLIVYA", "BOLIVIA", "BOLIVIE", "BOLIVIEN"]
@@ -1822,6 +1852,7 @@
     "id": 163,
     "iso1A2": "BQ",
     "iso1A3": "BES",
+    "iso1N3": "535",
     "wikidata": "Q27561",
     "nameEn": "Caribbean Netherlands",
     "country": "NL",
@@ -1840,6 +1871,7 @@
     "id": 164,
     "iso1A2": "BR",
     "iso1A3": "BRA",
+    "iso1N3": "076",
     "wikidata": "Q155",
     "nameEn": "Brazil",
     "names": [
@@ -1857,6 +1889,7 @@
     "id": 165,
     "iso1A2": "BS",
     "iso1A3": "BHS",
+    "iso1N3": "044",
     "wikidata": "Q778",
     "nameEn": "The Bahamas",
     "names": ["BAHAMALAR", "THE BAHAMAS", "BAHAMAS", "BAHAMASULLOT"]
@@ -1865,6 +1898,7 @@
     "id": 166,
     "iso1A2": "BT",
     "iso1A3": "BTN",
+    "iso1N3": "064",
     "wikidata": "Q917",
     "nameEn": "Bhutan",
     "names": ["BHUTAN", "BHOUTAN", "BUTAN", "BUTAO"]
@@ -1873,6 +1907,7 @@
     "id": 167,
     "iso1A2": "BV",
     "iso1A3": "BVT",
+    "iso1N3": "074",
     "wikidata": "Q23408",
     "nameEn": "Bouvet Island",
     "country": "NO",
@@ -1891,6 +1926,7 @@
     "id": 168,
     "iso1A2": "BW",
     "iso1A3": "BWA",
+    "iso1N3": "072",
     "wikidata": "Q963",
     "nameEn": "Botswana",
     "names": ["BOTSVANA", "BOTSWANA", "BOTSUANA"]
@@ -1899,6 +1935,7 @@
     "id": 169,
     "iso1A2": "BY",
     "iso1A3": "BLR",
+    "iso1N3": "112",
     "wikidata": "Q184",
     "nameEn": "Belarus",
     "names": [
@@ -1916,6 +1953,7 @@
     "id": 170,
     "iso1A2": "BZ",
     "iso1A3": "BLZ",
+    "iso1N3": "084",
     "wikidata": "Q242",
     "nameEn": "Belize",
     "names": ["BELIZE", "BELICE"]
@@ -1924,6 +1962,7 @@
     "id": 171,
     "iso1A2": "CA",
     "iso1A3": "CAN",
+    "iso1N3": "124",
     "wikidata": "Q16",
     "nameEn": "Canada",
     "names": ["KANADA", "CANADA"]
@@ -1932,6 +1971,7 @@
     "id": 172,
     "iso1A2": "CC",
     "iso1A3": "CCK",
+    "iso1N3": "166",
     "wikidata": "Q36004",
     "nameEn": "Cocos (Keeling) Islands",
     "country": "AU",
@@ -1950,6 +1990,7 @@
     "id": 173,
     "iso1A2": "CD",
     "iso1A3": "COD",
+    "iso1N3": "180",
     "wikidata": "Q974",
     "aliases": ["ZR"],
     "nameEn": "Democratic Republic of the Congo",
@@ -1970,6 +2011,7 @@
     "id": 174,
     "iso1A2": "CF",
     "iso1A3": "CAF",
+    "iso1N3": "140",
     "wikidata": "Q929",
     "nameEn": "Central African Republic",
     "names": [
@@ -1987,6 +2029,7 @@
     "id": 175,
     "iso1A2": "CG",
     "iso1A3": "COG",
+    "iso1N3": "178",
     "wikidata": "Q971",
     "nameEn": "Republic of the Congo",
     "names": [
@@ -2005,6 +2048,7 @@
     "id": 176,
     "iso1A2": "CH",
     "iso1A3": "CHE",
+    "iso1N3": "756",
     "wikidata": "Q39",
     "nameEn": "Switzerland",
     "names": [
@@ -2023,6 +2067,7 @@
     "id": 177,
     "iso1A2": "CI",
     "iso1A3": "CIV",
+    "iso1N3": "384",
     "wikidata": "Q1008",
     "nameEn": "Côte d'Ivoire",
     "names": [
@@ -2041,6 +2086,7 @@
     "id": 178,
     "iso1A2": "CK",
     "iso1A3": "COK",
+    "iso1N3": "184",
     "wikidata": "Q26988",
     "nameEn": "Cook Islands",
     "country": "NZ",
@@ -2059,6 +2105,7 @@
     "id": 179,
     "iso1A2": "CL",
     "iso1A3": "CHL",
+    "iso1N3": "152",
     "wikidata": "Q298",
     "nameEn": "Chile",
     "names": ["SILI", "CHILE", "CHILI", "CILE"]
@@ -2067,6 +2114,7 @@
     "id": 180,
     "iso1A2": "CM",
     "iso1A3": "CMR",
+    "iso1N3": "120",
     "wikidata": "Q1009",
     "nameEn": "Cameroon",
     "names": [
@@ -2082,6 +2130,7 @@
     "id": 181,
     "iso1A2": "CN",
     "iso1A3": "CHN",
+    "iso1N3": "156",
     "wikidata": "Q148",
     "nameEn": "People's Republic of China",
     "names": [
@@ -2100,6 +2149,7 @@
     "id": 182,
     "iso1A2": "CO",
     "iso1A3": "COL",
+    "iso1N3": "170",
     "wikidata": "Q739",
     "nameEn": "Colombia",
     "names": ["KOLOMBIYA", "COLOMBIA", "COLOMBIE", "KOLUMBIEN"]
@@ -2125,6 +2175,7 @@
     "id": 184,
     "iso1A2": "CR",
     "iso1A3": "CRI",
+    "iso1N3": "188",
     "wikidata": "Q800",
     "nameEn": "Costa Rica",
     "names": ["KOSTA RIKA", "COSTA RICA"]
@@ -2133,6 +2184,7 @@
     "id": 185,
     "iso1A2": "CU",
     "iso1A3": "CUB",
+    "iso1N3": "192",
     "wikidata": "Q241",
     "nameEn": "Cuba",
     "names": ["KUBA", "CUBA"]
@@ -2141,6 +2193,7 @@
     "id": 186,
     "iso1A2": "CV",
     "iso1A3": "CPV",
+    "iso1N3": "132",
     "wikidata": "Q1011",
     "nameEn": "Cape Verde",
     "names": [
@@ -2157,6 +2210,7 @@
     "id": 187,
     "iso1A2": "CW",
     "iso1A3": "CUW",
+    "iso1N3": "531",
     "wikidata": "Q25279",
     "aliases": ["NL-CW"],
     "nameEn": "Curaçao",
@@ -2167,6 +2221,7 @@
     "id": 188,
     "iso1A2": "CX",
     "iso1A3": "CXR",
+    "iso1N3": "162",
     "wikidata": "Q31063",
     "nameEn": "Christmas Island",
     "country": "AU",
@@ -2185,6 +2240,7 @@
     "id": 189,
     "iso1A2": "CY",
     "iso1A3": "CYP",
+    "iso1N3": "196",
     "wikidata": "Q229",
     "nameEn": "Republic of Cyprus",
     "names": [
@@ -2202,6 +2258,7 @@
     "id": 190,
     "iso1A2": "CZ",
     "iso1A3": "CZE",
+    "iso1N3": "203",
     "wikidata": "Q213",
     "nameEn": "Czechia",
     "names": [
@@ -2221,6 +2278,7 @@
     "id": 191,
     "iso1A2": "DE",
     "iso1A3": "DEU",
+    "iso1N3": "276",
     "wikidata": "Q183",
     "nameEn": "Germany",
     "names": [
@@ -2248,6 +2306,7 @@
     "id": 193,
     "iso1A2": "DJ",
     "iso1A3": "DJI",
+    "iso1N3": "262",
     "wikidata": "Q977",
     "nameEn": "Djibouti",
     "names": ["CIBUTI", "DJIBOUTI", "DSCHIBUTI", "YIBUTI", "GIBUTI"]
@@ -2256,6 +2315,7 @@
     "id": 194,
     "iso1A2": "DK",
     "iso1A3": "DNK",
+    "iso1N3": "208",
     "wikidata": "Q756617",
     "nameEn": "Kingdom of Denmark",
     "names": [
@@ -2274,6 +2334,7 @@
     "id": 195,
     "iso1A2": "DM",
     "iso1A3": "DMA",
+    "iso1N3": "212",
     "wikidata": "Q784",
     "nameEn": "Dominica",
     "names": ["DOMINIKA", "DOMINICA", "DOMINIQUE"]
@@ -2282,6 +2343,7 @@
     "id": 196,
     "iso1A2": "DO",
     "iso1A3": "DOM",
+    "iso1N3": "214",
     "wikidata": "Q786",
     "nameEn": "Dominican Republic",
     "names": [
@@ -2299,6 +2361,7 @@
     "id": 197,
     "iso1A2": "DZ",
     "iso1A3": "DZA",
+    "iso1N3": "012",
     "wikidata": "Q262",
     "nameEn": "Algeria",
     "names": [
@@ -2328,6 +2391,7 @@
     "id": 199,
     "iso1A2": "EC",
     "iso1A3": "ECU",
+    "iso1N3": "218",
     "wikidata": "Q736",
     "nameEn": "Ecuador",
     "names": ["EKVADOR", "ECUADOR", "EQUATEUR", "EQUADOR"]
@@ -2336,6 +2400,7 @@
     "id": 200,
     "iso1A2": "EE",
     "iso1A3": "EST",
+    "iso1N3": "233",
     "wikidata": "Q191",
     "aliases": ["EW"],
     "nameEn": "Estonia",
@@ -2345,6 +2410,7 @@
     "id": 201,
     "iso1A2": "EG",
     "iso1A3": "EGY",
+    "iso1N3": "818",
     "wikidata": "Q79",
     "nameEn": "Egypt",
     "names": [
@@ -2362,6 +2428,7 @@
     "id": 202,
     "iso1A2": "EH",
     "iso1A3": "ESH",
+    "iso1N3": "732",
     "wikidata": "Q6250",
     "nameEn": "Western Sahara",
     "names": [
@@ -2379,6 +2446,7 @@
     "id": 203,
     "iso1A2": "ER",
     "iso1A3": "ERI",
+    "iso1N3": "232",
     "wikidata": "Q986",
     "nameEn": "Eritrea",
     "names": ["ERITRE", "ERITREA", "ERYTHREE", "ERITREIA"]
@@ -2387,6 +2455,7 @@
     "id": 204,
     "iso1A2": "ES",
     "iso1A3": "ESP",
+    "iso1N3": "724",
     "wikidata": "Q29",
     "nameEn": "Spain",
     "names": [
@@ -2405,6 +2474,7 @@
     "id": 205,
     "iso1A2": "ET",
     "iso1A3": "ETH",
+    "iso1N3": "231",
     "wikidata": "Q115",
     "nameEn": "Ethiopia",
     "names": ["ETIYOPYA", "ETHIOPIA", "ETHIOPIE", "ATHIOPIEN", "ETIOPIA"]
@@ -2413,6 +2483,7 @@
     "id": 207,
     "iso1A2": "FI",
     "iso1A3": "FIN",
+    "iso1N3": "246",
     "wikidata": "Q33",
     "aliases": ["SF"],
     "nameEn": "Finland",
@@ -2430,6 +2501,7 @@
     "id": 208,
     "iso1A2": "FJ",
     "iso1A3": "FJI",
+    "iso1N3": "242",
     "wikidata": "Q712",
     "nameEn": "Fiji",
     "names": ["FIJI", "FIDJI", "FIDSCHI", "FIYI", "FIGI", "FIZI"]
@@ -2438,6 +2510,7 @@
     "id": 209,
     "iso1A2": "FK",
     "iso1A3": "FLK",
+    "iso1N3": "238",
     "wikidata": "Q9648",
     "nameEn": "Falkland Islands",
     "country": "GB",
@@ -2457,6 +2530,7 @@
     "id": 210,
     "iso1A2": "FM",
     "iso1A3": "FSM",
+    "iso1N3": "583",
     "wikidata": "Q702",
     "nameEn": "Federated States of Micronesia",
     "names": [
@@ -2475,6 +2549,7 @@
     "id": 211,
     "iso1A2": "FO",
     "iso1A3": "FRO",
+    "iso1N3": "234",
     "wikidata": "Q4628",
     "nameEn": "Faroe Islands",
     "country": "DK",
@@ -2494,6 +2569,7 @@
     "id": 212,
     "iso1A2": "FR",
     "iso1A3": "FRA",
+    "iso1N3": "250",
     "wikidata": "Q142",
     "nameEn": "France",
     "names": [
@@ -2510,6 +2586,7 @@
     "id": 213,
     "iso1A2": "FX",
     "iso1A3": "FXX",
+    "iso1N3": "249",
     "wikidata": "Q212429",
     "nameEn": "Metropolitan France",
     "country": "FR",
@@ -2527,6 +2604,7 @@
     "id": 214,
     "iso1A2": "GA",
     "iso1A3": "GAB",
+    "iso1N3": "266",
     "wikidata": "Q1000",
     "nameEn": "Gabon",
     "names": ["GABON", "GABUN", "GABAO"]
@@ -2535,6 +2613,7 @@
     "id": 215,
     "iso1A2": "GB",
     "iso1A3": "GBR",
+    "iso1N3": "826",
     "wikidata": "Q145",
     "aliases": ["UK"],
     "nameEn": "United Kingdom",
@@ -2555,6 +2634,7 @@
     "id": 216,
     "iso1A2": "GD",
     "iso1A3": "GRD",
+    "iso1N3": "308",
     "wikidata": "Q769",
     "aliases": ["WG"],
     "nameEn": "Grenada",
@@ -2564,6 +2644,7 @@
     "id": 217,
     "iso1A2": "GE",
     "iso1A3": "GEO",
+    "iso1N3": "268",
     "wikidata": "Q230",
     "nameEn": "Georgia",
     "names": ["GURCISTAN", "GEORGIA", "GEORGIE", "GEORGIEN"]
@@ -2572,6 +2653,7 @@
     "id": 218,
     "iso1A2": "GF",
     "iso1A3": "GUF",
+    "iso1N3": "254",
     "wikidata": "Q3769",
     "nameEn": "French Guiana",
     "country": "FR",
@@ -2591,6 +2673,7 @@
     "id": 219,
     "iso1A2": "GG",
     "iso1A3": "GGY",
+    "iso1N3": "831",
     "wikidata": "Q25230",
     "nameEn": "Bailiwick of Guernsey",
     "country": "GB",
@@ -2600,6 +2683,7 @@
     "id": 220,
     "iso1A2": "GH",
     "iso1A3": "GHA",
+    "iso1N3": "288",
     "wikidata": "Q117",
     "nameEn": "Ghana",
     "names": ["GANA", "GHANA"]
@@ -2608,6 +2692,7 @@
     "id": 221,
     "iso1A2": "GI",
     "iso1A3": "GIB",
+    "iso1N3": "292",
     "wikidata": "Q1410",
     "nameEn": "Gibraltar",
     "country": "GB",
@@ -2617,6 +2702,7 @@
     "id": 222,
     "iso1A2": "GL",
     "iso1A3": "GRL",
+    "iso1N3": "304",
     "wikidata": "Q223",
     "nameEn": "Greenland",
     "country": "DK",
@@ -2633,6 +2719,7 @@
     "id": 223,
     "iso1A2": "GM",
     "iso1A3": "GMB",
+    "iso1N3": "270",
     "wikidata": "Q1005",
     "nameEn": "The Gambia",
     "names": ["GAMBIYA", "THE GAMBIA", "GAMBIE", "GAMBIA"]
@@ -2641,6 +2728,7 @@
     "id": 224,
     "iso1A2": "GN",
     "iso1A3": "GIN",
+    "iso1N3": "324",
     "wikidata": "Q1006",
     "nameEn": "Guinea",
     "names": ["GINE", "GUINEA", "GUINEE", "GUINE"]
@@ -2649,6 +2737,7 @@
     "id": 225,
     "iso1A2": "GP",
     "iso1A3": "GLP",
+    "iso1N3": "312",
     "wikidata": "Q17012",
     "nameEn": "Guadeloupe",
     "country": "FR",
@@ -2658,6 +2747,7 @@
     "id": 226,
     "iso1A2": "GQ",
     "iso1A3": "GNQ",
+    "iso1N3": "226",
     "wikidata": "Q983",
     "nameEn": "Equatorial Guinea",
     "names": [
@@ -2676,6 +2766,7 @@
     "id": 227,
     "iso1A2": "GR",
     "iso1A3": "GRC",
+    "iso1N3": "300",
     "wikidata": "Q41",
     "aliases": ["EL"],
     "nameEn": "Greece",
@@ -2694,6 +2785,7 @@
     "id": 228,
     "iso1A2": "GS",
     "iso1A3": "SGS",
+    "iso1N3": "239",
     "wikidata": "Q35086",
     "nameEn": "South Georgia and South Sandwich Islands",
     "country": "GB",
@@ -2714,6 +2806,7 @@
     "id": 229,
     "iso1A2": "GT",
     "iso1A3": "GTM",
+    "iso1N3": "320",
     "wikidata": "Q774",
     "nameEn": "Guatemala",
     "names": ["GUATEMALA"]
@@ -2722,6 +2815,7 @@
     "id": 230,
     "iso1A2": "GU",
     "iso1A3": "GUM",
+    "iso1N3": "316",
     "wikidata": "Q16635",
     "aliases": ["US-GU"],
     "nameEn": "Guam",
@@ -2732,6 +2826,7 @@
     "id": 231,
     "iso1A2": "GW",
     "iso1A3": "GNB",
+    "iso1N3": "624",
     "wikidata": "Q1007",
     "nameEn": "Guinea-Bissau",
     "names": [
@@ -2746,6 +2841,7 @@
     "id": 232,
     "iso1A2": "GY",
     "iso1A3": "GUY",
+    "iso1N3": "328",
     "wikidata": "Q734",
     "nameEn": "Guyana",
     "names": ["GUYANA", "GUIANA"]
@@ -2754,6 +2850,7 @@
     "id": 233,
     "iso1A2": "HK",
     "iso1A3": "HKG",
+    "iso1N3": "344",
     "wikidata": "Q8646",
     "nameEn": "Hong Kong",
     "country": "CN",
@@ -2763,6 +2860,7 @@
     "id": 234,
     "iso1A2": "HM",
     "iso1A3": "HMD",
+    "iso1N3": "334",
     "wikidata": "Q131198",
     "nameEn": "Heard Island and McDonald Islands",
     "country": "AU",
@@ -2781,6 +2879,7 @@
     "id": 235,
     "iso1A2": "HN",
     "iso1A3": "HND",
+    "iso1N3": "340",
     "wikidata": "Q783",
     "nameEn": "Honduras",
     "names": ["HONDURAS"]
@@ -2789,6 +2888,7 @@
     "id": 236,
     "iso1A2": "HR",
     "iso1A3": "HRV",
+    "iso1N3": "191",
     "wikidata": "Q224",
     "nameEn": "Croatia",
     "names": [
@@ -2806,6 +2906,7 @@
     "id": 237,
     "iso1A2": "HT",
     "iso1A3": "HTI",
+    "iso1N3": "332",
     "wikidata": "Q790",
     "aliases": ["RH"],
     "nameEn": "Haiti",
@@ -2815,6 +2916,7 @@
     "id": 238,
     "iso1A2": "HU",
     "iso1A3": "HUN",
+    "iso1N3": "348",
     "wikidata": "Q28",
     "nameEn": "Hungary",
     "names": [
@@ -2849,6 +2951,7 @@
     "id": 240,
     "iso1A2": "ID",
     "iso1A3": "IDN",
+    "iso1N3": "360",
     "wikidata": "Q252",
     "aliases": ["RI"],
     "nameEn": "Indonesia",
@@ -2858,6 +2961,7 @@
     "id": 241,
     "iso1A2": "IE",
     "iso1A3": "IRL",
+    "iso1N3": "372",
     "wikidata": "Q27",
     "nameEn": "Republic of Ireland",
     "names": [
@@ -2873,6 +2977,7 @@
     "id": 242,
     "iso1A2": "IL",
     "iso1A3": "ISR",
+    "iso1N3": "376",
     "wikidata": "Q801",
     "nameEn": "Israel",
     "names": ["ISRAIL", "ISRAEL", "ISRAELE"]
@@ -2881,6 +2986,7 @@
     "id": 243,
     "iso1A2": "IM",
     "iso1A3": "IMN",
+    "iso1N3": "833",
     "wikidata": "Q9676",
     "nameEn": "Isle of Man",
     "country": "GB",
@@ -2899,6 +3005,7 @@
     "id": 244,
     "iso1A2": "IN",
     "iso1A3": "IND",
+    "iso1N3": "356",
     "wikidata": "Q668",
     "nameEn": "India",
     "names": ["HINDISTAN", "INDIA", "INDE", "INDIEN"]
@@ -2907,6 +3014,7 @@
     "id": 245,
     "iso1A2": "IO",
     "iso1A3": "IOT",
+    "iso1N3": "086",
     "wikidata": "Q43448",
     "nameEn": "British Indian Ocean Territory",
     "country": "GB",
@@ -2925,6 +3033,7 @@
     "id": 246,
     "iso1A2": "IQ",
     "iso1A3": "IRQ",
+    "iso1N3": "368",
     "wikidata": "Q796",
     "nameEn": "Iraq",
     "names": ["IRAK", "IRAQ", "IRAQUE"]
@@ -2933,6 +3042,7 @@
     "id": 247,
     "iso1A2": "IR",
     "iso1A3": "IRN",
+    "iso1N3": "364",
     "wikidata": "Q794",
     "nameEn": "Iran",
     "names": ["IRAN", "IRAO"]
@@ -2941,6 +3051,7 @@
     "id": 248,
     "iso1A2": "IS",
     "iso1A3": "ISL",
+    "iso1N3": "352",
     "wikidata": "Q189",
     "nameEn": "Iceland",
     "names": [
@@ -2957,6 +3068,7 @@
     "id": 249,
     "iso1A2": "IT",
     "iso1A3": "ITA",
+    "iso1N3": "380",
     "wikidata": "Q38",
     "nameEn": "Italy",
     "names": ["ITALYA", "ITALY", "ITALIE", "ITALIEN", "ITALIA"]
@@ -2965,6 +3077,7 @@
     "id": 250,
     "iso1A2": "JE",
     "iso1A3": "JEY",
+    "iso1N3": "832",
     "wikidata": "Q785",
     "nameEn": "Bailiwick of Jersey",
     "country": "GB",
@@ -2974,6 +3087,7 @@
     "id": 251,
     "iso1A2": "JM",
     "iso1A3": "JAM",
+    "iso1N3": "388",
     "wikidata": "Q766",
     "aliases": ["JA"],
     "nameEn": "Jamaica",
@@ -2983,6 +3097,7 @@
     "id": 252,
     "iso1A2": "JO",
     "iso1A3": "JOR",
+    "iso1N3": "400",
     "wikidata": "Q810",
     "nameEn": "Jordan",
     "names": [
@@ -2998,6 +3113,7 @@
     "id": 253,
     "iso1A2": "JP",
     "iso1A3": "JPN",
+    "iso1N3": "392",
     "wikidata": "Q17",
     "nameEn": "Japan",
     "names": ["JAPONYA", "JAPAN", "JAPON", "JAPAO", "GIAPPONE", "JAPANA"]
@@ -3006,6 +3122,7 @@
     "id": 254,
     "iso1A2": "KE",
     "iso1A3": "KEN",
+    "iso1N3": "404",
     "wikidata": "Q114",
     "nameEn": "Kenya",
     "names": ["KENYA", "KENIA", "QUENIA"]
@@ -3014,6 +3131,7 @@
     "id": 255,
     "iso1A2": "KG",
     "iso1A3": "KGZ",
+    "iso1N3": "417",
     "wikidata": "Q813",
     "nameEn": "Kyrgyzstan",
     "names": [
@@ -3030,6 +3148,7 @@
     "id": 256,
     "iso1A2": "KH",
     "iso1A3": "KHM",
+    "iso1N3": "116",
     "wikidata": "Q424",
     "nameEn": "Cambodia",
     "names": [
@@ -3048,6 +3167,7 @@
     "id": 257,
     "iso1A2": "KI",
     "iso1A3": "KIR",
+    "iso1N3": "296",
     "wikidata": "Q710",
     "nameEn": "Kiribati",
     "names": ["KIRIBATI"]
@@ -3056,6 +3176,7 @@
     "id": 258,
     "iso1A2": "KM",
     "iso1A3": "COM",
+    "iso1N3": "174",
     "wikidata": "Q970",
     "nameEn": "Comoros",
     "names": [
@@ -3073,6 +3194,7 @@
     "id": 259,
     "iso1A2": "KN",
     "iso1A3": "KNA",
+    "iso1N3": "659",
     "wikidata": "Q763",
     "nameEn": "St. Kitts and Nevis",
     "names": [
@@ -3092,6 +3214,7 @@
     "id": 260,
     "iso1A2": "KP",
     "iso1A3": "PRK",
+    "iso1N3": "408",
     "wikidata": "Q423",
     "nameEn": "North Korea",
     "names": [
@@ -3110,6 +3233,7 @@
     "id": 261,
     "iso1A2": "KR",
     "iso1A3": "KOR",
+    "iso1N3": "410",
     "wikidata": "Q884",
     "nameEn": "South Korea",
     "names": [
@@ -3128,6 +3252,7 @@
     "id": 262,
     "iso1A2": "KW",
     "iso1A3": "KWT",
+    "iso1N3": "414",
     "wikidata": "Q817",
     "nameEn": "Kuwait",
     "names": ["KUVEYT", "KUWAIT", "KOWEIT", "KOEWEIT"]
@@ -3136,6 +3261,7 @@
     "id": 263,
     "iso1A2": "KY",
     "iso1A3": "CYM",
+    "iso1N3": "136",
     "wikidata": "Q5785",
     "nameEn": "Cayman Islands",
     "country": "GB",
@@ -3153,6 +3279,7 @@
     "id": 264,
     "iso1A2": "KZ",
     "iso1A3": "KAZ",
+    "iso1N3": "398",
     "wikidata": "Q232",
     "nameEn": "Kazakhstan",
     "names": [
@@ -3169,6 +3296,7 @@
     "id": 265,
     "iso1A2": "LA",
     "iso1A3": "LAO",
+    "iso1N3": "418",
     "wikidata": "Q819",
     "nameEn": "Laos",
     "names": ["LAOS"]
@@ -3177,6 +3305,7 @@
     "id": 266,
     "iso1A2": "LB",
     "iso1A3": "LBN",
+    "iso1N3": "422",
     "wikidata": "Q822",
     "aliases": ["RL"],
     "nameEn": "Lebanon",
@@ -3186,6 +3315,7 @@
     "id": 267,
     "iso1A2": "LC",
     "iso1A3": "LCA",
+    "iso1N3": "662",
     "wikidata": "Q760",
     "aliases": ["WL"],
     "nameEn": "St. Lucia",
@@ -3195,6 +3325,7 @@
     "id": 268,
     "iso1A2": "LI",
     "iso1A3": "LIE",
+    "iso1N3": "438",
     "wikidata": "Q347",
     "aliases": ["FL"],
     "nameEn": "Liechtenstein",
@@ -3204,6 +3335,7 @@
     "id": 269,
     "iso1A2": "LK",
     "iso1A3": "LKA",
+    "iso1N3": "144",
     "wikidata": "Q854",
     "nameEn": "Sri Lanka",
     "names": ["SRI LANKA"]
@@ -3212,6 +3344,7 @@
     "id": 270,
     "iso1A2": "LR",
     "iso1A3": "LBR",
+    "iso1N3": "430",
     "wikidata": "Q1014",
     "nameEn": "Liberia",
     "names": ["LIBERYA", "LIBERIA"]
@@ -3220,6 +3353,7 @@
     "id": 271,
     "iso1A2": "LS",
     "iso1A3": "LSO",
+    "iso1N3": "426",
     "wikidata": "Q1013",
     "nameEn": "Lesotho",
     "names": ["LESOTHO", "LESOTO"]
@@ -3228,6 +3362,7 @@
     "id": 272,
     "iso1A2": "LT",
     "iso1A3": "LTU",
+    "iso1N3": "440",
     "wikidata": "Q37",
     "nameEn": "Lithuania",
     "names": [
@@ -3244,6 +3379,7 @@
     "id": 273,
     "iso1A2": "LU",
     "iso1A3": "LUX",
+    "iso1N3": "442",
     "wikidata": "Q32",
     "nameEn": "Luxembourg",
     "names": [
@@ -3258,6 +3394,7 @@
     "id": 274,
     "iso1A2": "LV",
     "iso1A3": "LVA",
+    "iso1N3": "428",
     "wikidata": "Q211",
     "nameEn": "Latvia",
     "names": [
@@ -3274,6 +3411,7 @@
     "id": 275,
     "iso1A2": "LY",
     "iso1A3": "LBY",
+    "iso1N3": "434",
     "wikidata": "Q1016",
     "nameEn": "Libya",
     "names": ["LIBYA", "LIBYE", "LIBYEN", "LIBIA", "LIBIE"]
@@ -3282,6 +3420,7 @@
     "id": 276,
     "iso1A2": "MA",
     "iso1A3": "MAR",
+    "iso1N3": "504",
     "wikidata": "Q1028",
     "nameEn": "Morocco",
     "names": [
@@ -3298,6 +3437,7 @@
     "id": 277,
     "iso1A2": "MC",
     "iso1A3": "MCO",
+    "iso1N3": "492",
     "wikidata": "Q235",
     "nameEn": "Monaco",
     "names": ["MONAKO", "MONACO"]
@@ -3306,6 +3446,7 @@
     "id": 278,
     "iso1A2": "MD",
     "iso1A3": "MDA",
+    "iso1N3": "498",
     "wikidata": "Q217",
     "nameEn": "Moldova",
     "names": ["MOLDOVA", "MOLDAVIE", "MOLDAU", "MOLDAVIA"]
@@ -3314,6 +3455,7 @@
     "id": 279,
     "iso1A2": "ME",
     "iso1A3": "MNE",
+    "iso1N3": "499",
     "wikidata": "Q236",
     "nameEn": "Montenegro",
     "names": ["KARADAG", "MONTENEGRO"]
@@ -3322,6 +3464,7 @@
     "id": 280,
     "iso1A2": "MF",
     "iso1A3": "MAF",
+    "iso1N3": "663",
     "wikidata": "Q126125",
     "nameEn": "Saint-Martin",
     "country": "FR",
@@ -3337,6 +3480,7 @@
     "id": 281,
     "iso1A2": "MG",
     "iso1A3": "MDG",
+    "iso1N3": "450",
     "wikidata": "Q1019",
     "aliases": ["RM"],
     "nameEn": "Madagascar",
@@ -3346,6 +3490,7 @@
     "id": 282,
     "iso1A2": "MH",
     "iso1A3": "MHL",
+    "iso1N3": "584",
     "wikidata": "Q709",
     "nameEn": "Marshall Islands",
     "names": [
@@ -3364,6 +3509,7 @@
     "id": 283,
     "iso1A2": "MK",
     "iso1A3": "MKD",
+    "iso1N3": "807",
     "wikidata": "Q221",
     "nameEn": "North Macedonia",
     "names": [
@@ -3382,6 +3528,7 @@
     "id": 284,
     "iso1A2": "ML",
     "iso1A3": "MLI",
+    "iso1N3": "466",
     "wikidata": "Q912",
     "nameEn": "Mali",
     "names": ["MALI"]
@@ -3390,6 +3537,7 @@
     "id": 285,
     "iso1A2": "MM",
     "iso1A3": "MMR",
+    "iso1N3": "104",
     "wikidata": "Q836",
     "aliases": ["Burma", "BU"],
     "nameEn": "Myanmar",
@@ -3399,6 +3547,7 @@
     "id": 286,
     "iso1A2": "MN",
     "iso1A3": "MNG",
+    "iso1N3": "496",
     "wikidata": "Q711",
     "nameEn": "Mongolia",
     "names": ["MOGOLISTAN", "MONGOLIA", "MONGOLIE", "MONGOLEI"]
@@ -3407,6 +3556,7 @@
     "id": 287,
     "iso1A2": "MO",
     "iso1A3": "MAC",
+    "iso1N3": "446",
     "wikidata": "Q14773",
     "aliases": ["Macao"],
     "nameEn": "Macau",
@@ -3417,6 +3567,7 @@
     "id": 288,
     "iso1A2": "MP",
     "iso1A3": "MNP",
+    "iso1N3": "580",
     "wikidata": "Q16644",
     "aliases": ["US-MP"],
     "nameEn": "Northern Mariana Islands",
@@ -3438,6 +3589,7 @@
     "id": 289,
     "iso1A2": "MQ",
     "iso1A3": "MTQ",
+    "iso1N3": "474",
     "wikidata": "Q17054",
     "nameEn": "Martinique",
     "country": "FR",
@@ -3447,6 +3599,7 @@
     "id": 290,
     "iso1A2": "MR",
     "iso1A3": "MRT",
+    "iso1N3": "478",
     "wikidata": "Q1025",
     "nameEn": "Mauritania",
     "names": ["MORITANYA", "MAURITANIA", "MAURITANIE", "MAURETANIEN"]
@@ -3455,6 +3608,7 @@
     "id": 291,
     "iso1A2": "MS",
     "iso1A3": "MSR",
+    "iso1N3": "500",
     "wikidata": "Q13353",
     "nameEn": "Montserrat",
     "country": "GB",
@@ -3464,6 +3618,7 @@
     "id": 292,
     "iso1A2": "MT",
     "iso1A3": "MLT",
+    "iso1N3": "470",
     "wikidata": "Q233",
     "nameEn": "Malta",
     "names": ["MALTA", "MALTE"]
@@ -3472,6 +3627,7 @@
     "id": 293,
     "iso1A2": "MU",
     "iso1A3": "MUS",
+    "iso1N3": "480",
     "wikidata": "Q1027",
     "nameEn": "Mauritius",
     "names": ["MAURITIUS", "MAURICE", "MAURICIO", "MAURICIA"]
@@ -3480,6 +3636,7 @@
     "id": 294,
     "iso1A2": "MV",
     "iso1A3": "MDV",
+    "iso1N3": "462",
     "wikidata": "Q826",
     "nameEn": "Maldives",
     "names": [
@@ -3495,6 +3652,7 @@
     "id": 295,
     "iso1A2": "MW",
     "iso1A3": "MWI",
+    "iso1N3": "454",
     "wikidata": "Q1020",
     "nameEn": "Malawi",
     "names": ["MALAVI", "MALAWI", "MALAUI"]
@@ -3503,6 +3661,7 @@
     "id": 296,
     "iso1A2": "MX",
     "iso1A3": "MEX",
+    "iso1N3": "484",
     "wikidata": "Q96",
     "nameEn": "Mexico",
     "names": ["MEKSIKA", "MEXICO", "MEXIQUE", "MEXIKO", "MESSICO", "MEKSIKO"]
@@ -3511,6 +3670,7 @@
     "id": 297,
     "iso1A2": "MY",
     "iso1A3": "MYS",
+    "iso1N3": "458",
     "wikidata": "Q833",
     "nameEn": "Malaysia",
     "names": [
@@ -3526,6 +3686,7 @@
     "id": 298,
     "iso1A2": "MZ",
     "iso1A3": "MOZ",
+    "iso1N3": "508",
     "wikidata": "Q1029",
     "nameEn": "Mozambique",
     "names": ["MOZAMBIK", "MOZAMBIQUE", "MOSAMBIK", "MOCAMBIQUE", "MOZAMBICO"]
@@ -3534,6 +3695,7 @@
     "id": 299,
     "iso1A2": "NA",
     "iso1A3": "NAM",
+    "iso1N3": "516",
     "wikidata": "Q1030",
     "nameEn": "Namibia",
     "names": ["NAMIBYA", "NAMIBIA", "NAMIBIE"]
@@ -3542,6 +3704,7 @@
     "id": 300,
     "iso1A2": "NC",
     "iso1A3": "NCL",
+    "iso1N3": "540",
     "wikidata": "Q33788",
     "nameEn": "New Caledonia",
     "country": "FR",
@@ -3561,6 +3724,7 @@
     "id": 301,
     "iso1A2": "NE",
     "iso1A3": "NER",
+    "iso1N3": "562",
     "wikidata": "Q1032",
     "aliases": ["RN"],
     "nameEn": "Niger",
@@ -3570,6 +3734,7 @@
     "id": 302,
     "iso1A2": "NF",
     "iso1A3": "NFK",
+    "iso1N3": "574",
     "wikidata": "Q31057",
     "nameEn": "Norfolk Island",
     "country": "AU",
@@ -3588,6 +3753,7 @@
     "id": 303,
     "iso1A2": "NG",
     "iso1A3": "NGA",
+    "iso1N3": "566",
     "wikidata": "Q1033",
     "nameEn": "Nigeria",
     "names": ["NIJERYA", "NIGERIA"]
@@ -3596,6 +3762,7 @@
     "id": 304,
     "iso1A2": "NI",
     "iso1A3": "NIC",
+    "iso1N3": "558",
     "wikidata": "Q811",
     "nameEn": "Nicaragua",
     "names": ["NIKARAGUA", "NICARAGUA"]
@@ -3604,6 +3771,7 @@
     "id": 305,
     "iso1A2": "NL",
     "iso1A3": "NLD",
+    "iso1N3": "528",
     "wikidata": "Q29999",
     "nameEn": "Kingdom of the Netherlands",
     "names": [
@@ -3622,6 +3790,7 @@
     "id": 306,
     "iso1A2": "NO",
     "iso1A3": "NOR",
+    "iso1N3": "578",
     "wikidata": "Q20",
     "nameEn": "Norway",
     "names": [
@@ -3639,6 +3808,7 @@
     "id": 307,
     "iso1A2": "NP",
     "iso1A3": "NPL",
+    "iso1N3": "524",
     "wikidata": "Q837",
     "nameEn": "Nepal",
     "names": ["NEPAL"]
@@ -3647,6 +3817,7 @@
     "id": 308,
     "iso1A2": "NR",
     "iso1A3": "NRU",
+    "iso1N3": "520",
     "wikidata": "Q697",
     "nameEn": "Nauru",
     "names": ["NAURU"]
@@ -3655,6 +3826,7 @@
     "id": 309,
     "iso1A2": "NU",
     "iso1A3": "NIU",
+    "iso1N3": "570",
     "wikidata": "Q34020",
     "nameEn": "Niue",
     "country": "NZ",
@@ -3664,6 +3836,7 @@
     "id": 310,
     "iso1A2": "NZ",
     "iso1A3": "NZL",
+    "iso1N3": "554",
     "wikidata": "Q664",
     "nameEn": "New Zealand",
     "names": [
@@ -3682,6 +3855,7 @@
     "id": 311,
     "iso1A2": "OM",
     "iso1A3": "OMN",
+    "iso1N3": "512",
     "wikidata": "Q842",
     "nameEn": "Oman",
     "names": ["UMMAN", "OMAN", "OMA"]
@@ -3690,6 +3864,7 @@
     "id": 312,
     "iso1A2": "PA",
     "iso1A3": "PAN",
+    "iso1N3": "591",
     "wikidata": "Q804",
     "nameEn": "Panama",
     "names": ["PANAMA"]
@@ -3698,6 +3873,7 @@
     "id": 313,
     "iso1A2": "PE",
     "iso1A3": "PER",
+    "iso1N3": "604",
     "wikidata": "Q419",
     "nameEn": "Peru",
     "names": ["PERU", "PEROU"]
@@ -3706,6 +3882,7 @@
     "id": 314,
     "iso1A2": "PF",
     "iso1A3": "PYF",
+    "iso1N3": "258",
     "wikidata": "Q30971",
     "nameEn": "French Polynesia",
     "country": "FR",
@@ -3724,6 +3901,7 @@
     "id": 315,
     "iso1A2": "PG",
     "iso1A3": "PNG",
+    "iso1N3": "598",
     "wikidata": "Q691",
     "nameEn": "Papua New Guinea",
     "names": [
@@ -3742,6 +3920,7 @@
     "id": 316,
     "iso1A2": "PH",
     "iso1A3": "PHL",
+    "iso1N3": "608",
     "wikidata": "Q928",
     "aliases": ["PI", "RP"],
     "nameEn": "Philippines",
@@ -3761,6 +3940,7 @@
     "id": 317,
     "iso1A2": "PK",
     "iso1A3": "PAK",
+    "iso1N3": "586",
     "wikidata": "Q843",
     "nameEn": "Pakistan",
     "names": ["PAKISTAN", "PAQUISTAO"]
@@ -3769,6 +3949,7 @@
     "id": 318,
     "iso1A2": "PL",
     "iso1A3": "POL",
+    "iso1N3": "616",
     "wikidata": "Q36",
     "nameEn": "Poland",
     "names": ["POLONYA", "POLAND", "POLOGNE", "POLEN", "POLONIA", "POLSKA"]
@@ -3777,6 +3958,7 @@
     "id": 319,
     "iso1A2": "PM",
     "iso1A3": "SPM",
+    "iso1N3": "666",
     "wikidata": "Q34617",
     "nameEn": "Saint Pierre and Miquelon",
     "country": "FR",
@@ -3793,6 +3975,7 @@
     "id": 320,
     "iso1A2": "PN",
     "iso1A3": "PCN",
+    "iso1N3": "612",
     "wikidata": "Q35672",
     "nameEn": "Pitcairn Islands",
     "country": "GB",
@@ -3812,6 +3995,7 @@
     "id": 321,
     "iso1A2": "PR",
     "iso1A3": "PRI",
+    "iso1N3": "630",
     "wikidata": "Q1183",
     "aliases": ["US-PR"],
     "nameEn": "Puerto Rico",
@@ -3822,6 +4006,7 @@
     "id": 322,
     "iso1A2": "PS",
     "iso1A3": "PSE",
+    "iso1N3": "275",
     "wikidata": "Q219060",
     "nameEn": "Palestine",
     "names": [
@@ -3840,6 +4025,7 @@
     "id": 323,
     "iso1A2": "PT",
     "iso1A3": "PRT",
+    "iso1N3": "620",
     "wikidata": "Q45",
     "nameEn": "Portugal",
     "names": ["PORTEKIZ", "PORTUGAL", "PORTOGALLO"]
@@ -3848,6 +4034,7 @@
     "id": 324,
     "iso1A2": "PW",
     "iso1A3": "PLW",
+    "iso1N3": "585",
     "wikidata": "Q695",
     "nameEn": "Palau",
     "names": ["PALAU", "PALAOS"]
@@ -3856,6 +4043,7 @@
     "id": 325,
     "iso1A2": "PY",
     "iso1A3": "PRY",
+    "iso1N3": "600",
     "wikidata": "Q733",
     "nameEn": "Paraguay",
     "names": ["PARAGUAY", "PARAGUAI"]
@@ -3864,6 +4052,7 @@
     "id": 326,
     "iso1A2": "QA",
     "iso1A3": "QAT",
+    "iso1N3": "634",
     "wikidata": "Q846",
     "nameEn": "Qatar",
     "names": ["KATAR", "QATAR", "CATAR"]
@@ -3872,6 +4061,7 @@
     "id": 327,
     "iso1A2": "RE",
     "iso1A3": "REU",
+    "iso1N3": "638",
     "wikidata": "Q17070",
     "nameEn": "Réunion",
     "country": "FR",
@@ -3881,6 +4071,7 @@
     "id": 328,
     "iso1A2": "RO",
     "iso1A3": "ROU",
+    "iso1N3": "642",
     "wikidata": "Q218",
     "nameEn": "Romania",
     "names": [
@@ -3897,6 +4088,7 @@
     "id": 329,
     "iso1A2": "RS",
     "iso1A3": "SRB",
+    "iso1N3": "688",
     "wikidata": "Q403",
     "nameEn": "Serbia",
     "names": ["SIRBISTAN", "SERBIA", "SERBIE", "SERBIEN", "SERVIA", "SERVIE"]
@@ -3905,6 +4097,7 @@
     "id": 330,
     "iso1A2": "RU",
     "iso1A3": "RUS",
+    "iso1N3": "643",
     "wikidata": "Q159",
     "nameEn": "Russia",
     "names": [
@@ -3921,6 +4114,7 @@
     "id": 331,
     "iso1A2": "RW",
     "iso1A3": "RWA",
+    "iso1N3": "646",
     "wikidata": "Q1037",
     "nameEn": "Rwanda",
     "names": ["RUANDA", "RWANDA"]
@@ -3929,6 +4123,7 @@
     "id": 332,
     "iso1A2": "SA",
     "iso1A3": "SAU",
+    "iso1N3": "682",
     "wikidata": "Q851",
     "nameEn": "Saudi Arabia",
     "names": [
@@ -3946,6 +4141,7 @@
     "id": 333,
     "iso1A2": "SB",
     "iso1A3": "SLB",
+    "iso1N3": "090",
     "wikidata": "Q685",
     "nameEn": "Solomon Islands",
     "names": [
@@ -3964,6 +4160,7 @@
     "id": 334,
     "iso1A2": "SC",
     "iso1A3": "SYC",
+    "iso1N3": "690",
     "wikidata": "Q1042",
     "nameEn": "Seychelles",
     "names": ["SEYSELLER", "SEYCHELLES", "SEYCHELLEN", "SEYCHELLAT"]
@@ -3972,6 +4169,7 @@
     "id": 335,
     "iso1A2": "SD",
     "iso1A3": "SDN",
+    "iso1N3": "729",
     "wikidata": "Q1049",
     "nameEn": "Sudan",
     "names": ["SUDAN", "SOUDAN", "SUDAO", "SOEDAN"]
@@ -3980,6 +4178,7 @@
     "id": 336,
     "iso1A2": "SE",
     "iso1A3": "SWE",
+    "iso1N3": "752",
     "wikidata": "Q34",
     "nameEn": "Sweden",
     "names": [
@@ -3997,6 +4196,7 @@
     "id": 337,
     "iso1A2": "SG",
     "iso1A3": "SGP",
+    "iso1N3": "702",
     "wikidata": "Q334",
     "nameEn": "Singapore",
     "names": ["SINGAPUR", "SINGAPORE", "SINGAPOUR", "SINGAPURA"]
@@ -4005,6 +4205,7 @@
     "id": 338,
     "iso1A2": "SH",
     "iso1A3": "SHN",
+    "iso1N3": "654",
     "wikidata": "Q192184",
     "nameEn": "Saint Helena, Ascension and Tristan da Cunha",
     "country": "GB",
@@ -4023,6 +4224,7 @@
     "id": 339,
     "iso1A2": "SI",
     "iso1A3": "SVN",
+    "iso1N3": "705",
     "wikidata": "Q215",
     "nameEn": "Slovenia",
     "names": ["SLOVENYA", "SLOVENIA", "SLOVENIE", "SLOWENIEN", "ESLOVENIA"]
@@ -4031,6 +4233,7 @@
     "id": 340,
     "iso1A2": "SJ",
     "iso1A3": "SJM",
+    "iso1N3": "744",
     "wikidata": "Q842829",
     "nameEn": "Svalbard and Jan Mayen",
     "country": "NO",
@@ -4048,6 +4251,7 @@
     "id": 341,
     "iso1A2": "SK",
     "iso1A3": "SVK",
+    "iso1N3": "703",
     "wikidata": "Q214",
     "nameEn": "Slovakia",
     "names": [
@@ -4064,6 +4268,7 @@
     "id": 342,
     "iso1A2": "SL",
     "iso1A3": "SLE",
+    "iso1N3": "694",
     "wikidata": "Q1044",
     "nameEn": "Sierra Leone",
     "names": ["SIERRA LEONE", "SIERRA LEONA", "SERRA LEOA"]
@@ -4072,6 +4277,7 @@
     "id": 343,
     "iso1A2": "SM",
     "iso1A3": "SMR",
+    "iso1N3": "674",
     "wikidata": "Q238",
     "nameEn": "San Marino",
     "names": ["SAN MARINO", "SAINTMARIN"]
@@ -4080,6 +4286,7 @@
     "id": 344,
     "iso1A2": "SN",
     "iso1A3": "SEN",
+    "iso1N3": "686",
     "wikidata": "Q1041",
     "nameEn": "Senegal",
     "names": ["SENEGAL"]
@@ -4088,6 +4295,7 @@
     "id": 345,
     "iso1A2": "SO",
     "iso1A3": "SOM",
+    "iso1N3": "706",
     "wikidata": "Q1045",
     "nameEn": "Somalia",
     "names": ["SOMALI", "SOMALIA", "SOMALIE"]
@@ -4096,6 +4304,7 @@
     "id": 346,
     "iso1A2": "SR",
     "iso1A3": "SUR",
+    "iso1N3": "740",
     "wikidata": "Q730",
     "nameEn": "Suriname",
     "names": ["SURINAM", "SURINAME"]
@@ -4104,6 +4313,7 @@
     "id": 347,
     "iso1A2": "SS",
     "iso1A3": "SSD",
+    "iso1N3": "728",
     "wikidata": "Q958",
     "nameEn": "South Sudan",
     "names": [
@@ -4122,6 +4332,7 @@
     "id": 348,
     "iso1A2": "ST",
     "iso1A3": "STP",
+    "iso1N3": "678",
     "wikidata": "Q1039",
     "nameEn": "São Tomé and Principe",
     "names": [
@@ -4139,6 +4350,7 @@
     "id": 349,
     "iso1A2": "SV",
     "iso1A3": "SLV",
+    "iso1N3": "222",
     "wikidata": "Q792",
     "nameEn": "El Salvador",
     "names": ["EL SALVADOR", "SALVADOR"]
@@ -4147,6 +4359,7 @@
     "id": 350,
     "iso1A2": "SX",
     "iso1A3": "SXM",
+    "iso1N3": "534",
     "wikidata": "Q26273",
     "aliases": ["NL-SX"],
     "nameEn": "Sint Maarten",
@@ -4163,6 +4376,7 @@
     "id": 351,
     "iso1A2": "SY",
     "iso1A3": "SYR",
+    "iso1N3": "760",
     "wikidata": "Q858",
     "nameEn": "Syria",
     "names": ["SURIYE", "SYRIA", "SYRIE", "SYRIEN", "SIRIA"]
@@ -4171,6 +4385,7 @@
     "id": 352,
     "iso1A2": "SZ",
     "iso1A3": "SWZ",
+    "iso1N3": "748",
     "wikidata": "Q1050",
     "aliases": ["Swaziland"],
     "nameEn": "Eswatini",
@@ -4202,6 +4417,7 @@
     "id": 354,
     "iso1A2": "TC",
     "iso1A3": "TCA",
+    "iso1N3": "796",
     "wikidata": "Q18221",
     "nameEn": "Turks and Caicos Islands",
     "country": "GB",
@@ -4220,6 +4436,7 @@
     "id": 355,
     "iso1A2": "TD",
     "iso1A3": "TCD",
+    "iso1N3": "148",
     "wikidata": "Q657",
     "nameEn": "Chad",
     "names": ["CAD", "CHAD", "TCHAD", "TSCHAD", "CHADE", "CIAD", "TSJAAD"]
@@ -4228,6 +4445,7 @@
     "id": 356,
     "iso1A2": "TF",
     "iso1A3": "ATF",
+    "iso1N3": "260",
     "wikidata": "Q129003",
     "nameEn": "French Southern Territories",
     "country": "FR",
@@ -4247,6 +4465,7 @@
     "id": 357,
     "iso1A2": "TG",
     "iso1A3": "TGO",
+    "iso1N3": "768",
     "wikidata": "Q945",
     "nameEn": "Togo",
     "names": ["TOGO"]
@@ -4255,6 +4474,7 @@
     "id": 358,
     "iso1A2": "TH",
     "iso1A3": "THA",
+    "iso1N3": "764",
     "wikidata": "Q869",
     "nameEn": "Thailand",
     "names": [
@@ -4270,6 +4490,7 @@
     "id": 359,
     "iso1A2": "TJ",
     "iso1A3": "TJK",
+    "iso1N3": "762",
     "wikidata": "Q863",
     "nameEn": "Tajikistan",
     "names": [
@@ -4288,6 +4509,7 @@
     "id": 360,
     "iso1A2": "TK",
     "iso1A3": "TKL",
+    "iso1N3": "772",
     "wikidata": "Q36823",
     "nameEn": "Tokelau",
     "country": "NZ",
@@ -4297,6 +4519,7 @@
     "id": 361,
     "iso1A2": "TL",
     "iso1A3": "TLS",
+    "iso1N3": "626",
     "wikidata": "Q574",
     "aliases": ["Timor-Leste", "TP"],
     "nameEn": "East Timor",
@@ -4316,6 +4539,7 @@
     "id": 362,
     "iso1A2": "TM",
     "iso1A3": "TKM",
+    "iso1N3": "795",
     "wikidata": "Q874",
     "nameEn": "Turkmenistan",
     "names": ["TURKMENISTAN", "TURQUEMENISTAO"]
@@ -4324,6 +4548,7 @@
     "id": 363,
     "iso1A2": "TN",
     "iso1A3": "TUN",
+    "iso1N3": "788",
     "wikidata": "Q948",
     "nameEn": "Tunisia",
     "names": ["TUNUS", "TUNISIA", "TUNISIE", "TUNESIEN", "TUNEZ", "TUNESIE"]
@@ -4332,6 +4557,7 @@
     "id": 364,
     "iso1A2": "TO",
     "iso1A3": "TON",
+    "iso1N3": "776",
     "wikidata": "Q678",
     "nameEn": "Tonga",
     "names": ["TONGA"]
@@ -4340,6 +4566,7 @@
     "id": 365,
     "iso1A2": "TR",
     "iso1A3": "TUR",
+    "iso1N3": "792",
     "wikidata": "Q43",
     "nameEn": "Turkey",
     "names": [
@@ -4357,6 +4584,7 @@
     "id": 366,
     "iso1A2": "TT",
     "iso1A3": "TTO",
+    "iso1N3": "780",
     "wikidata": "Q754",
     "nameEn": "Trinidad and Tobago",
     "names": [
@@ -4375,6 +4603,7 @@
     "id": 367,
     "iso1A2": "TV",
     "iso1A3": "TUV",
+    "iso1N3": "798",
     "wikidata": "Q672",
     "nameEn": "Tuvalu",
     "names": ["TUVALU"]
@@ -4383,6 +4612,7 @@
     "id": 368,
     "iso1A2": "TW",
     "iso1A3": "TWN",
+    "iso1N3": "158",
     "wikidata": "Q865",
     "aliases": ["RC"],
     "nameEn": "Taiwan",
@@ -4399,6 +4629,7 @@
     "id": 369,
     "iso1A2": "TZ",
     "iso1A3": "TZA",
+    "iso1N3": "834",
     "wikidata": "Q924",
     "nameEn": "Tanzania",
     "names": ["TANZANYA", "TANZANIA", "TANZANIE", "TANSANIA"]
@@ -4407,6 +4638,7 @@
     "id": 370,
     "iso1A2": "UA",
     "iso1A3": "UKR",
+    "iso1N3": "804",
     "wikidata": "Q212",
     "nameEn": "Ukraine",
     "names": ["UKRAYNA", "UKRAINE", "UCRANIA", "UCRAINA", "OEKRAINE", "UKRAINA"]
@@ -4415,6 +4647,7 @@
     "id": 371,
     "iso1A2": "UG",
     "iso1A3": "UGA",
+    "iso1N3": "800",
     "wikidata": "Q1036",
     "nameEn": "Uganda",
     "names": ["UGANDA", "OUGANDA", "OEGANDA"]
@@ -4423,6 +4656,7 @@
     "id": 372,
     "iso1A2": "UM",
     "iso1A3": "UMI",
+    "iso1N3": "581",
     "wikidata": "Q16645",
     "nameEn": "United States Minor Outlying Islands",
     "country": "US",
@@ -4439,6 +4673,7 @@
     "id": 374,
     "iso1A2": "US",
     "iso1A3": "USA",
+    "iso1N3": "840",
     "wikidata": "Q30",
     "nameEn": "United States of America",
     "names": [
@@ -4457,6 +4692,7 @@
     "id": 375,
     "iso1A2": "UY",
     "iso1A3": "URY",
+    "iso1N3": "858",
     "wikidata": "Q77",
     "nameEn": "Uruguay",
     "names": ["URUGUAY", "URUGUAI"]
@@ -4465,6 +4701,7 @@
     "id": 376,
     "iso1A2": "UZ",
     "iso1A3": "UZB",
+    "iso1N3": "860",
     "wikidata": "Q265",
     "nameEn": "Uzbekistan",
     "names": [
@@ -4480,6 +4717,7 @@
     "id": 377,
     "iso1A2": "VA",
     "iso1A3": "VAT",
+    "iso1N3": "336",
     "wikidata": "Q237",
     "aliases": ["Holy See"],
     "nameEn": "Vatican City",
@@ -4500,6 +4738,7 @@
     "id": 378,
     "iso1A2": "VC",
     "iso1A3": "VCT",
+    "iso1N3": "670",
     "wikidata": "Q757",
     "aliases": ["WV"],
     "nameEn": "St. Vincent and the Grenadines",
@@ -4521,6 +4760,7 @@
     "id": 379,
     "iso1A2": "VE",
     "iso1A3": "VEN",
+    "iso1N3": "862",
     "wikidata": "Q717",
     "aliases": ["YV"],
     "nameEn": "Venezuela",
@@ -4530,6 +4770,7 @@
     "id": 380,
     "iso1A2": "VG",
     "iso1A3": "VGB",
+    "iso1N3": "092",
     "wikidata": "Q25305",
     "nameEn": "British Virgin Islands",
     "country": "GB",
@@ -4549,6 +4790,7 @@
     "id": 381,
     "iso1A2": "VI",
     "iso1A3": "VIR",
+    "iso1N3": "850",
     "wikidata": "Q11703",
     "aliases": ["US-VI"],
     "nameEn": "United States Virgin Islands",
@@ -4569,6 +4811,7 @@
     "id": 382,
     "iso1A2": "VN",
     "iso1A3": "VNM",
+    "iso1N3": "704",
     "wikidata": "Q881",
     "nameEn": "Vietnam",
     "names": ["VIETNAM", "VIET NAM", "VIETNAME"]
@@ -4577,6 +4820,7 @@
     "id": 383,
     "iso1A2": "VU",
     "iso1A3": "VUT",
+    "iso1N3": "548",
     "wikidata": "Q686",
     "nameEn": "Vanuatu",
     "names": ["VANUATU"]
@@ -4585,6 +4829,7 @@
     "id": 384,
     "iso1A2": "WF",
     "iso1A3": "WLF",
+    "iso1N3": "876",
     "wikidata": "Q35555",
     "nameEn": "Wallis and Futuna",
     "country": "FR",
@@ -4603,6 +4848,7 @@
     "id": 385,
     "iso1A2": "WS",
     "iso1A3": "WSM",
+    "iso1N3": "882",
     "wikidata": "Q683",
     "nameEn": "Samoa",
     "names": ["SAMOA"]
@@ -4620,6 +4866,7 @@
     "id": 387,
     "iso1A2": "YE",
     "iso1A3": "YEM",
+    "iso1N3": "887",
     "wikidata": "Q805",
     "nameEn": "Yemen",
     "names": ["YEMEN", "JEMEN", "IEMEN"]
@@ -4628,6 +4875,7 @@
     "id": 388,
     "iso1A2": "YT",
     "iso1A3": "MYT",
+    "iso1N3": "175",
     "wikidata": "Q17063",
     "nameEn": "Mayotte",
     "country": "FR",
@@ -4637,6 +4885,7 @@
     "id": 389,
     "iso1A2": "ZA",
     "iso1A3": "ZAF",
+    "iso1N3": "710",
     "wikidata": "Q258",
     "nameEn": "South Africa",
     "names": [
@@ -4655,6 +4904,7 @@
     "id": 390,
     "iso1A2": "ZM",
     "iso1A3": "ZMB",
+    "iso1N3": "894",
     "wikidata": "Q953",
     "nameEn": "Zambia",
     "names": ["ZAMBIYA", "ZAMBIA", "ZAMBIE", "SAMBIA"]
@@ -4663,6 +4913,7 @@
     "id": 391,
     "iso1A2": "ZW",
     "iso1A3": "ZWE",
+    "iso1N3": "716",
     "wikidata": "Q954",
     "nameEn": "Zimbabwe",
     "names": ["ZIMBABVE", "ZIMBABWE", "SIMBABWE", "ZIMBABUE"]
