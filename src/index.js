@@ -62,6 +62,9 @@ const startGame = async (msg, googleMapsLink) => {
       googleMapsLink,
       attachmentLink: null,
       winner: null,
+      winnerDiscordUsername: '',
+      winnerDiscordGlobalName: '',
+      flag: '',
       guesses: [],
       guessCount: 0,
     };
@@ -69,6 +72,8 @@ const startGame = async (msg, googleMapsLink) => {
     const flag = activeGame.possibleAnswers.find(
       (answer) => answer.length === 2
     );
+
+    activeGame.flag = flag;
 
     const channel = client.channels.cache.get(gameChannelId);
     await channel.send(
@@ -223,7 +228,7 @@ const handleDm = async (msg) => {
 };
 
 const handleGuess = async (msg) => {
-  if (!msg.content.startsWith('!t')) return;
+  if (!msg.content.startsWith('!t') || msg.content === '!tahminler') return;
   if (!activeGame) return;
   if (activeGame.winner) return;
   if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
@@ -240,10 +245,28 @@ const handleGuess = async (msg) => {
   }
 
   if (activeGame.possibleAnswers.includes(guess)) {
-    activeGame.winner = msg.author.globalName; // TODO change to id
+    activeGame.winner = msg.author.id;
+    activeGame.winnerDiscordUsername = msg.author.username;
+    activeGame.winnerDiscordGlobalName = msg.author.globalName;
     await msg.react('✅');
-    await msg.channel.send(`Tebrikler ${msg.author.globalName}!`);
-    await msg.channel.send(`Lokasyon: ${activeGame.googleMapsLink}`);
+
+    await msg.channel.send({
+      embeds: [
+        {
+          color: 0x22c55e,
+          title: `Tebrikler **${msg.author.globalName}**! :flag_${
+            activeGame.flag.length === 2 ? activeGame.flag.toLowerCase() : ''
+          }: Lokasyon linki:`,
+          description: activeGame.googleMapsLink,
+          footer: {
+            text: `${activeGame.guesses.length} tahminden sonra bulundu.`,
+          },
+        },
+      ],
+    });
+
+    // await msg.channel.send(`Tebrikler ${msg.author.globalName}!`);
+    // await msg.channel.send(`Lokasyon: ${activeGame.googleMapsLink}`);
     activeGame = null;
     return;
   }
@@ -253,7 +276,11 @@ const handleGuess = async (msg) => {
     return;
   }
 
-  activeGame.guesses.push(validGuess);
+  activeGame.guesses.push({
+    guessById: msg.author.id,
+    madeBy: msg.author.globalName,
+    ...validGuess,
+  });
   await msg.react('❌');
 };
 
@@ -295,4 +322,36 @@ client.on('messageCreate', async (msg) => {
   });
 
   await msg.channel.send({ files: [attachment] });
+});
+
+// !tahminler
+client.on('messageCreate', async (msg) => {
+  if (!msg.channel.id === gameChannelId) return;
+  if (!msg.content.startsWith('!tahminler')) return;
+  if (!activeGame) return;
+  if (activeGame.winner) return;
+  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+  if (activeGame.guesses.length <= 0) return;
+
+  const guesses = activeGame.guesses.map((guess) => {
+    const { iso1A2, iso1A3, location } = guess;
+    const flag = iso1A2 ? `:flag_${iso1A2.toLowerCase()}:` : '';
+    return `${flag} ${iso1A2} ${iso1A3} ${location}\n`;
+  });
+
+  const guessesWithHeading = ['**TAHMİNLER**\n', ...guesses];
+
+  await msg.channel.send(guessesWithHeading.join(''));
+});
+
+// !ss
+client.on('messageCreate', async (msg) => {
+  if (!msg.channel.id === gameChannelId) return;
+  if (!msg.content.startsWith('!ss')) return;
+  if (!activeGame) return;
+  if (activeGame.winner) return;
+  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+  if (!activeGame.attachmentLink) return;
+
+  await msg.channel.send(activeGame.attachmentLink);
 });

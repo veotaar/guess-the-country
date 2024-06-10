@@ -51,17 +51,6 @@ export const extractAfterCommand = (input) => {
   return match ? match[1] : '';
 };
 
-const removeItemsFromArray = (array, valuesToRemove) => {
-  valuesToRemove.forEach((value) => {
-    let index = array.indexOf(value);
-    while (index !== -1) {
-      array.splice(index, 1);
-      index = array.indexOf(value);
-    }
-  });
-  return array;
-};
-
 export const getPossibleAnswers = async (latlong) => {
   const possibleAnswers = [];
   const wikiData = [];
@@ -147,6 +136,10 @@ export const getPossibleAnswers = async (latlong) => {
     cleanAnswers.push('ABD');
   }
 
+  if (cleanAnswers.includes('DK')) {
+    cleanAnswers.push('DENMARK');
+  }
+
   if (cleanAnswers.includes('UNITED ARAB EMIRATES')) {
     cleanAnswers.push('UAE');
   }
@@ -175,7 +168,7 @@ export const getPossibleAnswers = async (latlong) => {
 export const getPossibleAnswersFromShortGoogleUrl = async (url) => {
   if (!url.startsWith('https://maps.app.goo.gl/')) {
     throw new Error(
-      'Yanlış link formatı. Link *`https://maps.app.goo.gl/`* ile başlamalıdır. Street View sayfasındaki üç noktaya tıklayıp bu formatta kısa link alabilirsiniz.'
+      'Yanlış link formatı. Link `https://maps.app.goo.gl/` ile başlamalıdır. Street View sayfasındaki üç noktaya tıklayıp bu formatta kısa link alabilirsiniz.'
     );
   }
 

@@ -23,9 +23,9 @@ const drawMap = (countries) => {
   context.fill();
 
   // countries
-  context.fillStyle = '#475569';
+  context.fillStyle = '#64748b';
   context.strokeStyle = '#020617';
-  context.lineWidth = 0.5;
+  context.lineWidth = 0.4;
 
   world.features.forEach((feature) => {
     context.beginPath();

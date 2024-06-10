@@ -71,38 +71,6 @@
     ]
   },
   {
-    "id": 4,
-    "wikidata": "Q35",
-    "nameEn": "Denmark",
-    "country": "DK",
-    "names": [
-      "DANIMARKA",
-      "DENMARK",
-      "DANEMARK",
-      "DINAMARCA",
-      "DANIMARCA",
-      "DENEMARKEN",
-      "DANMARKU"
-    ]
-  },
-  {
-    "id": 5,
-    "wikidata": "Q55",
-    "nameEn": "Netherlands",
-    "country": "NL",
-    "names": [
-      "HOLLANDA",
-      "NETHERLANDS",
-      "PAYSBAS",
-      "NIEDERLANDE",
-      "PAISES BAJOS",
-      "PAISES BAIXOS",
-      "PAESI BASSI",
-      "NEDERLAND",
-      "VUOLLEEATNAMAT"
-    ]
-  },
-  {
     "id": 6,
     "wikidata": "Q782",
     "aliases": ["US-HI"],
@@ -256,22 +224,6 @@
     ]
   },
   {
-    "id": 19,
-    "wikidata": "Q12837",
-    "nameEn": "Iberia",
-    "level": "sharedLandform",
-    "names": [
-      "IBER YARIMADASI",
-      "IBERIAN PENINSULA",
-      "PENINSULE IBERIQUE",
-      "IBERISCHE HALBINSEL",
-      "PENINSULA IBERICA",
-      "PENISOLA IBERICA",
-      "IBERISCH SCHIEREILAND",
-      "IBERIA"
-    ]
-  },
-  {
     "id": 20,
     "wikidata": "Q14056",
     "aliases": ["NO-22"],
@@ -293,20 +245,6 @@
       "CHINA CONTINENTAL",
       "CINA CONTINENTALE",
       "VASTELAND VAN CHINA"
-    ]
-  },
-  {
-    "id": 22,
-    "wikidata": "Q22890",
-    "nameEn": "Ireland",
-    "level": "sharedLandform",
-    "names": [
-      "IRLANDA",
-      "IRELAND",
-      "IRLANDE",
-      "IRLAND",
-      "ISLA DE IRLANDA",
-      "IERLAND"
     ]
   },
   {
@@ -342,15 +280,6 @@
       "NOORDCYPRUS",
       "KKTC"
     ]
-  },
-  {
-    "id": 25,
-    "wikidata": "Q25231",
-    "aliases": ["NO-21"],
-    "nameEn": "Svalbard",
-    "level": "subterritory",
-    "country": "NO",
-    "names": ["SVALBARD", "SPITZBERGEN", "SPITSBERGEN", "SVALBARDA", "NO21"]
   },
   {
     "id": 26,
@@ -1166,22 +1095,6 @@
     ]
   },
   {
-    "id": 80,
-    "wikidata": "Q1451600",
-    "aliases": ["OCT"],
-    "nameEn": "Overseas Countries and Territories of the EU",
-    "level": "subunion",
-    "names": [
-      "OVERSEAS COUNTRIES AND TERRITORIES",
-      "PAYS ET TERRITOIRES DOUTREMER",
-      "UBERSEEISCHE LANDER UND HOHEITSGEBIETE",
-      "PAESI E TERRITORI DOLTREMARE",
-      "LANDEN EN GEBIEDEN OVERZEE",
-      "OVERSEAS COUNTRIES AND TERRITORIES OF THE EU",
-      "OCT"
-    ]
-  },
-  {
     "id": 81,
     "wikidata": "Q1544253",
     "nameEn": "Great Chagos Bank",
@@ -1329,24 +1242,6 @@
     "names": ["GUERNSEY", "GUERNESEY"]
   },
   {
-    "id": 92,
-    "wikidata": "Q3320166",
-    "aliases": ["OMR"],
-    "nameEn": "Outermost Regions of the EU",
-    "level": "subunion",
-    "names": [
-      "OUTERMOST REGION",
-      "REGION ULTRAPERIPHERIQUE",
-      "GEBIETE IN AUSSERSTER RANDLAGE",
-      "REGION ULTRAPERIFERICA DE LA UNION EUROPEA",
-      "REGIOES ULTRAPERIFERICAS DA UNIAO EUROPEIA",
-      "REGIONE ULTRAPERIFERICA",
-      "ULTRAPERIFERE REGIO",
-      "OUTERMOST REGIONS OF THE EU",
-      "OMR"
-    ]
-  },
-  {
     "id": 93,
     "wikidata": "Q3336843",
     "aliases": ["GB-UKM"],
@@ -1422,50 +1317,6 @@
     "nameEn": "Mainland Ecuador",
     "country": "EC",
     "names": ["MAINLAND ECUADOR"]
-  },
-  {
-    "id": 101,
-    "wikidata": "Q15",
-    "nameEn": "Africa",
-    "level": "region",
-    "names": ["AFRIKA", "AFRICA", "AFRIQUE", "AFRIHKA"]
-  },
-  {
-    "id": 104,
-    "wikidata": "Q538",
-    "nameEn": "Oceania",
-    "level": "region",
-    "names": [
-      "OKYANUSYA",
-      "INSULAR OCEANIA",
-      "OCEANIE",
-      "OZEANIEN",
-      "OCEANIA INSULAR",
-      "OCEANIA",
-      "OCEANIA INSULARE",
-      "OSEANIA"
-    ]
-  },
-  {
-    "id": 111,
-    "wikidata": "Q828",
-    "nameEn": "Americas",
-    "level": "region",
-    "names": ["AMERIKA", "AMERICAS", "AMERIQUE", "AMERICA", "AMERIHKKA"]
-  },
-  {
-    "id": 122,
-    "wikidata": "Q48",
-    "nameEn": "Asia",
-    "level": "region",
-    "names": ["ASYA", "ASIA", "ASIE", "ASIEN", "AZIE"]
-  },
-  {
-    "id": 125,
-    "wikidata": "Q46",
-    "nameEn": "Europe",
-    "level": "region",
-    "names": ["AVRUPA", "EUROPE", "EUROPA", "EUROHPA"]
   },
   {
     "id": 131,
@@ -1586,23 +1437,6 @@
     "wikidata": "Q916",
     "nameEn": "Angola",
     "names": ["ANGOLA"]
-  },
-  {
-    "id": 142,
-    "iso1A2": "AQ",
-    "iso1A3": "ATA",
-    "iso1N3": "010",
-    "wikidata": "Q51",
-    "nameEn": "Antarctica",
-    "level": "region",
-    "names": [
-      "ANTARKTIKA",
-      "ANTARCTICA",
-      "ANTARCTIQUE",
-      "ANTARTIDA",
-      "ANTARTIDE",
-      "ANTARKTIS"
-    ]
   },
   {
     "id": 143,
@@ -2320,6 +2154,7 @@
     "nameEn": "Kingdom of Denmark",
     "names": [
       "DANIMARKA",
+      "DENMARK",
       "KINGDOM OF DENMARK",
       "ROYAUME DE DANEMARK",
       "KONIGREICH DANEMARK",
@@ -3783,7 +3618,17 @@
       "REINO DOS PAISES BAIXOS",
       "REGNO DEI PAESI BASSI",
       "KONINKRIJK DER NEDERLANDEN",
-      "VUOLLEEATNAMIID GONAGASRIIKA"
+      "VUOLLEEATNAMIID GONAGASRIIKA",
+      "HOLLANDA",
+      "NETHERLANDS",
+      "THE NETHERLANDS",
+      "PAYSBAS",
+      "NIEDERLANDE",
+      "PAISES BAJOS",
+      "PAISES BAIXOS",
+      "PAESI BASSI",
+      "NEDERLAND",
+      "VUOLLEEATNAMAT"
     ]
   },
   {
@@ -4244,7 +4089,11 @@
       "SVALBARD UND JAN MAYEN",
       "SVALBARD Y JAN MAYEN",
       "SVALBARD E JAN MAYEN",
-      "SPITSBERGEN EN JAN MAYEN"
+      "SPITSBERGEN EN JAN MAYEN",
+      "SPITZBERGEN",
+      "SPITSBERGEN",
+      "SVALBARDA",
+      "SVALBARD"
     ]
   },
   {
