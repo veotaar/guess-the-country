@@ -8,9 +8,10 @@ import {
   getPossibleAnswersFromShortGoogleUrl,
   normalizeAnswer,
   extractAfterCommand,
+  gameInfoMessage,
+  validateGuess,
 } from './lib/utils.js';
 import connect from './lib/connect.js';
-import { validateGuess } from './lib/utils.js';
 import { highlightCountries } from './lib/map.js';
 
 const gameChannelId = process.env.CHANNEL_ID;
@@ -80,35 +81,7 @@ const startGame = async (msg, googleMapsLink) => {
       `${msg.author.globalName} yeni bir oyun başlatıyor. Ekran görüntüsü atması için 60 saniye bekliyorum.`
     );
 
-    // await dmChannel.send('Yeni bir oyun başlattınız.');
-    // await dmChannel.send(
-    //   '**BURAYA** 60 saniye içinde ekran görüntüsünü atın. Oyun kanalına **DEĞİL**. Oraya ben atacağım.'
-    // );
-    // await dmChannel.send(`Bulduğum ülke: ${activeGame.possibleAnswers[0]} :flag_${activeGame.possibleAnswers[0].toLowerCase()}`);
-    // await dmChannel.send('Bulduğum ülke yanlışsa sürenin dolmasını bekleyin, ya da oyunu iptal edin. Oyunu iptal etmek için `!iptal` mesajı gönderin.');
-
-    await dmChannel.send(`
-      ✅ YENİ BİR OYUN BAŞLATMAK ÜZERESİNİZ ✅
-
-      ⚠️**BURAYA** 60 saniye içinde **EKRAN GÖRÜNTÜSÜNÜ** atın.⚠️
-      ⚠️Oyun kanalına **DEĞİL**. Oraya ben atacağım.⚠️
-
-      Bulduğum yer: **${activeGame.possibleAnswers[0]}** ${
-      flag ? `:flag_${flag.toLowerCase()}:` : '(bayrak emojisi bulunamadı)'
-    }
-      Bulduğum yer yanlışsa sürenin dolmasını bekleyin ya da oyunu iptal edin. Oyunu iptal etmek için bana \`!iptal\` mesajı gönderin.
-
-      **Şu cevapları doğru kabul edeceğim:**
-      \`\`\`
-      ${activeGame.possibleAnswers.join(', ')}
-      \`\`\`
-
-      Cevaplar büyük / küçük harflere, noktalama işaretlerine ve diyakritiklere (á, é, ş, ç gibi) duyarlı değildir.
-      Örneğin "Côte d'Ivoire" cevabı "COTE DIVOIRE" olarak alınır.
-
-      Sınırlara çok yakın yerlerde yanlış ülkeyi buluyor olabilirim.
-      Hangi ülkeye ait olduğu tartışmalı olan lokasyonlarda da hata yapabilirim.
-      `);
+    await dmChannel.send(gameInfoMessage(activeGame));
 
     timeout = setTimeout(() => {
       if (
@@ -122,7 +95,7 @@ const startGame = async (msg, googleMapsLink) => {
           `${msg.author.globalName} 60 saniye içinde ekran görüntüsü yükleyemedi. Yeni oyun başlatılabilir.`
         );
       }
-    }, 62000);
+    }, 70000);
   } catch (e) {
     await dmChannel.send(`⚠️HATA: ${e.message}`);
     activeGame = null;
@@ -177,9 +150,7 @@ const handleDm = async (msg) => {
       username: msg.author.username,
       id: msg.author.id,
     });
-    await msg.channel.send(
-      '`Verified` rolünüz olmadığı için bu botu kullanamazsınız.'
-    );
+    await msg.channel.send('Yetkiniz olmadığı için bu botu kullanamazsınız.');
     return;
   }
 
@@ -233,6 +204,21 @@ const handleGuess = async (msg) => {
   if (activeGame.winner) return;
   if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
 
+  const lastGuesses = activeGame.guesses
+    .map((guess) => guess.guessById)
+    .slice(-3);
+
+  if (
+    lastGuesses.length >= 3 &&
+    lastGuesses.every((guess) => guess === msg.author.id)
+  ) {
+    await msg.delete();
+    await msg.channel.send(
+      `<@${msg.author.id}> Art arda çok fazla tahmin yaptınız. Diğer üyelerin tahmin yapmasını bekleyin.`
+    );
+    return;
+  }
+
   // !t XX, there is an active game, there is no winner yet, user has specific role
   // const guess = msg.content.split(' ')[1].toUpperCase();
   const guess = normalizeAnswer(extractAfterCommand(msg.content));
@@ -281,6 +267,7 @@ const handleGuess = async (msg) => {
     madeBy: msg.author.globalName,
     ...validGuess,
   });
+
   await msg.react('❌');
 };
 

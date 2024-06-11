@@ -201,3 +201,27 @@ export const getPossibleAnswersFromShortGoogleUrl = async (url) => {
   console.log('----------------------------------------');
   return possibleAnswers;
 };
+
+export const gameInfoMessage = (activeGame) => {
+  const messages = [
+    '✅ YENİ BİR OYUN BAŞLATMAK ÜZERESİNİZ ✅\n\n',
+    '⚠️**BURAYA** 60 saniye içinde **EKRAN GÖRÜNTÜSÜNÜ** atın.⚠️\n',
+    '⚠️Oyun kanalına **DEĞİL**. Oraya ben atacağım.⚠️\n\n',
+    `Bulduğum yer: **${activeGame.possibleAnswers[0]}** ${
+      activeGame.flag
+        ? `:flag_${activeGame.flag.toLowerCase()}:`
+        : '(bayrak emojisi bulunamadı)'
+    }\n`,
+    'Bulduğum yer yanlışsa sürenin dolmasını bekleyin ya da oyunu iptal edin. Oyunu iptal etmek için bana `!iptal` mesajı gönderin.\n\n',
+    '**Şu cevapları doğru kabul edeceğim:**\n',
+    '```\n',
+    `${activeGame.possibleAnswers.join(', ')}`,
+    '```\n\n',
+    'Cevaplar büyük / küçük harflere, noktalama işaretlerine ve diyakritiklere (á, é, ş, ç gibi) duyarlı değildir.\n',
+    `Örneğin \`Côte d'Ivoire\` cevabı \`COTE DIVOIRE\` olarak alınır.\n\n`,
+    'Sınırlara çok yakın yerlerde yanlış ülkeyi bulmuş olabilirim.\n',
+    'Hangi ülkeye ait olduğu tartışmalı olan lokasyonlarda hata yapabilirim.',
+  ];
+
+  return messages.join('');
+};
