@@ -6,7 +6,7 @@ const GameMasterSchema = new Schema(
     discordUsername: { type: String, required: true },
     discordGlobalname: { type: String },
     games: [{ type: Schema.Types.ObjectId, ref: 'Game' }],
-    points: { type: Number },
+    points: { type: Number, default: 0 },
   },
   {
     timestamps: true,

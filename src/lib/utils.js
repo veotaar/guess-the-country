@@ -39,7 +39,7 @@ export const validateGuess = (guess) => {
       iso1A2: found.iso1A2 ? found.iso1A2 : '',
       iso1A3: found.iso1A3 ? found.iso1A3 : '',
       iso1N3: found.iso1N3 ? found.iso1N3 : '',
-      location: found.nameEn,
+      nameEn: found.nameEn,
     };
   }
 

@@ -11,6 +11,13 @@ import {
   gameInfoMessage,
   validateGuess,
 } from './lib/utils.js';
+import {
+  getGameMaster,
+  createGameMaster,
+  getGameWinner,
+  createGameWinner,
+  createGame,
+} from './lib/services.js';
 import connect from './lib/connect.js';
 import { highlightCountries } from './lib/map.js';
 
@@ -56,10 +63,22 @@ const startGame = async (msg, googleMapsLink) => {
       );
     }
 
+    const { iso1A2, iso1A3, iso1N3, nameEn } = validateGuess(
+      possibleAnswers[0]
+    );
+
+    const location = {
+      iso1A2,
+      iso1A3,
+      iso1N3,
+      nameEn,
+    };
+
     activeGame = {
       userId: msg.author.id,
       startedBy: msg.author.globalName,
       possibleAnswers,
+      location,
       googleMapsLink,
       attachmentLink: null,
       winner: null,
@@ -82,6 +101,12 @@ const startGame = async (msg, googleMapsLink) => {
     );
 
     await dmChannel.send(gameInfoMessage(activeGame));
+
+    let gameMaster = await getGameMaster(msg.author.id);
+    if (!gameMaster) {
+      gameMaster = await createGameMaster(msg);
+    }
+    activeGame.gameMasterId = gameMaster.id;
 
     timeout = setTimeout(() => {
       if (
@@ -251,8 +276,21 @@ const handleGuess = async (msg) => {
       ],
     });
 
-    // await msg.channel.send(`Tebrikler ${msg.author.globalName}!`);
-    // await msg.channel.send(`Lokasyon: ${activeGame.googleMapsLink}`);
+    // TODO save to database
+    let gameWinner = await getGameWinner(msg.author.id);
+    if (!gameWinner) {
+      gameWinner = await createGameWinner(msg);
+    }
+
+    const game = await createGame(activeGame, gameWinner._id);
+
+    const gameMaster = await getGameMaster(activeGame.gameMasterId);
+    gameMaster.games.push(game.id);
+    gameWinner.gamesWon.push(game.id);
+
+    await gameMaster.save();
+    await gameWinner.save();
+
     activeGame = null;
     return;
   }
@@ -263,9 +301,17 @@ const handleGuess = async (msg) => {
   }
 
   activeGame.guesses.push({
-    guessById: msg.author.id,
-    madeBy: msg.author.globalName,
-    ...validGuess,
+    location: {
+      iso1N3: validGuess.iso1N3 ? validGuess.iso1N3 : '',
+      iso1A2: validGuess.iso1A2 ? validGuess.iso1A2 : '',
+      iso1A3: validGuess.iso1A3 ? validGuess.iso1A3 : '',
+      nameEn: validGuess.nameEn,
+    },
+    madeBy: {
+      discordId: msg.author.id,
+      discordUsername: msg.author.username,
+      discordGlobalname: msg.author.globalName,
+    },
   });
 
   await msg.react('❌');
@@ -321,9 +367,9 @@ client.on('messageCreate', async (msg) => {
   if (activeGame.guesses.length <= 0) return;
 
   const guesses = activeGame.guesses.map((guess) => {
-    const { iso1A2, iso1A3, location } = guess;
+    const { iso1A2, iso1A3, nameEn } = guess.location;
     const flag = iso1A2 ? `:flag_${iso1A2.toLowerCase()}:` : '';
-    return `${flag} ${iso1A2} ${iso1A3} ${location}\n`;
+    return `${flag} ${iso1A2} ${iso1A3} ${nameEn}\n`;
   });
 
   const guessesWithHeading = ['**TAHMİNLER**\n', ...guesses];
