@@ -6,6 +6,7 @@ const GameWinnerSchema = new Schema(
     discordUsername: { type: String, required: true },
     discordGlobalname: { type: String },
     gamesWon: [{ type: Schema.Types.ObjectId, ref: 'Game' }],
+    winCount: { type: Number, default: 0 },
     points: { type: Number, default: 0 },
   },
   {

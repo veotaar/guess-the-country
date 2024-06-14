@@ -106,7 +106,8 @@ const startGame = async (msg, googleMapsLink) => {
     if (!gameMaster) {
       gameMaster = await createGameMaster(msg);
     }
-    activeGame.gameMasterId = gameMaster.id;
+
+    activeGame.gameMasterId = gameMaster._id;
 
     timeout = setTimeout(() => {
       if (
@@ -283,13 +284,41 @@ const handleGuess = async (msg) => {
     }
 
     const game = await createGame(activeGame, gameWinner._id);
+    const gameMaster = await getGameMaster(activeGame.userId);
 
-    const gameMaster = await getGameMaster(activeGame.gameMasterId);
-    gameMaster.games.push(game.id);
-    gameWinner.gamesWon.push(game.id);
+    gameMaster.games.push(game._id);
+    gameMaster.$inc('gameCount', 1);
+    gameMaster.discordGlobalname = activeGame.startedBy;
+
+    gameWinner.gamesWon.push(game._id);
+    gameWinner.$inc('winCount', 1);
+    gameWinner.discordGlobalname = msg.author.globalName;
+
+    // calculate points for winner
+    let winnerPoints = 1000;
+    if (game.guessCount === 0) {
+      winnerPoints += 1000;
+    }
+    if (game.guessCount < 20) {
+      winnerPoints += 3000 - game.guessCount * 150;
+    }
+    gameWinner.$inc('points', winnerPoints);
+
+    // calculate poinst for game master
+    let gameMasterPoints = 250 * (game.guessCount + 1);
+
+    if (gameMasterPoints > 5000) {
+      gameMasterPoints = 5000;
+    }
+    gameMaster.$inc('points', gameMasterPoints);
 
     await gameMaster.save();
     await gameWinner.save();
+
+    await msg.channel.send(`<@${msg.author.id}> ${winnerPoints} puan kazandı.`);
+    await msg.channel.send(
+      `<@${activeGame.userId}> ${gameMasterPoints} Game Master puanı kazandı.`
+    );
 
     activeGame = null;
     return;

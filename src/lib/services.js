@@ -4,12 +4,12 @@ import GameWinner from '../models/gameWinner.js';
 
 export const createGameMaster = async (discordMessage) => {
   try {
-    await GameMaster.create({
+    const gameMaster = await GameMaster.create({
       discordId: discordMessage.author.id,
       discordUsername: discordMessage.author.username,
       discordGlobalname: discordMessage.author.globalName,
-      games: [],
     });
+    return gameMaster;
   } catch (e) {
     console.log(e);
   }
@@ -17,7 +17,7 @@ export const createGameMaster = async (discordMessage) => {
 
 export const getGameMaster = async (discordId) => {
   try {
-    const gameMaster = await GameMaster.find({ discordId }).exec();
+    const gameMaster = await GameMaster.findOne({ discordId }).exec();
     return gameMaster;
   } catch (e) {
     console.log(e);
@@ -26,12 +26,13 @@ export const getGameMaster = async (discordId) => {
 
 export const createGameWinner = async (discordMessage) => {
   try {
-    await GameWinner.create({
+    const gameWinner = await GameWinner.create({
       discordId: discordMessage.author.id,
       discordUsername: discordMessage.author.username,
       discordGlobalname: discordMessage.author.globalName,
       gamesWon: [],
     });
+    return gameWinner;
   } catch (e) {
     console.log(e);
   }
@@ -39,7 +40,7 @@ export const createGameWinner = async (discordMessage) => {
 
 export const getGameWinner = async (discordId) => {
   try {
-    const gameWinner = await GameWinner.find({ discordId }).exec();
+    const gameWinner = await GameWinner.findOne({ discordId }).exec();
     return gameWinner;
   } catch (e) {
     console.log(e);
@@ -48,7 +49,7 @@ export const getGameWinner = async (discordId) => {
 
 export const createGame = async (activeGame, gameWinnerId) => {
   try {
-    await Game.create({
+    const game = await Game.create({
       gameMaster: activeGame.gameMasterId,
       location: activeGame.location,
       googleMapsLink: activeGame.googleMapsLink,
@@ -57,6 +58,8 @@ export const createGame = async (activeGame, gameWinnerId) => {
       guesses: activeGame.guesses,
       guessCount: activeGame.guesses.length,
     });
+    console.log(game, game._id, 1);
+    return game;
   } catch (e) {
     console.log(e);
   }
