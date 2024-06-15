@@ -17,6 +17,9 @@ import {
   getGameWinner,
   createGameWinner,
   createGame,
+  getStats,
+  getPlayerLeaderboard,
+  getGameMasterLeaderboard,
 } from './lib/services.js';
 import connect from './lib/connect.js';
 import { highlightCountries } from './lib/map.js';
@@ -231,11 +234,11 @@ const handleGuess = async (msg) => {
   if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
 
   const lastGuesses = activeGame.guesses
-    .map((guess) => guess.guessById)
+    .map((guess) => guess.madeBy.discordId)
     .slice(-3);
 
   if (
-    lastGuesses.length >= 3 &&
+    lastGuesses.length >= 500 &&
     lastGuesses.every((guess) => guess === msg.author.id)
   ) {
     await msg.delete();
@@ -324,12 +327,13 @@ const handleGuess = async (msg) => {
     return;
   }
 
-  if (activeGame.guesses.find((guess) => guess.id === validGuess.id)) {
+  if (activeGame.guesses.find((guess) => guess.guessId === validGuess.id)) {
     await msg.react('🔁');
     return;
   }
 
   activeGame.guesses.push({
+    guessId: validGuess.id,
     location: {
       iso1N3: validGuess.iso1N3 ? validGuess.iso1N3 : '',
       iso1A2: validGuess.iso1A2 ? validGuess.iso1A2 : '',
@@ -349,11 +353,6 @@ const handleGuess = async (msg) => {
 client.on('ready', (client) => {
   console.log(`${client.user.tag} is ready!`);
 });
-
-// client.on('messageCreate', (msg) => {
-//   const hasTestingRole = msg.member.roles.cache.some(role => role.name === 'verified')
-//   console.log(`'testing' role: ${hasTestingRole}`);
-// })
 
 client.on('messageCreate', async (msg) => {
   if (!msg.guildId) {
@@ -377,7 +376,7 @@ client.on('messageCreate', async (msg) => {
   if (!activeGame.guesses.some((guess) => guess.iso1N3 !== '')) return;
 
   const iso1N3Guesses = activeGame.guesses
-    .map((guess) => guess.iso1N3)
+    .map((guess) => guess.location.iso1N3)
     .filter((guess) => guess !== '');
   const attachment = new AttachmentBuilder(highlightCountries(iso1N3Guesses), {
     name: 'highlighted.png',
@@ -416,4 +415,91 @@ client.on('messageCreate', async (msg) => {
   if (!activeGame.attachmentLink) return;
 
   await msg.channel.send(activeGame.attachmentLink);
+});
+
+// !stats
+client.on('messageCreate', async (msg) => {
+  if (!msg.channel.id === gameChannelId) return;
+  if (!msg.content.startsWith('!stats')) return;
+  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+
+  const statsEmbed = await getStats(msg);
+
+  await msg.reply({ embeds: [statsEmbed] });
+});
+
+// !lidertablosu
+client.on('messageCreate', async (msg) => {
+  if (!msg.channel.id === gameChannelId) return;
+  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+  if (!msg.content.startsWith('!lidertablosu')) return;
+
+  const leaderboard = await getPlayerLeaderboard();
+
+  if (leaderboard.length === 0) {
+    await msg.channel.send('Henüz lider tablosunda kimse yok.');
+    return;
+  }
+
+  const leaderboardArray = ['**TOP 25**\n'];
+
+  leaderboard.forEach((player, i) => {
+    const { discordGlobalname, points } = player;
+
+    let medal = '';
+
+    if (i === 0) {
+      medal = '🥇';
+    } else if (i === 1) {
+      medal = '🥈';
+    } else if (i === 2) {
+      medal = '🥉';
+    }
+
+    const markdown = `${i + 1}. ${discordGlobalname} • ${Intl.NumberFormat(
+      'de-DE'
+    ).format(points)}p ${medal}\n`;
+
+    leaderboardArray.push(markdown);
+  });
+
+  await msg.channel.send(leaderboardArray.join(''));
+});
+
+// !gmtablosu
+client.on('messageCreate', async (msg) => {
+  if (!msg.channel.id === gameChannelId) return;
+  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+  if (!msg.content.startsWith('!gmtablosu')) return;
+
+  const leaderboard = await getGameMasterLeaderboard();
+
+  if (leaderboard.length === 0) {
+    await msg.channel.send('Henüz lider tablosunda kimse yok.');
+    return;
+  }
+
+  const leaderboardArray = ['**GAME MASTER TOP 25**\n'];
+
+  leaderboard.forEach((player, i) => {
+    const { discordGlobalname, points } = player;
+
+    let medal = '';
+
+    if (i === 0) {
+      medal = '🥇';
+    } else if (i === 1) {
+      medal = '🥈';
+    } else if (i === 2) {
+      medal = '🥉';
+    }
+
+    const markdown = `${i + 1}. ${discordGlobalname} • ${Intl.NumberFormat(
+      'de-DE'
+    ).format(points)}p ${medal}\n`;
+
+    leaderboardArray.push(markdown);
+  });
+
+  await msg.channel.send(leaderboardArray.join(''));
 });

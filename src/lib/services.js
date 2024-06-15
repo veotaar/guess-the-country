@@ -58,8 +58,88 @@ export const createGame = async (activeGame, gameWinnerId) => {
       guesses: activeGame.guesses,
       guessCount: activeGame.guesses.length,
     });
-    console.log(game, game._id, 1);
     return game;
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+export const getStats = async (discordMessage) => {
+  try {
+    let winCount, gameCount, winPoints, gameMasterPoints;
+    const gameMaster = await getGameMaster(discordMessage.author.id);
+    const gameWinner = await getGameWinner(discordMessage.author.id);
+
+    if (!gameMaster) {
+      gameCount = 0;
+      gameMasterPoints = 0;
+    } else {
+      gameCount = gameMaster.gameCount;
+      gameMasterPoints = gameMaster.points;
+    }
+
+    if (!gameWinner) {
+      winCount = 0;
+      winPoints = 0;
+    } else {
+      winCount = gameWinner.winCount;
+      winPoints = gameWinner.points;
+    }
+
+    const resultsEmbed = {
+      color: 0x2563eb,
+      title: discordMessage.author.globalName,
+      thumbnail: {
+        url: `https://cdn.discordapp.com/avatars/${discordMessage.author.id}/${discordMessage.author.avatar}.png`,
+      },
+      fields: [
+        {
+          name: 'Kazanılan Oyunlar',
+          value: winCount,
+          inline: true,
+        },
+        {
+          name: 'Toplam Puan',
+          value: winPoints,
+          inline: true,
+        },
+        {
+          name: '',
+          value: '',
+          inline: false,
+        },
+        {
+          name: 'Başlatılan Oyunlar',
+          value: gameCount,
+          inline: true,
+        },
+        {
+          name: 'Game Master Puanları',
+          value: gameMasterPoints,
+          inline: true,
+        },
+      ],
+      timestamp: new Date().toISOString(),
+    };
+    return resultsEmbed;
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+export const getGameMasterLeaderboard = async () => {
+  try {
+    const gameMasters = await GameMaster.find({}).limit(25).sort('-points');
+    return gameMasters;
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+export const getPlayerLeaderboard = async () => {
+  try {
+    const players = await GameWinner.find({}).limit(25).sort('-points');
+    return players;
   } catch (e) {
     console.log(e);
   }

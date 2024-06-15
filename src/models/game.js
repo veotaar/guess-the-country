@@ -19,6 +19,7 @@ const GameSchema = new Schema(
     guesses: {
       type: [
         {
+          guessId: { type: String },
           location: {
             iso1N3: { type: String },
             iso1A2: { type: String },
