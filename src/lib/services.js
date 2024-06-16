@@ -1,6 +1,7 @@
 import Game from '../models/game.js';
 import GameMaster from '../models/gameMaster.js';
 import GameWinner from '../models/gameWinner.js';
+import GlobalStats from '../models/globalStats.js';
 
 export const createGameMaster = async (discordMessage) => {
   try {
@@ -158,6 +159,31 @@ export const getMostWins = async () => {
   try {
     const players = await GameWinner.find({}).limit(25).sort('-winCount');
     return players;
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+export const updateGlobalStats = async (guessCount) => {
+  try {
+    let globalStats = await GlobalStats.findOne({});
+    if (!globalStats) {
+      globalStats = await GlobalStats.create({});
+    }
+
+    globalStats.$inc('gameCount', 1);
+    globalStats.$inc('guessCount', guessCount + 1);
+
+    return await globalStats.save();
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+export const getGlobalStats = async () => {
+  try {
+    const globalStats = await GlobalStats.findOne({});
+    return globalStats;
   } catch (e) {
     console.log(e);
   }

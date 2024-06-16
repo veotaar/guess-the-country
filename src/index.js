@@ -22,6 +22,8 @@ import {
   getGameMasterLeaderboard,
   getMostGames,
   getMostWins,
+  updateGlobalStats,
+  getGlobalStats,
 } from './lib/services.js';
 import connect from './lib/connect.js';
 import { highlightCountries } from './lib/map.js';
@@ -271,18 +273,17 @@ const handleGuess = async (msg) => {
       embeds: [
         {
           color: 0x22c55e,
-          title: `Tebrikler **${msg.author.globalName}**! :flag_${
+          title: `Doğru cevap! Lokasyon :flag_${
             activeGame.flag.length === 2 ? activeGame.flag.toLowerCase() : ''
-          }: Lokasyon linki:`,
+          }:`,
           description: activeGame.googleMapsLink,
           footer: {
-            text: `${activeGame.guesses.length} tahminden sonra bulundu.`,
+            text: `${activeGame.guesses.length} yanlış tahminden sonra bulundu.`,
           },
         },
       ],
     });
 
-    // TODO save to database
     let gameWinner = await getGameWinner(msg.author.id);
     if (!gameWinner) {
       gameWinner = await createGameWinner(msg);
@@ -324,6 +325,8 @@ const handleGuess = async (msg) => {
     await msg.channel.send(
       `<@${activeGame.userId}> ${gameMasterPoints} Game Master puanı kazandı.`
     );
+
+    await updateGlobalStats(game.guessCount);
 
     activeGame = null;
     return;
@@ -580,4 +583,26 @@ client.on('messageCreate', async (msg) => {
   });
 
   await msg.channel.send(leaderboardArray.join(''));
+});
+
+// !globalstats
+client.on('messageCreate', async (msg) => {
+  if (!msg.channel.id === gameChannelId) return;
+  if (!msg.content.startsWith('!globalstats')) return;
+  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+
+  const globalStats = await getGlobalStats();
+
+  if (!globalStats) {
+    await msg.channel.send('Henüz hiç oyun oynanmadı.');
+    return;
+  }
+
+  const markdownPost = [
+    '### GENEL İSTATİSTİKLER\n',
+    `Toplam oynanan oyun sayısı: **${globalStats.gameCount}**\n`,
+    `Toplam yapılan tahmin sayısı sayısı: **${globalStats.guessCount}**\n`,
+  ];
+
+  await msg.channel.send(markdownPost.join(''));
 });
