@@ -20,6 +20,8 @@ import {
   getStats,
   getPlayerLeaderboard,
   getGameMasterLeaderboard,
+  getMostGames,
+  getMostWins,
 } from './lib/services.js';
 import connect from './lib/connect.js';
 import { highlightCountries } from './lib/map.js';
@@ -431,8 +433,8 @@ client.on('messageCreate', async (msg) => {
 // !lidertablosu
 client.on('messageCreate', async (msg) => {
   if (!msg.channel.id === gameChannelId) return;
-  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
   if (!msg.content.startsWith('!lidertablosu')) return;
+  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
 
   const leaderboard = await getPlayerLeaderboard();
 
@@ -469,8 +471,8 @@ client.on('messageCreate', async (msg) => {
 // !gmtablosu
 client.on('messageCreate', async (msg) => {
   if (!msg.channel.id === gameChannelId) return;
-  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
   if (!msg.content.startsWith('!gmtablosu')) return;
+  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
 
   const leaderboard = await getGameMasterLeaderboard();
 
@@ -497,6 +499,82 @@ client.on('messageCreate', async (msg) => {
     const markdown = `${i + 1}. ${discordGlobalname} • ${Intl.NumberFormat(
       'de-DE'
     ).format(points)}p ${medal}\n`;
+
+    leaderboardArray.push(markdown);
+  });
+
+  await msg.channel.send(leaderboardArray.join(''));
+});
+
+// !mostgames
+client.on('messageCreate', async (msg) => {
+  if (!msg.channel.id === gameChannelId) return;
+  if (!msg.content.startsWith('!mostgames')) return;
+  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+
+  const leaderboard = await getMostGames();
+
+  if (leaderboard.length === 0) {
+    await msg.channel.send('Henüz lider tablosunda kimse yok.');
+    return;
+  }
+
+  const leaderboardArray = ['**EN ÇOK OYUN BAŞLATANLAR**\n'];
+
+  leaderboard.forEach((player, i) => {
+    const { discordGlobalname, gameCount } = player;
+
+    let medal = '';
+
+    if (i === 0) {
+      medal = '🥇';
+    } else if (i === 1) {
+      medal = '🥈';
+    } else if (i === 2) {
+      medal = '🥉';
+    }
+
+    const markdown = `**${i + 1}.** ${discordGlobalname} • ${Intl.NumberFormat(
+      'de-DE'
+    ).format(gameCount)} ${medal}\n`;
+
+    leaderboardArray.push(markdown);
+  });
+
+  await msg.channel.send(leaderboardArray.join(''));
+});
+
+// !mostwins
+client.on('messageCreate', async (msg) => {
+  if (!msg.channel.id === gameChannelId) return;
+  if (!msg.content.startsWith('!mostwins')) return;
+  if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+
+  const leaderboard = await getMostWins();
+
+  if (leaderboard.length === 0) {
+    await msg.channel.send('Henüz lider tablosunda kimse yok.');
+    return;
+  }
+
+  const leaderboardArray = ['**EN ÇOK OYUN KAZANANLAR**\n'];
+
+  leaderboard.forEach((player, i) => {
+    const { discordGlobalname, winCount } = player;
+
+    let medal = '';
+
+    if (i === 0) {
+      medal = '🥇';
+    } else if (i === 1) {
+      medal = '🥈';
+    } else if (i === 2) {
+      medal = '🥉';
+    }
+
+    const markdown = `**${i + 1}.** ${discordGlobalname} • ${Intl.NumberFormat(
+      'de-DE'
+    ).format(winCount)} ${medal}\n`;
 
     leaderboardArray.push(markdown);
   });

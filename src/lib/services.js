@@ -144,3 +144,21 @@ export const getPlayerLeaderboard = async () => {
     console.log(e);
   }
 };
+
+export const getMostGames = async () => {
+  try {
+    const gameMasters = await GameMaster.find({}).limit(25).sort('-gameCount');
+    return gameMasters;
+  } catch (e) {
+    console.log(e);
+  }
+};
+
+export const getMostWins = async () => {
+  try {
+    const players = await GameWinner.find({}).limit(25).sort('-winCount');
+    return players;
+  } catch (e) {
+    console.log(e);
+  }
+};
