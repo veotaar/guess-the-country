@@ -14,8 +14,9 @@ const connect = async () => {
     console.log('Connected to DB');
   } catch (error) {
     console.log('could not connect to db');
+    console.log(error);
     process.exit(1);
   }
-}
+};
 
 export default connect;
