@@ -33,7 +33,9 @@ const gameChannelId = process.env.CHANNEL_ID;
 let activeGame = null;
 const bannedUsers = [];
 
-const adminRoles = ['Yönetici', 'Moderatör', 'testing', 'Verified'];
+const adminRoles = ['Yönetici', 'Moderatör', 'Verified'];
+const requiredRole = 'Verified';
+
 let timeout;
 
 const client = new Client({
@@ -181,7 +183,7 @@ const handleDm = async (msg) => {
     const guild = client.guilds.cache.get(process.env.GUILD_ID);
     const member = await guild.members.fetch(msg.author.id);
     const isVerified = member.roles.cache.some(
-      (role) => role.name === 'testing'
+      (role) => role.name === requiredRole
     );
     const isAdmin = member.roles.cache.some((role) =>
       adminRoles.includes(role.name)
@@ -248,7 +250,8 @@ const handleGuess = async (msg) => {
     if (!msg.content.startsWith('!t') || msg.content === '!tahminler') return;
     if (!activeGame) return;
     if (activeGame.winner) return;
-    if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+    if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
+      return;
 
     const lastGuesses = activeGame.guesses
       .map((guess) => guess.madeBy.discordId)
@@ -396,7 +399,8 @@ client.on('messageCreate', async (msg) => {
     if (!msg.content.startsWith('!map')) return;
     if (!activeGame) return;
     if (activeGame.winner) return;
-    if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+    if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
+      return;
     if (!activeGame.guesses.some((guess) => guess.iso1N3 !== '')) return;
 
     const iso1N3Guesses = activeGame.guesses
@@ -422,7 +426,8 @@ client.on('messageCreate', async (msg) => {
     if (!msg.content.startsWith('!tahminler')) return;
     if (!activeGame) return;
     if (activeGame.winner) return;
-    if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+    if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
+      return;
     if (activeGame.guesses.length <= 0) return;
 
     const guesses = activeGame.guesses.map((guess) => {
@@ -453,7 +458,8 @@ client.on('messageCreate', async (msg) => {
     if (!msg.content.startsWith('!ss')) return;
     if (!activeGame) return;
     if (activeGame.winner) return;
-    if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+    if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
+      return;
     if (!activeGame.attachmentLink) return;
 
     await msg.channel.send(activeGame.attachmentLink);
@@ -467,7 +473,8 @@ client.on('messageCreate', async (msg) => {
   try {
     if (!msg.channel.id === gameChannelId) return;
     if (!msg.content.startsWith('!stats')) return;
-    if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+    if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
+      return;
 
     const statsEmbed = await getStats(msg);
 
@@ -482,7 +489,8 @@ client.on('messageCreate', async (msg) => {
   try {
     if (!msg.channel.id === gameChannelId) return;
     if (!msg.content.startsWith('!lidertablosu')) return;
-    if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+    if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
+      return;
 
     const leaderboard = await getPlayerLeaderboard();
 
@@ -524,7 +532,8 @@ client.on('messageCreate', async (msg) => {
   try {
     if (!msg.channel.id === gameChannelId) return;
     if (!msg.content.startsWith('!gmtablosu')) return;
-    if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+    if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
+      return;
 
     const leaderboard = await getGameMasterLeaderboard();
 
@@ -566,7 +575,8 @@ client.on('messageCreate', async (msg) => {
   try {
     if (!msg.channel.id === gameChannelId) return;
     if (!msg.content.startsWith('!mostgames')) return;
-    if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+    if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
+      return;
 
     const leaderboard = await getMostGames();
 
@@ -610,7 +620,8 @@ client.on('messageCreate', async (msg) => {
   try {
     if (!msg.channel.id === gameChannelId) return;
     if (!msg.content.startsWith('!mostwins')) return;
-    if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+    if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
+      return;
 
     const leaderboard = await getMostWins();
 
@@ -654,7 +665,8 @@ client.on('messageCreate', async (msg) => {
   try {
     if (!msg.channel.id === gameChannelId) return;
     if (!msg.content.startsWith('!globalstats')) return;
-    if (!msg.member.roles.cache.some((role) => role.name === 'testing')) return;
+    if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
+      return;
 
     const globalStats = await getGlobalStats();
 
