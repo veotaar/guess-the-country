@@ -253,6 +253,14 @@ const handleGuess = async (msg) => {
     if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
       return;
 
+    if (activeGame.userId === msg.author.id) {
+      await msg.delete();
+      await msg.channel.send(
+        `<@${msg.author.id}> kendi başlattığınız oyunda tahmin yapamazsınız.`
+      );
+      return;
+    }
+
     const lastGuesses = activeGame.guesses
       .map((guess) => guess.madeBy.discordId)
       .slice(-3);
