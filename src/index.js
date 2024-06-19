@@ -33,7 +33,7 @@ const gameChannelId = process.env.CHANNEL_ID;
 let activeGame = null;
 const bannedUsers = [];
 
-const adminRoles = ['Yönetici', 'Moderatör', 'Verified'];
+const adminRoles = ['Yönetici', 'Moderatör'];
 const requiredRole = 'Verified';
 
 let timeout;
@@ -396,7 +396,7 @@ client.on('messageCreate', async (msg) => {
 client.on('messageCreate', async (msg) => {
   try {
     if (!msg.channel.id === gameChannelId) return;
-    if (!msg.content.startsWith('!map')) return;
+    if (!msg.content.startsWith('!harita')) return;
     if (!activeGame) return;
     if (activeGame.winner) return;
     if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
@@ -431,7 +431,7 @@ client.on('messageCreate', async (msg) => {
     if (activeGame.guesses.length <= 0) return;
 
     const guesses = activeGame.guesses.map((guess) => {
-      const { iso1A2, iso1A3, nameEn } = guess.location;
+      const { iso1A2 } = guess.location;
       const flag = iso1A2 ? `:flag_${iso1A2.toLowerCase()}:` : '';
       return `${flag} ${iso1A2}\n`;
     });
@@ -468,11 +468,11 @@ client.on('messageCreate', async (msg) => {
   }
 });
 
-// !stats
+// !profil
 client.on('messageCreate', async (msg) => {
   try {
     if (!msg.channel.id === gameChannelId) return;
-    if (!msg.content.startsWith('!stats')) return;
+    if (!msg.content.startsWith('!profil')) return;
     if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
       return;
 
@@ -570,18 +570,18 @@ client.on('messageCreate', async (msg) => {
   }
 });
 
-// !mostgames - !kazananlar
+// !oyunbaşlatanlar
 client.on('messageCreate', async (msg) => {
   try {
     if (!msg.channel.id === gameChannelId) return;
-    if (!msg.content.startsWith('!mostgames')) return;
+    if (!msg.content.startsWith('!oyunbaşlatanlar')) return;
     if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
       return;
 
     const leaderboard = await getMostGames();
 
     if (leaderboard.length === 0) {
-      await msg.channel.send('Henüz lider tablosunda kimse yok.');
+      await msg.channel.send('Henüz kimse yok.');
       return;
     }
 
@@ -615,18 +615,18 @@ client.on('messageCreate', async (msg) => {
   }
 });
 
-// !mostwins
+// !mostwins (!kazananlar)
 client.on('messageCreate', async (msg) => {
   try {
     if (!msg.channel.id === gameChannelId) return;
-    if (!msg.content.startsWith('!mostwins')) return;
+    if (!msg.content.startsWith('!kazananlar')) return;
     if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
       return;
 
     const leaderboard = await getMostWins();
 
     if (leaderboard.length === 0) {
-      await msg.channel.send('Henüz lider tablosunda kimse yok.');
+      await msg.channel.send('Henüz kimse yok.');
       return;
     }
 
