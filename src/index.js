@@ -35,6 +35,7 @@ const bannedUsers = [];
 
 const adminRoles = ['Yönetici', 'Moderatör'];
 const requiredRole = 'Verified';
+const consecutiveGuessLimit = Number(process.env.CONSECUTIVE_GUESS_LIMIT);
 
 let timeout;
 
@@ -247,7 +248,7 @@ const handleDm = async (msg) => {
 
 const handleGuess = async (msg) => {
   try {
-    if (!msg.content.startsWith('!t') || msg.content === '!tahminler') return;
+    if (!msg.content.startsWith('!t ') || msg.content === '!tahminler') return;
     if (!activeGame) return;
     if (activeGame.winner) return;
     if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
@@ -263,10 +264,10 @@ const handleGuess = async (msg) => {
 
     const lastGuesses = activeGame.guesses
       .map((guess) => guess.madeBy.discordId)
-      .slice(-3);
+      .slice(-consecutiveGuessLimit);
 
     if (
-      lastGuesses.length >= 3 &&
+      lastGuesses.length >= consecutiveGuessLimit &&
       lastGuesses.every((guess) => guess === msg.author.id)
     ) {
       await msg.delete();
