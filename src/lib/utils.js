@@ -136,6 +136,10 @@ export const getPossibleAnswers = async (latlong) => {
     cleanAnswers.push('ABD');
   }
 
+  if (cleanAnswers.includes('IE')) {
+    cleanAnswers.push('IRELAND');
+  }
+
   if (cleanAnswers.includes('DK')) {
     cleanAnswers.push('DENMARK');
   }
