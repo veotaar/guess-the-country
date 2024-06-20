@@ -510,22 +510,34 @@ client.on('messageCreate', async (msg) => {
 
     const leaderboardArray = ['**TOP 25**\n'];
 
+    let prevScore = null;
+    let sameScoreCount = 0;
+
     leaderboard.forEach((player, i) => {
       const { discordGlobalname, points } = player;
 
+      if (points !== prevScore) {
+        prevScore = points;
+        sameScoreCount = 0;
+      } else {
+        sameScoreCount++;
+      }
+
       let medal = '';
 
-      if (i === 0) {
+      if (i - sameScoreCount === 0) {
         medal = '🥇';
-      } else if (i === 1) {
+      } else if (i - sameScoreCount === 1) {
         medal = '🥈';
-      } else if (i === 2) {
+      } else if (i - sameScoreCount === 2) {
         medal = '🥉';
       }
 
-      const markdown = `${i + 1}. ${discordGlobalname} • ${Intl.NumberFormat(
-        'de-DE'
-      ).format(points)}p ${medal}\n`;
+      const markdown = `${
+        i + 1 - sameScoreCount
+      }. ${discordGlobalname} • ${Intl.NumberFormat('de-DE').format(
+        points
+      )}p ${medal}\n`;
 
       leaderboardArray.push(markdown);
     });
@@ -546,6 +558,9 @@ client.on('messageCreate', async (msg) => {
 
     const leaderboard = await getGameMasterLeaderboard();
 
+    let prevScore = null;
+    let sameScoreCount = 0;
+
     if (leaderboard.length === 0) {
       await msg.channel.send('Henüz lider tablosunda kimse yok.');
       return;
@@ -556,19 +571,28 @@ client.on('messageCreate', async (msg) => {
     leaderboard.forEach((player, i) => {
       const { discordGlobalname, points } = player;
 
+      if (points !== prevScore) {
+        prevScore = points;
+        sameScoreCount = 0;
+      } else {
+        sameScoreCount++;
+      }
+
       let medal = '';
 
-      if (i === 0) {
+      if (i - sameScoreCount === 0) {
         medal = '🥇';
-      } else if (i === 1) {
+      } else if (i - sameScoreCount === 1) {
         medal = '🥈';
-      } else if (i === 2) {
+      } else if (i - sameScoreCount === 2) {
         medal = '🥉';
       }
 
-      const markdown = `${i + 1}. ${discordGlobalname} • ${Intl.NumberFormat(
-        'de-DE'
-      ).format(points)}p ${medal}\n`;
+      const markdown = `${
+        i + 1 - sameScoreCount
+      }. ${discordGlobalname} • ${Intl.NumberFormat('de-DE').format(
+        points
+      )}p ${medal}\n`;
 
       leaderboardArray.push(markdown);
     });
@@ -589,6 +613,9 @@ client.on('messageCreate', async (msg) => {
 
     const leaderboard = await getMostGames();
 
+    let prevScore = null;
+    let sameScoreCount = 0;
+
     if (leaderboard.length === 0) {
       await msg.channel.send('Henüz kimse yok.');
       return;
@@ -599,18 +626,25 @@ client.on('messageCreate', async (msg) => {
     leaderboard.forEach((player, i) => {
       const { discordGlobalname, gameCount } = player;
 
+      if (gameCount !== prevScore) {
+        prevScore = gameCount;
+        sameScoreCount = 0;
+      } else {
+        sameScoreCount++;
+      }
+
       let medal = '';
 
-      if (i === 0) {
+      if (i - sameScoreCount === 0) {
         medal = '🥇';
-      } else if (i === 1) {
+      } else if (i - sameScoreCount === 1) {
         medal = '🥈';
-      } else if (i === 2) {
+      } else if (i - sameScoreCount === 2) {
         medal = '🥉';
       }
 
       const markdown = `**${
-        i + 1
+        i + 1 - sameScoreCount
       }.** ${discordGlobalname} • ${Intl.NumberFormat('de-DE').format(
         gameCount
       )} ${medal}\n`;
@@ -634,6 +668,9 @@ client.on('messageCreate', async (msg) => {
 
     const leaderboard = await getMostWins();
 
+    let prevScore = null;
+    let sameScoreCount = 0;
+
     if (leaderboard.length === 0) {
       await msg.channel.send('Henüz kimse yok.');
       return;
@@ -644,18 +681,25 @@ client.on('messageCreate', async (msg) => {
     leaderboard.forEach((player, i) => {
       const { discordGlobalname, winCount } = player;
 
+      if (winCount !== prevScore) {
+        prevScore = winCount;
+        sameScoreCount = 0;
+      } else {
+        sameScoreCount++;
+      }
+
       let medal = '';
 
-      if (i === 0) {
+      if (i - sameScoreCount === 0) {
         medal = '🥇';
-      } else if (i === 1) {
+      } else if (i - sameScoreCount === 1) {
         medal = '🥈';
-      } else if (i === 2) {
+      } else if (i - sameScoreCount === 2) {
         medal = '🥉';
       }
 
       const markdown = `**${
-        i + 1
+        i + 1 - sameScoreCount
       }.** ${discordGlobalname} • ${Intl.NumberFormat('de-DE').format(
         winCount
       )} ${medal}\n`;
