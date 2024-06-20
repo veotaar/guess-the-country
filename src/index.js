@@ -396,8 +396,15 @@ client.on('messageCreate', async (msg) => {
   }
 
   if (msg.channel.id === gameChannelId) {
+    if (!msg.author.bot && msg.attachments.size > 0) {
+      await msg.delete();
+      await msg.channel.send(
+        `<@${msg.author.id}> Oyun başlatmak için lütfen botu kullanın. Nasıl kullanıldığını görmek için pinli mesajları kontrol edin.`
+      );
+      return;
+    }
+
     await handleGuess(msg);
-    return;
   }
 });
 
@@ -735,21 +742,6 @@ client.on('messageCreate', async (msg) => {
     ];
 
     await msg.channel.send(markdownPost.join(''));
-  } catch (e) {
-    console.log(e);
-  }
-});
-
-client.on('messageCreate', async (msg) => {
-  try {
-    if (!msg.channel.id === gameChannelId) return;
-    if (msg.author.bot) return;
-    if (msg.attachments.size === 0) return;
-
-    await msg.delete();
-    await msg.channel.send(
-      `<@${msg.author.id}> Oyun başlatmak için lütfen botu kullanın. Nasıl kullanıldığını görmek için pinli mesajları kontrol edin.`
-    );
   } catch (e) {
     console.log(e);
   }
