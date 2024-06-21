@@ -738,7 +738,10 @@ client.on('messageCreate', async (msg) => {
     const markdownPost = [
       '### GENEL İSTATİSTİKLER\n',
       `Toplam oynanan oyun sayısı: **${globalStats.gameCount}**\n`,
-      `Toplam yapılan tahmin sayısı sayısı: **${globalStats.guessCount}**\n`,
+      `Toplam yapılan tahmin sayısı: **${globalStats.guessCount}**\n`,
+      `Oyun başına yapılan tahmin sayısı: **${(
+        globalStats.guessCount / globalStats.gameCount
+      ).toFixed(2)}**`,
     ];
 
     await msg.channel.send(markdownPost.join(''));
