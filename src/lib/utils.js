@@ -115,6 +115,13 @@ export const getPossibleAnswers = async (latlong) => {
       '|'
     )}&format=json`
   );
+
+  if (!wikiResponse.ok) {
+    throw new Error(
+      `Wikipedia'dan kaynaklanan bir sorundan dolayı oyunu başlatamıyorum. Daha sonra tekrar deneyin.`
+    );
+  }
+
   const data = await wikiResponse.json();
 
   // add languages
