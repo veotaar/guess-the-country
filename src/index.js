@@ -254,6 +254,14 @@ const handleGuess = async (msg) => {
     if (!msg.member.roles.cache.some((role) => role.name === requiredRole))
       return;
 
+    if (!activeGame.attachmentLink) {
+      await msg.delete();
+      await msg.channel.send(
+        `<@${msg.author.id}> görüntü atılmadan tahmin yapmaya çalıştı.`
+      );
+      return;
+    }
+
     if (activeGame.userId === msg.author.id) {
       await msg.delete();
       await msg.channel.send(
