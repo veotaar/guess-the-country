@@ -300,15 +300,20 @@ const handleGuess = async (msg) => {
       activeGame.winner = msg.author.id;
       activeGame.winnerDiscordUsername = msg.author.username;
       activeGame.winnerDiscordGlobalName = msg.author.globalName;
+
+      const flag_emoji = activeGame.flag
+        ? `:flag_${
+            activeGame.flag.length === 2 ? activeGame.flag.toLowerCase() : ''
+          }:`
+        : '';
+
       await msg.react('✅');
 
       await msg.channel.send({
         embeds: [
           {
             color: 0x22c55e,
-            title: `Doğru cevap! Lokasyon: :flag_${
-              activeGame.flag.length === 2 ? activeGame.flag.toLowerCase() : ''
-            }:`,
+            title: `Doğru cevap! ${flag_emoji}`,
             description: activeGame.googleMapsLink,
             footer: {
               text: `${activeGame.guesses.length} yanlış tahminden sonra bulundu.`,

@@ -143,6 +143,10 @@ export const getPossibleAnswers = async (latlong) => {
     cleanAnswers.push('ABD');
   }
 
+  if (cleanAnswers.includes('BIH')) {
+    cleanAnswers.push('BOSNA HERSEK');
+  }
+
   if (cleanAnswers.includes('IE')) {
     cleanAnswers.push('IRELAND');
   }
