@@ -157,6 +157,7 @@ export const getPossibleAnswers = async (latlong) => {
 
   if (cleanAnswers.includes('UNITED ARAB EMIRATES')) {
     cleanAnswers.push('UAE');
+    cleanAnswers.push('BAE');
   }
 
   if (cleanAnswers.includes('TAIWAN')) {
@@ -169,6 +170,14 @@ export const getPossibleAnswers = async (latlong) => {
 
   if (cleanAnswers.includes('NORTHERN CYPRUS')) {
     cleanAnswers.push('KKTC');
+  }
+
+  if (cleanAnswers.includes('NORTH MACEDONIA')) {
+    cleanAnswers.push('NMK');
+  }
+
+  if (cleanAnswers.includes('CHINA')) {
+    cleanAnswers.push('CIN');
   }
 
   if (cleanAnswers.includes('SOUTH AFRICA')) {
