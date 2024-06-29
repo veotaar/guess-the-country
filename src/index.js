@@ -553,9 +553,9 @@ client.on('messageCreate', async (msg) => {
         medal = '🥉';
       }
 
-      const markdown = `${
+      const markdown = `**${
         i + 1 - sameScoreCount
-      }. ${discordGlobalname} • ${Intl.NumberFormat('de-DE').format(
+      }.** ${discordGlobalname} • ${Intl.NumberFormat('de-DE').format(
         points
       )}p ${medal}\n`;
 
@@ -608,9 +608,9 @@ client.on('messageCreate', async (msg) => {
         medal = '🥉';
       }
 
-      const markdown = `${
+      const markdown = `**${
         i + 1 - sameScoreCount
-      }. ${discordGlobalname} • ${Intl.NumberFormat('de-DE').format(
+      }.** ${discordGlobalname} • ${Intl.NumberFormat('de-DE').format(
         points
       )}p ${medal}\n`;
 
